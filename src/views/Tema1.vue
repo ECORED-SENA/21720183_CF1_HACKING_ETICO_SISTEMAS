@@ -59,9 +59,48 @@
       .col-md-9.col-10
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img06.svg')  
-      .col-md-12.mt-5
-        p Antes de entrar a hablar sobre los métodos efectivos de realizar un buen hacking ético debe de conocer y apropiar tres conceptos básicos de la seguridad de la información, que conforman el llamado triángulo o triada de la seguridad de la información, la cual se integra por la confidencialidad, integridad y disponibilidad, comúnmente conocida como la tríada CID (seguridad de la información), esta da el modelo base por el cual se incluye la terminología usada en seguridad, centrada en los datos y en la información, ver figura 2.
-        
+      .col-md-12.mt-5.mb-4
+        p Antes de entrar a hablar sobre los métodos efectivos de realizar un buen hacking ético debe de conocer y apropiar tres conceptos básicos de la seguridad de la información, que conforman el llamado <span style="color:#500C75 !important; font-weight: bold;">triángulo o triada de la seguridad de la información</span>, la cual se integra por la <span style="color:#500C75 !important; font-weight: bold;">confidencialidad, integridad y disponibilidad</span>, comúnmente conocida como la tríada CID (seguridad de la información), esta da el modelo base por el cual se incluye la terminología usada en seguridad, centrada en los datos y en la información, ver figura 2.
+      .col-md-10.col-10.mb-4
+        .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
+          h5 Figura 2
+          span Triada de la seguridad de la información
+      .col-md-8.col-10.mb-5
+        ImagenInfografica.color-acento-botones.mb-5
+          template(v-slot:imagen)
+            figure(data-aos="fade-right")
+              img(src='@/assets/curso/tema1/img07.svg')
+          .tarjeta.BG01.p-3(x="21.9%" y="25.4%")
+            h5 CONFIDENCIALIDAD
+            p La información solo es accesible para usuarios autorizados.
+          .tarjeta.BG01.p-3(x="50.8%" y="90%")
+            h5 INTEGRIDAD
+            p Los recursos deben estar protegidos y deben ser exactos y completos.
+          .tarjeta.BG01.p-3(x="77.9%" y="25.4%")
+            h5 DISPONIBILIDAD
+            p Los usuarios autorizados deben tener acceso a la información cuando requieran.
+    
+    .row.justify-content-center.mb-5
+      .col-md-9.col-11
+        .row.BGIMG04
+          .col-2
+            figure(data-aos="fade-right")
+              img.img01(src='@/assets/curso/tema1/img09.svg')  
+          .col-10.py-5.pe-4
+            p <b>Confidencialidad</b>: se puede equiparar con la privacidad que tiene un usuario o empresa, radica en todas las medidas que se toman para que los datos solo lleguen a personas autorizadas y no caigan en manos de terceros o ciberdelincuentes, igualmente, se diseña de cierta manera para que la información esté cifrada y solo pueden acceder a ella personal autorizado bajo claves o contraseñas; el poder salvaguardar la información tiene la visión ética de cada una de las personas que tienen acceso, y de ser conscientes de los riesgos, amenazas y vulnerabilidades a las cuales están expuestos.
+            p La confidencialidad se refiere a los esfuerzos de una organización por mantener sus datos en privado o en secreto, en la práctica, se trata de controlar el acceso a los datos para impedir su divulgación no autorizada, por lo general, se trata de asegurar que solo las personas autorizadas tengan acceso a determinados bienes y que se impida activamente el acceso de las personas no autorizadas. 
+      .col-md-9.col-11.me-5
+        .row.BG02
+          .col-10.p-5
+            p <b>Por ejemplo</b>, solo los empleados autorizados de la nómina deben tener acceso a la base de datos de los empleados; además, dentro de un grupo de usuarios autorizados puede haber limitaciones adicionales más estrictas sobre la información exacta a la que se permite acceder a esos usuarios autorizados. 
+          .col-2
+            figure(data-aos="fade-left")
+              img.img02(src='@/assets/curso/tema1/img10.png') 
+      .col-1
+    .row.justify-content-center
+      
+
+
 
 </template>
 
