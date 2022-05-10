@@ -53,7 +53,7 @@
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img04.svg')  
 
-  .container.BGIMG03.px-4.px-md-5.mb-5
+  .container.BGIMG03.px-4.px-md-5
     .row.justify-content-center
       .col-md-9.col-10.mb-4
         figure(data-aos="fade-right")
@@ -96,7 +96,7 @@
             figure(data-aos="fade-left")
               img.img02(src='@/assets/curso/tema1/img10.png') 
   
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     SlyderF.mb-5(columnas="col-12")
       .tarjeta
@@ -299,6 +299,155 @@
           .col-7
             p Las intenciones del atacante incluyen acceso continuo a los sistemas víctimas, pasar inadvertido y eliminar las pruebas que puedan conducir a su identificación, es por ello que se disfraza entre el sistema para no ser detectado y así evitar cualquier sospecha, haciendo pensar que es parte del sistema.
 
+    separador
+
+    #t_1_3.titulo-segundo.color-acento-contenido.p-0(data-aos="fade-right")
+      h2 1.3 <em>Hacking</em> ético 
+
+  .container.BGIMG10.px-4.px-md-5
+    .row.align-items-center.my-5
+      .col-md-9.col-10
+        p Es muy frecuente que las personas, empresas u organizaciones instalen sistemas de seguridad para mantener sus propiedades y activos a salvo, que compren un seguro en caso de desastre o hurto; sin embargo, cuando se encuentra que ese activo es la información es muy poco común encontrarse que las empresas inviertan en el sistema de seguridad informática; que es igual o hasta muchas veces más importante que los mismos activos, es por ello que hoy por hoy, es la que los propietarios de las empresas pueden implementar con programas y procedimientos para proteger los computadores de la empresa de los piratas informáticos y de los virus, el pirateo en general cuesta a las empresas miles de millones de dólares cada año, pero hay más que dinero en juego si su empresa se encontrará con un <em>hacker</em> informático.
+      .col-md-3.col-2
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img36.png') 
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img37.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Es probable que las empresas tengan información como tarjetas de crédito y cuentas confidenciales, por no mencionar la información financiera personal de sus clientes archivada en una base de datos informática, además de esto, también es probable que haya otra información personal de los empleados como números de seguridad social, direcciones de casa e información de atención médica en el archivo y todo tipo de información, un pirata informático puede acceder a esta información sensible, lo que a su vez podría conducir al robo de identidad y múltiples ataques ciberdelincuenciales que ponen en riesgo inminente a una persona o empresa, esto no solo puede ser perjudicial para sus empleados y clientes actuales, sino también para la reputación de su empresa.
+
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+
+    TabsC.color-acento-contenido.mb-5
+      .py-3.py-md-4(titulo="Problemas de ciberseguridad")
+        .row.align-items-center.justify-content-center.p-4
+          .col-md-5.mb-5.p-0
+            figure(data-aos="fade-right")
+              img(src='@/assets/curso/tema1/img38.png') 
+          .col-md-6.mb-5.p-0
+            h5 Problemas de ciberseguridad
+            p Pueden variar desde cosas tan granulares como <em>software</em> desactualizado hasta luchas a gran escala como la falta de apoyo de los equipos de liderazgo; las medidas que deben adoptar con relación a la seguridad a aplicar dentro de una organización dependerán del tipo de sistemas a proteger o salvaguardar, de la información que produzcan, de las condiciones intrínsecas de cada empresa y de los riesgos y amenazas a las que se exponen. A continuación, en la tabla 3, podrá observar los problemas más comunes que cualquier empresa debería tener en cuenta independientemente de su actividad.
+          .col-md-10.ms-5.mb-4
+            .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
+              h5 Figura 4
+              span Problemas de ciberseguridad
+          .col-md-11.col-12
+            figure(data-aos="fade-right")
+              img(src='@/assets/curso/tema1/img39.svg') 
+      .py-3.py-md-4(titulo="Desafíos de la ciberseguridad")
+        .row.align-items-center.justify-content-center.p-4
+          .col-md-5.mb-5
+            figure(data-aos="fade-right")
+              img(src='@/assets/curso/tema1/img40.png') 
+          .col-md-6.mb-5
+            p Dentro del <em>hacking</em> ético se deben tener en cuenta algunos aspectos de la ciberseguridad, tales como son los retos de la seguridad y los riesgos asociados a la misma, y de esta manera poder actuar con programas pertinentes a la hora de realizar actuaciones frente a un ataque o vulneración de un sistema o red. Revise a continuación los retos y riesgos de seguridad más comunes.
+            h5 Retos de la seguridad
+            ol.lista-candado.ps-4
+              li
+                .lista-candado
+                | Aumento de la sofisticación en los cibercriminales
+              li
+                .lista-candado
+                | La fuga de datos, los <em>insiders</em> maliciosos y los trabajadores remotos.
+              li
+                .lista-candado
+                | La seguridad móvil, la adaptación de autenticación, estrategias de medios sociales.
+              li
+                .lista-candado
+                | Vulnerabilidades explotadas, seguridad operacional.
+              li
+                .lista-candado
+                | Fuerza de trabajo de seguridad cibernética. Estrategias de acceso, identidad y de ciclo de vida.
+              li
+                .lista-candado
+                | Vulnerabilidades explotadas, seguridad operacional.
+              li
+                .lista-candado
+                | Equilibrio de intercambio con los requisitos de privacidad.
+          .col-md-3
+            figure(data-aos="fade-right")
+              img.img04(src='@/assets/curso/tema1/img42.png') 
+          .col-md-8.mb-5
+            .BGIMG11.p-4
+              SlyderA(tipo="b")
+                .row.justify-content-center
+                  .col-9
+                    h5 Riesgos de la seguridad
+                    ol.lista-candado.ps-4
+                      li
+                        .lista-candado
+                        | Robo/venta de identidades mercado negro.
+                      li
+                        .lista-candado
+                        | <em>Botnets</em> (red de computadoras infectadas por malware que están bajo el control de una sola parte atacante, conocida como "<em>bot-herder</em>") <em>Fast Flux</em>.
+                      li
+                        .lista-candado
+                        | Datos transportables (USB, ordenadores portátiles, cintas de seguridad).
+                      li
+                        .lista-candado
+                        | Redes zombies (ordenador conectado a Internet que ha sido comprometido por un pirata informático, un virus informático o un troyano y que puede ser utilizado para realizar tareas maliciosas de un tipo u otro bajo dirección remota).
+                .row.justify-content-center
+                  .col-9
+                    h5 Riesgos de la seguridad
+                    ol.lista-candado.ps-4
+                      li
+                        .lista-candado
+                        | <em>Exploits</em> en nuevas tecnologías.
+                      li
+                        .lista-candado
+                        | Las redes sociales.
+                      li
+                        .lista-candado
+                        | Ciberespionaje, <em>exploits</em> de día cero.
+                      li
+                        .lista-candado
+                        | Troyanos/robo de información/<em>keyloggers</em>.
+                      li
+                        .lista-candado
+                        | Pérdida/brechas de datos.
+                .row.justify-content-center
+                  .col-9
+                    h5 Riesgos de la seguridad
+                    ol.lista-candado.ps-4
+                      li
+                        .lista-candado
+                        | Las amenazas internas.
+                      li
+                        .lista-candado
+                        | Delito cibernético organizado.
+                      li
+                        .lista-candado
+                        | Ingeniería <em>phishing</em> (<em>vishing</em>)/social.
+                      li
+                        .lista-candado
+                        | Virtualización y <em>cloud computing</em>.
+          .col-md-1
+          .col-md-10
+            p Aunado a lo anterior, se puede dar cuenta que los riesgos asociados a la seguridad informática a la cual se expone como individuo, como empresa o como organización, son múltiples y es allí que se deben generar contingencias especializadas para poder salvaguardar la información sensible, a lo cual las organizaciones mundiales de seguridad informática desarrollaron el “<b><em>hacking</em> ético</b>”. Como aprendiz SENA debe estar a la vanguardia de este tipo de actividades y es pertinente que genere habilidades que permitan apoyar los sistemas y redes de información, ya sea de tipo personal o empresarial dentro del mundo digital al cual se enfrenta con las nuevas tecnologías emergentes.  
+      .py-3.py-md-4(titulo="Tipos de <em>hackers</em>")
+        .row.align-items-center.justify-content-center.p-4
+          .col-md-10.mb-5
+            p Para describir los tipos de <em>hackers</em> existentes se debe definir de forma sencilla qué son: 
+          .col-md-10.col-12.mb-5
+            figure(data-aos="fade-right")
+              img(src='@/assets/curso/tema1/img44.svg') 
+          .col-md-9.col-11
+            .row.BG04
+              .col-9.p-4
+                p Un <b><em>hackers</em></b> en seguridad es alguien que explora métodos para romper las defensas y explotar las debilidades de un sistema o red informática. Los <b><em>hackers</em></b> pueden estar motivados por una multitud de razones, como el beneficio, la protesta, la recopilación de información, el desafío, la recreación o para evaluar las debilidades del sistema para ayudar a formular defensas contra posibles delincuentes. 
+              .col-md-3
+                figure(data-aos="fade-right")
+                  img(src='@/assets/curso/tema1/img45.png') 
+    
+    p.mb-5 En el siguiente recurso podrá revisar las características de los diferentes tipos de <em>hackers</em>.
+
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        
+    
 
 </template>
 
