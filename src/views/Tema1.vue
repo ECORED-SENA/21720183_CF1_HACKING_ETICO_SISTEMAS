@@ -143,7 +143,7 @@
       .col-md-7
         p La seguridad de la información es una creciente preocupación para las personas y las empresas, la protección de sus datos se ha convertido en una premisa, ya que los ataques por parte de ciberdelincuentes cada vez son más comunes; sin embargo, los riesgos y constantes amenazas dejan al desnudo los sistemas de información y los peligros que en la era digital se están afrontando en el mundo de hoy, es por ello que se ha hecho fundamental que tenga conocimientos informáticos y de seguridad para poder aplicarlos en los sistemas y redes, para poder solventar fallos a tiempo, documentarlos y atacarlos de forma efectiva.
         .cajon.color-acento-botones.p-4(data-aos="fade-right")
-          p Para ello, se usan pruebas de penetración o conocidas comúnmente como pentesting, las cuales se usan para poder detectar riesgos en sus sistemas de información o redes, su uso pretende encontrar fallas en la seguridad de la información, saltándose las medidas de seguridad adoptadas por un individuo, empresa u organización, existen principalmente 5 fases del hacking, un hacker no necesariamente tiene seguirlas de forma secuencial; pero cuando se lleva de forma secuencial se obtienen mejores resultados.
+          p Para ello, se usan pruebas de penetración o conocidas comúnmente como <em>pentesting</em>, las cuales se usan para poder detectar riesgos en sus sistemas de información o redes, su uso pretende encontrar fallas en la seguridad de la información, saltándose las medidas de seguridad adoptadas por un individuo, empresa u organización, existen principalmente 5 fases del hacking, un hacker no necesariamente tiene seguirlas de forma secuencial; pero cuando se lleva de forma secuencial se obtienen mejores resultados.
       .col-md-5.mb-4
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img17.png')
@@ -559,7 +559,7 @@
                 td(style="background-color: #fff; color: #000").text-center Security Magazine
                 td(style="background-color: #fff; color: #000") <a href="http://securitymagazine.com" target="_blank">http://securitymagazine.com</a>
               tr
-                td(style="background-color: #fff; color: #000").text-center Pentest Tools
+                td(style="background-color: #fff; color: #000").text-center <em>pentest</em> Tools
                 td(style="background-color: #fff; color: #000") <a href="https://pentest-tools.com/website-vulnerability-scanning/website-scanner" target="_blank">https://pentest-tools.com/website-vulnerability-scanning/website-scanner</a>
               tr
                 td(style="background-color: #fff; color: #000").text-center HackerWatch
@@ -580,12 +580,12 @@
                 td(style="background-color: #fff; color: #000").text-center CNET Blogs
                 td(style="background-color: #fff; color: #000") <a href="http://www.new.cnet.com" target="_blank">http://www.new.cnet.com</a>
 
-    .row.align-items-center.mb-4
+    .row.align-items-center.mb-5
       .col-md-7
         .bloque-texto-d.color-secundario.p-4.mb-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular Dentro de la investigación de vulnerabilidades se realizan las pruebas de penetración (o pentesting), como un ejercicio de seguridad en el que un experto en seguridad cibernética intenta encontrar y explotar las vulnerabilidades de un sistema informático, el propósito de este ataque simulado es identificar cualquier punto débil en las defensas de un sistema que los atacantes podrían aprovechar
+            h3.text-regular Dentro de la investigación de vulnerabilidades se realizan las pruebas de penetración (o <em>pentesting</em>), como un ejercicio de seguridad en el que un experto en seguridad cibernética intenta encontrar y explotar las vulnerabilidades de un sistema informático, el propósito de este ataque simulado es identificar cualquier punto débil en las defensas de un sistema que los atacantes podrían aprovechar
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 (Gaviria, 2015).
@@ -594,6 +594,111 @@
       .col-md-5.col-6
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img57.png')
+
+    .row.BG05.justify-content-center.p-4
+      .col-md-12.mt-4
+        h4.text-center ¿Quién realiza los <em>pentests</em>?
+      .col-md-4.col-8.mb-5
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img58.svg')
+      .col-md-12.mb-5
+        .row  
+          .col-4
+            figure(data-aos="fade-right")
+              img(src='@/assets/curso/tema1/img59.svg')
+          .col-7
+            p Lo mejor es que el <em>pentest</em> lo realice alguien con poco o ningún conocimiento previo de cómo se asegura el sistema, ya que puede ser capaz de exponer los puntos ciegos que no han sido detectados por los desarrolladores que construyeron el sistema, por esta razón, se suele traer a contratistas externos para que realicen las pruebas, a estos contratistas se les suele denominar "<em>hackers</em> éticos", ya que se les contrata para piratear un sistema con permiso y con el fin de aumentar la seguridad.
+            p Muchos <em>hackers</em> éticos son desarrolladores experimentados con títulos avanzados y una certificación para pruebas de pluma, por otro lado, algunos de los mejores <em>hackers</em> éticos son autodidactas, pero el SENA por medio de estos programas de formación logra formar bases teórico – prácticas sobre estas prácticas, incluso, algunos son <em>hackers</em> criminales reformados, que ahora utilizan su experiencia para ayudar a arreglar los fallos de seguridad en lugar de explotarlos. Son los mejores candidatos para llevar a cabo una <em>pentest</em> que puede variar enormemente, dependiendo de la empresa objetivo y del tipo de <em>pentest</em> que quieran iniciar.
+      
+    .row.justify-content-center.p-4.mb-4
+      .col-md-4.col-8.mb-5
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img60.svg')
+      .col-md-12
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img61.svg')
+    
+    p.mb-5 En la siguiente tabla se presenta un comparativo entre las pruebas de penetración y el <em>hacking</em> ético.
+
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+      h5 Tabla 5
+      span Comparativo pruebas de penetración – <em>hacking</em> ético
+    
+    .tabla-b.color-acento-contenido.mb-5 
+      table
+        thead
+          tr
+            th(style="background-color: #E01650; color: #fff").text-center Pruebas de penetración
+            th(style="background-color: #E01650; color: #fff").text-center <em>Hacking</em> ético            
+        tbody
+          tr
+            td(style="background-color: #F6F6F6; color: #000") El objetivo principal es encontrar vulnerabilidades dentro del entorno objetivo.
+            td(style="background-color: #F6F6F6; color: #000") Su objetivo es abarcar varios ataques a través de diferentes técnicas de hacking para encontrar fallas de seguridad.
+          tr
+            td(style="background-color: #Fff; color: #000") Las pruebas de penetración se centran en la seguridad del área específica definida para las pruebas.
+            td(style="background-color: #FFF; color: #000") El <em>hacking</em> ético es un término integral y las pruebas de penetración son una de las funciones del <em>hacker</em> ético.
+          tr
+            td(style="background-color: #F6F6F6; color: #000") Se espera que el <em>pentester</em> sea consciente de ejecutar diferentes metodologías y conocer el propósito de cada metodología, cómo y cuándo ejecutar.
+            td(style="background-color: #F6F6F6; color: #000") El <em>hacker</em> ético debe tener un conocimiento integral de las metodologías de <em>hacking</em>.
+          tr
+            td(style="background-color: #Fff; color: #000") Se requiere experiencia previa en <em>hacking</em> ético para ser un buen <em>pentester</em>.
+            td(style="background-color: #FFF; color: #000") El <em>hacking</em> ético es un paso hacia las pruebas de penetración, a menos que uno conozca las metodologías, no pueden realizar un <em>pentest</em>.
+          tr
+            td(style="background-color: #F6F6F6; color: #000") Un <em>pentester</em> puede funcionar en un dominio y red específicos, el conocimiento esperado es más específico a nivel experto.
+            td(style="background-color: #F6F6F6; color: #000") Al ser un <em>hacker</em> ético debe tener en cuenta los aspectos técnicos del <em>software</em> y el <em>hardware</em> de los dispositivos digitales conectados a la red.
+    .row.align-items-center.mb-5
+      .col-md-9.col-12
+        p El <em>ethical hacking</em> compromete los sistemas informáticos para evaluar la seguridad y actuar de buena fe informando a la parte vulnerable, el <em>hacking</em> ético es una habilidad clave para muchos puestos de trabajo relacionados con la seguridad de los activos en línea de una organización. Los profesionales que trabajan en estas funciones laborales mantienen las computadoras, los servidores y otros componentes de la infraestructura de la organización en condiciones de trabajo que impiden el acceso no autorizado a través de canales no físicos.
+        p La gente cree que "<em>hacking</em>" significa <em>hackear</em> cualquier sitio <em>web</em> en un minuto, este concepto proviene de ver películas, por lo que ni siquiera conocen el concepto básico original de lo que significa <em>hackear</em> o cómo hacerlo. ¿Descifrar contraseñas o robar datos? No, el "<em>ethical hacking</em>" es mucho más que eso; el <em>hacking</em> ético es escanear las vulnerabilidades y encontrar amenazas potenciales en una computadora o red, un <em>hacker</em> ético encuentra los puntos débiles o lagunas en un computador, aplicaciones <em>web</em> o red y los reporta a la organización.
+      .col-md-3.col-6
+        figure(data-aos="fade-left")
+          img(src='@/assets/curso/tema1/img62.svg')
+
+    separador
+
+    #t_1_5.titulo-segundo.color-acento-contenido.p-0(data-aos="fade-right")
+      h2 1.5 Tipos de ataques
+
+    p.mb-5 Hay varias maneras en que un atacante puede obtener acceso a un sistema, estos deben ser capaz de explotar una debilidad o vulnerabilidad en un sistema, entre los tipos de ataque más populares se encuentran:
+
+    .row.align-items-center.mb-5
+      .col-md-8
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta BG06")
+          .row.justify-content-center(titulo="Ataques al sistema operativo")
+            .col-md-11
+              p El sistema operativo ejecuta muchos servicios como interfaces gráficas de usuario (GUI) que soportan aplicaciones y herramientas del sistema, y permiten el acceso a Internet, en los ataques a sistemas operativos, "los atacantes buscan vulnerabilidades en el sistema operativo de tal manera que puedan explotarlas a través de las vulnerabilidades y obtener acceso al sistema o red objetivo".
+              p Las vulnerabilidades en el sistema operativo pueden ser puertos y servicios abiertos, ya que la mayoría de los sistemas operativos instalan estos servicios y puertos por defecto, estas son las vulnerabilidades más comunes encontradas por los atacantes para obtener acceso a un sistema operativo; por lo tanto, para prevenir los ataques al sistema operativo se necesita eliminar o deshabilitar aquellos servicios y puertos que son innecesarios por el momento. 
+          .row(titulo="Ataques a nivel de aplicación")
+            .col-md-11
+              p A veces un entorno seguro de una organización construida por varios interesados (administradores de sistemas, administradores de bases de datos o desarrolladores) queda con lagunas vulnerables, incluso después de haber pensado que el trabajo está completo, ya que no todos los interesados están al tanto o son responsables de asegurar la aplicación web y/o la infraestructura. Estas lagunas de seguridad llevan, entonces, a la organización a graves riesgos más adelante, incluyendo costosas multas y daños a la reputación. Incluso dejando sus aplicaciones a la merced de los ciberdelincuentes, esto se ve que en el <em>software</em> se encuentra:
+              ul.lista-ul.mb-5
+                li 
+                  i.lista-ul__vineta
+                  | Sistemas sin parches.
+                li 
+                  i.lista-ul__vineta
+                  | Archivos no encriptados.
+                li 
+                  i.lista-ul__vineta
+                  | Aplicaciones <em>web</em> antiguas y desactualizadas.
+                li 
+                  i.lista-ul__vineta
+                  | La aplicación web y la mala configuración de la nube
+                li 
+                  i.lista-ul__vineta
+                  | Insuficiente protección de los cortafuegos.
+              p Como bien se sabe, el desafío de un entorno heterogéneo para las empresas y la falta de conciencia de seguridad pueden aumentar el riesgo de estas peligrosas anomalías de seguridad y las amenazas que afectan a su negocio. Las debilidades de seguridad deben ser abordadas a través de todas las capas de su entorno diversificado.
+          .row(titulo="Ataques por mala configuración")
+            .col-md-11
+              p Las malas configuraciones de seguridad surgen cuando no se definen, implementan o mantienen los valores predeterminados de la configuración de seguridad, por lo general, esto significa que los ajustes de configuración no cumplen con los estándares de seguridad de la industria (puntos de referencia de la CEI, OWASP top 10, etc.) que son fundamentales para mantener la seguridad y reducir el riesgo empresarial, la mala configuración normalmente ocurre cuando un administrador o desarrollador de sistemas o bases de datos no configura adecuadamente el marco de seguridad de una aplicación, sitio <em>web</em>, escritorio o servidor, lo que conduce a peligrosas vías abiertas para los <em>hackers</em>.
+              p Las configuraciones erróneas suelen considerarse un blanco fácil, ya que pueden ser fáciles de detectar en servidores <em>web</em>, nubes y aplicaciones mal configurados y luego se convierten en explotables, causando un daño significativo y provocando problemas catastróficos de fuga de datos para las empresas, una vez que un sistema es presa de una vulnerabilidad o falta de seguridad, sus datos sensibles corren el riesgo de ser robados o alterados muy a menudo, el mayor problema al que se enfrentan las organizaciones es que estos fallos no se identifican o abordan con la suficiente antelación de acuerdo con las mejores prácticas de higiene de seguridad.
+          .row(titulo="Ataques <em>srhink/wrap</em>")
+            .col-md-11
+              p cuando se instala un sistema operativo/aplicaciones viene una gran cantidad de <em>scripts</em> de ejemplo para hacer la vida de un administrador más fácil, el problema no es el afinamiento o la personalización de estos scripts, lo cual llevará a un código predeterminado o  a ataques de código <em>shrink wrap</em>, para lo cual se considera un ataque de este tipo a solo el acto de explotar agujeros en software sin parches o mal configurado. Para utilizar el término de otra manera, una "vulnerabilidad de <em>shrink wrap</em>" sería aquella que solo debería verse en un producto inmediatamente después de su instalación inicial "recién salido del <em>shrink wrap</em>", se podría decir.
+              p La mayor parte de Internet depende de un número relativamente pequeño de aplicaciones, marcos y sistemas operativos diferentes, dado que estas plataformas se comparten entre una gran base de destinatarios y que tantas organizaciones y/o administradores optan por ignorar el "fruto de la casualidad", este tipo de vulnerabilidades suelen ser las primeras a las que recurrirá un atacante para explotar rápidamente un sistema.
+      .col-md-4
+        figure(data-aos="fade-left")
+          img(src='@/assets/curso/tema1/img63.svg')
 
 
 </template>
