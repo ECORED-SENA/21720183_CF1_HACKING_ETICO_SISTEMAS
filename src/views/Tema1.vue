@@ -580,7 +580,7 @@
                 td(style="background-color: #fff; color: #000").text-center CNET Blogs
                 td(style="background-color: #fff; color: #000") <a href="http://www.new.cnet.com" target="_blank">http://www.new.cnet.com</a>
 
-    .row.mb-4
+    .row.align-items-center.mb-4
       .col-md-7
         .bloque-texto-d.color-secundario.p-4.mb-4
           .bloque-texto-d__texto.mb-2
