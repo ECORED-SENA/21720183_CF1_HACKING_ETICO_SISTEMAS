@@ -276,12 +276,11 @@
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img30.svg')
 
-    .row.justify-content-center.mb-4
-      .col-md-10.BGIMG08.p-5
+    .row.justify-content-center.mb-5
+      .col-md-10.BGIMG08.p-5(data-aos="fade-right")
         .row.justify-content-end.py-5
           .col-7
             p Mantener el acceso es el fin de esta fase, lo que se trata de poder permanecer con el control del sistema, los atacantes pueden impedir que el sistema sea propiedad de otros atacantes, asegurando su acceso exclusivo con puertas traseras, rootkits y troyanos e incluso usan ya el sistema que se encuentra comprometido para poder lanzar nuevos ataques.
-
 
     .row.mb-4
       .col-md-4.col-5
@@ -294,7 +293,7 @@
           img(src='@/assets/curso/tema1/img33.svg') 
     
     .row.justify-content-center.mb-4
-      .col-md-10.BGIMG09.p-5
+      .col-md-10.BGIMG09.p-5(data-aos="fade-left")
         .row.py-5
           .col-7
             p Las intenciones del atacante incluyen acceso continuo a los sistemas víctimas, pasar inadvertido y eliminar las pruebas que puedan conducir a su identificación, es por ello que se disfraza entre el sistema para no ser detectado y así evitar cualquier sospecha, haciendo pensar que es parte del sistema.
@@ -315,7 +314,7 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img37.png')})`}"
       )
-      .bloque-texto-g__texto.p-4
+      .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 Es probable que las empresas tengan información como tarjetas de crédito y cuentas confidenciales, por no mencionar la información financiera personal de sus clientes archivada en una base de datos informática, además de esto, también es probable que haya otra información personal de los empleados como números de seguridad social, direcciones de casa e información de atención médica en el archivo y todo tipo de información, un pirata informático puede acceder a esta información sensible, lo que a su vez podría conducir al robo de identidad y múltiples ataques ciberdelincuenciales que ponen en riesgo inminente a una persona o empresa, esto no solo puede ser perjudicial para sus empleados y clientes actuales, sino también para la reputación de su empresa.
 
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
@@ -443,11 +442,159 @@
     
     p.mb-5 En el siguiente recurso podrá revisar las características de los diferentes tipos de <em>hackers</em>.
 
-    figure
+    figure.mb-5(data-aos="fade-down")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-8.col-9
+        h4 ¿Por qué es necesario el #[i hacking] ético?
+        hr
+        .row.align-items-center
+          .col-1
+            img(src='@/assets/curso/tema1/img46.png')
+          .col-10
+            p El #[i hacking] ético es necesario, como piratería implica el pensamiento creativo, las pruebas de vulnerabilidad y auditorías de seguridad  que no pueden garantizar que sean seguras.
+        hr
+        .row.align-items-center
+          .col-1
+            img(src='@/assets/curso/tema1/img46.png')
+          .col-10
+            p Como estrategia de la defensa en profundidad, para ello, las organizaciones deben implementar este tipo de estrategia para penetrar en sus redes y así poder estimar las vulnerabilidades y exponerse.
+        hr
+        .row.align-items-center
+          .col-1
+            img(src='@/assets/curso/tema1/img46.png')
+          .col-10
+            p Para contrarrestar los ataques es necesario, ya que permite la lucha contra los ataques de los hackers mediante la prevención de intrusos en el sistema. 
+        hr
+      .col-md-2.col-3
+        figure(data-aos="fade-left")
+          img(src='@/assets/curso/tema1/img47.png')
+
+    #t_1_4.titulo-segundo.color-acento-contenido.p-0(data-aos="fade-right")
+      h2 1.4 Investigación de vulnerabilidades
+
+    p Es el proceso de descubrimiento de vulnerabilidades y fallos de diseño que abrirá un sistema operativo y sus aplicaciones a los ataques o al mal uso, las vulnerabilidades se clasifican según el nivel de gravedad (bajo, medio o alto) y el rango que explotan (local o remota). A continuación, se presentan los casos de vulnerabilidades más comunes.     
+
+    figure.mb-4(data-aos="fade-down")
+      img(src='@/assets/curso/tema1/img48.svg')
     
+    .row.mb-4
+      .col-md-8
+        LineaTiempoD.color-primario
+          .row(numero="a." titulo="El equipo del administrador está infectado por un virus")
+            p El #[i hacker] puede haber instalado #[i software] espía en el equipo del administrador infectado por el virus para registrar sus combinaciones de teclas.
+            ul.lista-ul
+              li 
+                i.fas.fa-lock.fa-fw
+                | Compruebe si hay virus en los sistemas del administrador, se recomienda que ejecute varios escáneres con antivirus de prestigio en todos los equipos que el administrador use para iniciar sesión en el sitio web, esta acción no es un método infalible de detección de virus, ya que constantemente se diseñan nuevas infecciones de #[i software] malicioso para evadir los análisis, es posible que los análisis antivirus informen sobre falsos positivos, por esta razón, la ejecución de varios análisis puede proporcionar distintos datos para determinar si existe una vulnerabilidad.
+              li 
+                i.fas.fa-lock.fa-fw
+                | Si el análisis antivirus detecta #[i spyware], virus, troyanos o cualquier otro programa sospechoso, investigue los registros del servidor para comprobar la actividad del administrador propietario del equipo infectado.
+              li 
+                i.fas.fa-lock.fa-fw
+                | Es posible que el hacker haya alterado los archivos de registro, si no es así, la correlación del nombre de usuario del administrador con comandos sospechosos en el archivo de registro es una prueba más de que la causa de la vulnerabilidad ha sido un virus en el sistema del administrador.
+          .row(numero="b." titulo="Contraseñas débiles o reutilizadas")
+            p A los #[i hackers] les puede resultar relativamente fácil descifrar una contraseña débil, y esto le proporciona acceso directo a tu servidor, todas las contraseñas seguras están formadas por una combinación de letras, números y signos de puntuación, y no incluyen palabras, ni jerga que se puedan encontrar en un diccionario. 
+            ul.lista-ul
+              li 
+                i.fas.fa-lock.fa-fw
+                | Las contraseñas se deben utilizar para una única aplicación, no se deben reutilizar para todos los servicios, Si se reutilizan las contraseñas, con una sola infracción de la seguridad en una aplicación el hacker consigue el nombre de usuario y la contraseña, y puede intentar reutilizarlos en otros lugares.
+              li 
+                i.fas.fa-lock.fa-fw
+                | En el registro del servidor comprueba si hay actividad no deseada, por ejemplo, que un administrador haya hecho varios intentos para iniciar sesión o haya utilizado comandos inesperados. Anote cuándo ocurrió la actividad sospechosa. Es importante saber cuándo se pirateó el sitio web por primera vez para poder determinar qué copias de seguridad pueden estar limpias.
+          .row(numero="c." titulo="<em>Software</em> desactualizado ")
+            p Comprueba que los servidores tengan instalada la última versión del sistema operativo, del sistema de gestión de contenido, de la plataforma de #[i blogs], de las aplicaciones, de los complementos, entre otros.
+      .col-md-4
+        figure(data-aos="fade-left")
+          img(src='@/assets/curso/tema1/img49.png')
+      
+      p Existen sitios web de investigación de vulnerabilidades, como:
+    
+    .BGIMG12.p-4.mb-4
+      SlyderA(tipo="b")
+        .row.align-items-center
+          .col-md-6.mb-md-0.mb-4
+            p El Software Engineering Institute (SEI), que es un instituto federal estadounidense de investigación y desarrollo, fundado por el Congreso de los Estados Unidos en 1984 para desarrollar modelos de evaluación y mejora en el desarrollo de software, que dieran respuesta a los problemas que generaba al ejército estadounidense la programación e integración de los sub-sistemas de software en la construcción de complejos sistemas militares. Financiado por el Departamento de Defensa de los Estados Unidos y administrado por la Universidad Carnegie Mellon. Es un referente en Ingeniería de software por realizar el desarrollo del modelo SW-CMM (1991) que ha sido el punto de arranque de todos los que han ido formando parte del modelo que ha desarrollado sobre el concepto de capacidad y madurez, hasta el actual CMMI.
+          .col-md-6
+            img(src='@/assets/curso/tema1/img50.png')
+        .row.align-items-center
+          .col-md-6.mb-md-0.mb-4
+            p Por otro lado, el equipo de investigación de Secunia de Flexera está compuesto por varios especialistas en seguridad que, además de probar, verificar y validar los informes públicos de vulnerabilidad, realizan su propia investigación de vulnerabilidad en varios productos, desde la fundación del equipo de investigación de Secunia en 2002, el objetivo ha sido proporcionar la fuente más precisa y fiable de inteligencia sobre vulnerabilidades.
+          .col-md-6
+            img(src='@/assets/curso/tema1/img51.png')
+        .row.align-items-center
+          .col-md-6.mb-md-0.mb-4
+            p La Base de Datos Nacional de Vulnerabilidad (NVD) es el repositorio del gobierno de los EE.UU. de datos de gestión de vulnerabilidades basados en estándares representados mediante el Protocolo de Automatización de Contenidos de Seguridad (SCAP), estos datos permiten la automatización de la gestión de la vulnerabilidad, la medición de la seguridad y el cumplimiento; el NVD incluye bases de datos de referencias de listas de control de seguridad, fallas de software relacionadas con la seguridad, configuraciones erróneas, nombres de productos y métricas de impacto.
+          .col-md-6
+            img(src='@/assets/curso/tema1/img52.png')
+        .row.align-items-center
+          .col-md-6.mb-md-0.mb-4
+            p SecuriTeam es un pequeño grupo dentro de Beyond Security dedicado a traer las últimas noticias y utilidades en seguridad informática.
+          .col-md-6
+            img(src='@/assets/curso/tema1/img53.png')
+    
+    .row.BGIMG13.justify-content-center.p-4.mb-4
+      .col-md-7
+        .tarjeta.tarjeta--blanca.p-4.mb-4
+          p.mb-0 Este tipo de sitios desarrollan continuamente sus habilidades explorando varios programas de alto perfil, tanto de código cerrado como de código abierto, utilizando una variedad de enfoques, centrándose principalmente en auditorías exhaustivas de código y análisis binarios.
+        p Existen múltiples herramientas en Internet que permitirán reconocer las vulnerabilidades que puede tener su sistema o red, e igualmente, están a la disposición para poder mitigarlas, en la siguiente tabla se deja una cantidad de direcciones que pueden ser de mucha ayuda.
+      .col-md-3.col-6
+        figure(data-aos="fade-left")
+          img(src='@/assets/curso/tema1/img56.png')
+      .col-md-9
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Tabla 4
+          span Herramientas para conocimiento de vulnerabilidades
+        
+        .tabla-a.color-acento-contenido.mb-5 
+          table
+            thead
+              tr
+                th Nombre
+                th Sitio web / URL
+            tbody
+              tr
+                td(style="background-color: #fff; color: #000").text-center Security Magazine
+                td(style="background-color: #fff; color: #000") <a href="http://securitymagazine.com" target="_blank">http://securitymagazine.com</a>
+              tr
+                td(style="background-color: #fff; color: #000").text-center Pentest Tools
+                td(style="background-color: #fff; color: #000") <a href="https://pentest-tools.com/website-vulnerability-scanning/website-scanner" target="_blank">https://pentest-tools.com/website-vulnerability-scanning/website-scanner</a>
+              tr
+                td(style="background-color: #fff; color: #000").text-center HackerWatch
+                td(style="background-color: #fff; color: #000") <a href="http://www.hackerwatch.org" target="_blank">http://www.hackerwatch.org</a>
+              tr
+                td(style="background-color: #fff; color: #000").text-center CodeRed Center
+                td(style="background-color: #fff; color: #000") <a href="http://eccouncil.org" target="_blank">http://eccouncil.org</a>
+              tr
+                td(style="background-color: #fff; color: #000").text-center TechNet
+                td(style="background-color: #fff; color: #000") <a href="http://blogs.technet.com" target="_blank">http://blogs.technet.com</a>
+              tr
+                td(style="background-color: #fff; color: #000").text-center Common Vulnerabilities and Exposures
+                td(style="background-color: #fff; color: #000") <a href="https://cve.mitre.org/" target="_blank">https://cve.mitre.org/</a>
+              tr
+                td(style="background-color: #fff; color: #000").text-center Hackerstorm Vulnerability Database Tool
+                td(style="background-color: #fff; color: #000") <a href="http://www.hackerstorm.com" target="_blank">http://www.hackerstorm.com</a>
+              tr
+                td(style="background-color: #fff; color: #000").text-center CNET Blogs
+                td(style="background-color: #fff; color: #000") <a href="http://www.new.cnet.com" target="_blank">http://www.new.cnet.com</a>
+
+    .row.mb-4
+      .col-md-7
+        .bloque-texto-d.color-secundario.p-4.mb-4
+          .bloque-texto-d__texto.mb-2
+            i.fas.fa-quote-left
+            h3.text-regular Dentro de la investigación de vulnerabilidades se realizan las pruebas de penetración (o pentesting), como un ejercicio de seguridad en el que un experto en seguridad cibernética intenta encontrar y explotar las vulnerabilidades de un sistema informático, el propósito de este ataque simulado es identificar cualquier punto débil en las defensas de un sistema que los atacantes podrían aprovechar
+            i.fas.fa-quote-right
+          .bloque-texto-d__autor 
+            .h5.mb-0 (Gaviria, 2015).
+        .cajon.color-acento-contenido.p-4
+          p Esto es como si un banco contratara a alguien para que se disfrace de ladrón y trate de entrar en su edificio y obtener acceso a la bóveda. Si el "ladrón" tiene éxito y entra en el banco o en la bóveda, el banco obtendrá información valiosa sobre cómo necesitan reforzar sus medidas de seguridad.
+      .col-md-5.col-6
+        figure(data-aos="fade-left")
+          img(src='@/assets/curso/tema1/img57.png')
+
 
 </template>
 
