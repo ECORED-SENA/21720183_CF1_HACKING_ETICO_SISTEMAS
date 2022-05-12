@@ -144,32 +144,99 @@ export default {
   },
   referencias: [
     {
+      referencia: 'Borges, E. (2019). Servidor FTP.',
+      link: 'https://blog.infranetworking.com/servidor-ftp/',
+    },
+    {
+      referencia: 'Borges, S. (2019). Servidor web.',
+      link: 'https://blog.infranetworking.com/servidor-web/',
+    },
+    {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Caballero, A. (2015). Introducción a OSSTMM (Open Source Security Testing Methodology Manual).',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'http://www.reydes.com/d/?q=Introduccion_a_OSSTMM_Open_Source_Security_Testing_Methodology_Manual',
+    },
+    {
+      referencia:
+        'Castillo, J. (2018). Active directory qué es y para qué sirve.',
+      link: 'https://www.profesionalreview.com/2018/12/15/active-directory/',
+    },
+    {
+      referencia:
+        'Echeverry, J. (2009). Metodología para el diagnóstico continuo de la seguridad informática de la red de datos de la Universidad Militar Nueva Granada.',
+      link:
+        'https://pdfs.semanticscholar.org/60c7/dbe2abab31a25422c92ead74085fd7093715.pdf',
+    },
+    {
+      referencia:
+        'Gaviria, R. (2015). Guía práctica para pruebas de pentest basada en la metodología OSSTMM V2.1 y la guía OWASP V3.0.',
+      link:
+        'http://repositorio.unilibrepereira.edu.co:8080/pereira/bitstream/handle/123456789/622/GUÍA%20PRÁCTICA%20PARA%20PRUEBAS.pdf?sequence=1',
+    },
+    {
+      referencia:
+        'INCIBE. (2017). Amenaza vs. vulnerabilidad, ¿sabes en qué se diferencia?',
+      link:
+        'https://www.incibe.es/protege-tu-empresa/blog/amenaza-vs-vulnerabilidad-sabes-se-diferencian',
+    },
+    {
+      referencia:
+        'Martínez, E. (2018). Las diferentes amenazas de seguridad informática.',
+      link: 'https://sites.google.com/site/lasamenazaslainformatica/',
+    },
+    {
+      referencia:
+        'Zuluaga, A. (2017). Hacking ético basado en la metodología abierta de testeo de seguridad - OSSTMM, aplicado a la rama judicial, seccional Armenia.',
+      link:
+        'https://stadium.unad.edu.co/preview/UNAD.php?url=/bitstream/10596/17410/1/94288061.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Cifrado',
+      significado:
+        'Esconder información, la cual se utiliza con el fin de proteger la estructura de los datos e información de una empresa o persona.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: '<em>Exploit</em>',
+      significado:
+        'Término acuñado en informática para explotar o aprovechar una vulnerabilidad de un sistema o red, se realiza a través de fragmentos de código.',
+    },
+    {
+      termino: '<em>Insider</em>',
+      significado:
+        'Es una amenaza interna, un riesgo para la seguridad que se origina dentro de la organización objetivo, esto no significa que el responsable deba ser un empleado u oficial actual de la organización. Puede ser un consultor, exempleado, socio comercial o miembro de la junta.',
+    },
+    {
+      termino: '<em>Sniffing</em>',
+      significado:
+        'Técnica de un hacker que se realiza por medio de “escuchar” para poder captar información importante tales como contraseñas o datos sensibles.',
+    },
+    {
+      termino: 'Vulnerabilidad',
+      significado:
+        'Se puede determinar cómo errores de un sistema o red que puede conllevar a que un tercero se aproveche de ella para hacer robo, manipulación o eventos inesperados en el sistema.',
     },
   ],
   complementario: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
+      texto:
+        'Perú Hacking. (2020). Fases del Ethical Hacking [video]. YouTube.',
+      tipo: 'Videoconferencia',
+      link: 'https://www.youtube.com/watch?v=HG1N1kMj8cM',
     },
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      descarga: '/downloads/prueba.pdf',
+      texto:
+        'Betancourth, J. (2020). Herramientas fundamentales para el hacking ético. Universidad Piloto de Colombia.',
+      tipo: 'Artículo científico',
+      link: 'http://polux.unipiloto.edu.co:8080/00001610.pdf',
+    },
+    {
+      texto:
+        'Ontek. (2020). ¿Qué es? Tríada CID (Confidencialidad, Integridad y Disponibilidad',
+      tipo: 'Sitio web',
+      link: 'https://www.ontek.net/que-es-triada-cid/',
     },
   ],
   creditos: {
@@ -201,7 +268,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Anllelo Andres Reina Montañez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -213,7 +280,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Diego Fernando Velasco Güiza',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

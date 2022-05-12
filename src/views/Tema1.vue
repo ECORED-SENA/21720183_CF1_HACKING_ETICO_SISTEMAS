@@ -484,19 +484,19 @@
       .col-md-8
         LineaTiempoD.color-primario
           .row(numero="a." titulo="El equipo del administrador está infectado por un virus")
-            p El #[i hacker] puede haber instalado #[i software] espía en el equipo del administrador infectado por el virus para registrar sus combinaciones de teclas.
+            p El hacker puede haber instalado software espía en el equipo del administrador infectado por el virus para registrar sus combinaciones de teclas.
             ul.lista-ul
               li 
                 i.fas.fa-lock.fa-fw
-                | Compruebe si hay virus en los sistemas del administrador, se recomienda que ejecute varios escáneres con antivirus de prestigio en todos los equipos que el administrador use para iniciar sesión en el sitio web, esta acción no es un método infalible de detección de virus, ya que constantemente se diseñan nuevas infecciones de #[i software] malicioso para evadir los análisis, es posible que los análisis antivirus informen sobre falsos positivos, por esta razón, la ejecución de varios análisis puede proporcionar distintos datos para determinar si existe una vulnerabilidad.
+                | Compruebe si hay virus en los sistemas del administrador, se recomienda que ejecute varios escáneres con antivirus de prestigio en todos los equipos que el administrador use para iniciar sesión en el sitio web, esta acción no es un método infalible de detección de virus, ya que constantemente se diseñan nuevas infecciones de software malicioso para evadir los análisis, es posible que los análisis antivirus informen sobre falsos positivos, por esta razón, la ejecución de varios análisis puede proporcionar distintos datos para determinar si existe una vulnerabilidad.
               li 
                 i.fas.fa-lock.fa-fw
-                | Si el análisis antivirus detecta #[i spyware], virus, troyanos o cualquier otro programa sospechoso, investigue los registros del servidor para comprobar la actividad del administrador propietario del equipo infectado.
+                | Si el análisis antivirus detecta spyware, virus, troyanos o cualquier otro programa sospechoso, investigue los registros del servidor para comprobar la actividad del administrador propietario del equipo infectado.
               li 
                 i.fas.fa-lock.fa-fw
                 | Es posible que el hacker haya alterado los archivos de registro, si no es así, la correlación del nombre de usuario del administrador con comandos sospechosos en el archivo de registro es una prueba más de que la causa de la vulnerabilidad ha sido un virus en el sistema del administrador.
           .row(numero="b." titulo="Contraseñas débiles o reutilizadas")
-            p A los #[i hackers] les puede resultar relativamente fácil descifrar una contraseña débil, y esto le proporciona acceso directo a tu servidor, todas las contraseñas seguras están formadas por una combinación de letras, números y signos de puntuación, y no incluyen palabras, ni jerga que se puedan encontrar en un diccionario. 
+            p A los hackers les puede resultar relativamente fácil descifrar una contraseña débil, y esto le proporciona acceso directo a tu servidor, todas las contraseñas seguras están formadas por una combinación de letras, números y signos de puntuación, y no incluyen palabras, ni jerga que se puedan encontrar en un diccionario. 
             ul.lista-ul
               li 
                 i.fas.fa-lock.fa-fw
@@ -505,7 +505,7 @@
                 i.fas.fa-lock.fa-fw
                 | En el registro del servidor comprueba si hay actividad no deseada, por ejemplo, que un administrador haya hecho varios intentos para iniciar sesión o haya utilizado comandos inesperados. Anote cuándo ocurrió la actividad sospechosa. Es importante saber cuándo se pirateó el sitio web por primera vez para poder determinar qué copias de seguridad pueden estar limpias.
           .row(numero="c." titulo="<em>Software</em> desactualizado ")
-            p Comprueba que los servidores tengan instalada la última versión del sistema operativo, del sistema de gestión de contenido, de la plataforma de #[i blogs], de las aplicaciones, de los complementos, entre otros.
+            p Comprueba que los servidores tengan instalada la última versión del sistema operativo, del sistema de gestión de contenido, de la plataforma de blogs, de las aplicaciones, de los complementos, entre otros.
       .col-md-4
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img49.png')
@@ -536,8 +536,8 @@
             img(src='@/assets/curso/tema1/img53.png')
     
     .row.BGIMG13.justify-content-center.p-4.mb-4
-      .col-md-7
-        .tarjeta.tarjeta--blanca.p-4.mb-4
+      .col-md-7.mt-5
+        .BG07.p-4.mb-4
           p.mb-0 Este tipo de sitios desarrollan continuamente sus habilidades explorando varios programas de alto perfil, tanto de código cerrado como de código abierto, utilizando una variedad de enfoques, centrándose principalmente en auditorías exhaustivas de código y análisis binarios.
         p Existen múltiples herramientas en Internet que permitirán reconocer las vulnerabilidades que puede tener su sistema o red, e igualmente, están a la disposición para poder mitigarlas, en la siguiente tabla se deja una cantidad de direcciones que pueden ser de mucha ayuda.
       .col-md-3.col-6
