@@ -211,7 +211,7 @@ export default {
     {
       termino: '<em>Sniffing</em>',
       significado:
-        'Técnica de un hacker que se realiza por medio de “escuchar” para poder captar información importante tales como contraseñas o datos sensibles.',
+        'Técnica de un <em>hacker</em> que se realiza por medio de “escuchar” para poder captar información importante tales como contraseñas o datos sensibles.',
     },
     {
       termino: 'Vulnerabilidad',

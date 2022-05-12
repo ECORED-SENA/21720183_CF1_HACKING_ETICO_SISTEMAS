@@ -109,27 +109,29 @@
             .col-md-11
               img(src='@/assets/curso/tema2/img18.png')
 
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
     #t_2_2.titulo-segundo.color-acento-contenido.p-0(data-aos="fade-right")
       h2 2.2 Normatividad legal vigente
     
     p La normatividad para que se pueda realizar hacking ético depende de la legislación del país donde se ejecute, en la siguiente figura se presentan algunas leyes que pueden permitirse y ser aplicadas a nivel global.
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-      h5 Figura 4
+      h5 Figura 5
       span Normatividad legal vigente
 
     figure.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/tema2/img19.svg')
     
-    .BGIMG03.p-4.mb-4
+    .BGIMG03.py-5.pe-5.mb-4
       p.mt-5.ms-5 A continuación, se realizará la descripción de cada una.
-      .row.mb-4
-        .col-md-5.col-6.mb-4
+      .row.mb-5
+        .col-md-5.col-6.mb-5
           figure(data-aos="fade-right")
             img(src='@/assets/curso/tema2/img20.svg')
         .col-md-10  
           p.ms-5 También conocida como la norma de seguridad de datos de la industria de las tarjetas de pago (PCI DSS).
-      .row.justify-content-center.mb-4  
+      .row.justify-content-center.mb-5 
         .col-md-10
           figure(data-aos="fade-right")
             img(src='@/assets/curso/tema2/img21.svg')
@@ -219,7 +221,7 @@
               figure(data-aos="fade-right")
                 img(src='@/assets/curso/tema2/img33.png')
             .col-10
-              p La DMCA también se ocupa de los derechos y obligaciones de los OSP / ISP (Proveedores de Servicios de Internet) en cuyos servidores o redes se puede encontrar el material infractor. Aunque la DMCA es la ley de derechos de autor en los EE.UU., este servicio no es exclusivo de los EE.UU. solamente. DMCA.com ha trabajado con el alojamiento web o los procesos de derechos de autor de Internet o de propiedad intelectual en la mayoría de los países del mundo.
+              p La DMCA también se ocupa de los derechos y obligaciones de los OSP / ISP (Proveedores de Servicios de Internet) en cuyos servidores o redes se puede encontrar el material infractor. Aunque la DMCA es la ley de derechos de autor en los EE.UU., este servicio no es exclusivo de los EE.UU. solamente. DMCA.com ha trabajado con el alojamiento <em>web</em> o los procesos de derechos de autor de Internet o de propiedad intelectual en la mayoría de los países del mundo.
     
     separador
     .BGIMG14.p-4

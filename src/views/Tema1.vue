@@ -7,12 +7,12 @@
         span 1
       h1 Fundamentos de <em>hacking</em>
 
-    .row.justify-content-center.align-items-center.BGIMG02.mb-4
+    .row.justify-content-center.align-items-center.BGIMG02.mb-5
       .col-md-3.col-6.p-0.ms-1
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img02.png')  
       .col-md-8.col-12
-        p Los sistemas de gestión, planes de continuidad del negocio son de vital importancia; sin embargo, los aspectos técnicos son la base sostenible de la ciberseguridad y de la seguridad informática. Los ataques informáticos lamentablemente pueden ser llevados a cabo por personas sin gran experiencia, quienes por medio de herramientas básicas pueden conseguir objetivos de fácil acceso. Es importante resaltar que tener conocimiento del modus operandi de la ciberdelincuencia, articulado a conocimientos técnicos marcan la diferencia en cargos relacionados con la ciberseguridad y la seguridad informática, ya que de esta manera se puede evidenciar un ataque difícil de ser detectado. 
+        p Los sistemas de gestión, planes de continuidad del negocio son de vital importancia; sin embargo, los aspectos técnicos son la base sostenible de la ciberseguridad y de la seguridad informática. Los ataques informáticos lamentablemente pueden ser llevados a cabo por personas sin gran experiencia, quienes por medio de herramientas básicas pueden conseguir objetivos de fácil acceso. Es importante resaltar que tener conocimiento del <em>modus operandi</em> de la ciberdelincuencia, articulado a conocimientos técnicos marcan la diferencia en cargos relacionados con la ciberseguridad y la seguridad informática, ya que de esta manera se puede evidenciar un ataque difícil de ser detectado. 
         p Por lo anterior, la inversión en capacitación de personal es indiscutiblemente el pilar fundamental de toda implementación de seguridad, teniendo en cuenta que adquirir sistemas de seguridad con altas capacidades y características lleva a las organizaciones a entrar en un estado de falsa seguridad, dando un segundo lugar a las capacidades humanas.
 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -59,7 +59,7 @@
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img06.svg')  
       .col-md-12.mt-5.mb-4
-        p Antes de entrar a hablar sobre los métodos efectivos de realizar un buen hacking ético debe de conocer y apropiar tres conceptos básicos de la seguridad de la información, que conforman el llamado <span style="color:#500C75 !important; font-weight: bold;">triángulo o triada de la seguridad de la información</span>, la cual se integra por la <span style="color:#500C75 !important; font-weight: bold;">confidencialidad, integridad y disponibilidad</span>, comúnmente conocida como la tríada CID (seguridad de la información), esta da el modelo base por el cual se incluye la terminología usada en seguridad, centrada en los datos y en la información, ver figura 2.
+        p Antes de entrar a hablar sobre los métodos efectivos de realizar un buen <em>hacking</em> ético debe de conocer y apropiar tres conceptos básicos de la seguridad de la información, que conforman el llamado <span style="color:#500C75 !important; font-weight: bold;">triángulo o triada de la seguridad de la información</span>, la cual se integra por la <span style="color:#500C75 !important; font-weight: bold;">confidencialidad, integridad y disponibilidad</span>, comúnmente conocida como la tríada CID (seguridad de la información), esta da el modelo base por el cual se incluye la terminología usada en seguridad, centrada en los datos y en la información, ver figura 2.
       .col-md-10.col-10.mb-4
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
           h5 Figura 2
@@ -79,7 +79,7 @@
             h5 DISPONIBILIDAD
             p Los usuarios autorizados deben tener acceso a la información cuando requieran.
     
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-md-9.col-11
         .row.BGIMG04
           .col-2
@@ -96,7 +96,7 @@
             figure(data-aos="fade-left")
               img.img02(src='@/assets/curso/tema1/img10.png') 
   
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5
     
     SlyderF.mb-5(columnas="col-12")
       .tarjeta
@@ -120,62 +120,62 @@
             figure.img03
               img(src='@/assets/curso/tema1/img13.png')
           .col-md-6.BG03.p-md-5.p-4
-            p Disponibilidad: radica en que la infraestructura de la información debe estar controlada rigurosamente, manteniendo el hardware en debido funcionamiento sin errores, para que de esta manera siempre que se necesite el acceso a la información esté disponible, evitando cuellos de botella y otros factores que pongan en riesgo la información.
+            p Disponibilidad: radica en que la infraestructura de la información debe estar controlada rigurosamente, manteniendo el <em>hardware</em> en debido funcionamiento sin errores, para que de esta manera siempre que se necesite el acceso a la información esté disponible, evitando cuellos de botella y otros factores que pongan en riesgo la información.
             p Es por ello que los sistemas, las aplicaciones y los datos tienen poco valor para una organización y sus clientes si no son accesibles cuando los usuarios autorizados los necesitan, es por ello que la disponibilidad significa que las redes, los sistemas y las aplicaciones están en funcionamiento, garantizando que los usuarios autorizados tengan acceso oportuno y fiable a los recursos cuando los necesiten.
 
     .row.BGIMG05.justify-content-center.mb-4
       .col-md-8.col-10.mt-5
-        p.mt-5 Muchas cosas pueden poner en peligro la disponibilidad, entre ellas las fallas de hardware o software, los cortes de energía, los desastres naturales y los errores humanos, tal vez el ataque más conocido que amenaza la disponibilidad sea el de negación del servicio, en el que el rendimiento de un sistema, un sitio web, una aplicación o un servicio basado en la web se degrada de forma intencionada y maliciosa, o el sistema se vuelve completamente inalcanzable. En la siguiente figura se pueden observar las estadísticas de la ciberseguridad en Colombia.
+        p.mt-5 Muchas cosas pueden poner en peligro la disponibilidad, entre ellas las fallas de <em>hardware</em> o <em>software</em>, los cortes de energía, los desastres naturales y los errores humanos, tal vez el ataque más conocido que amenaza la disponibilidad sea el de negación del servicio, en el que el rendimiento de un sistema, un sitio <em>web</em>, una aplicación o un servicio basado en la web se degrada de forma intencionada y maliciosa, o el sistema se vuelve completamente inalcanzable. En la siguiente figura se pueden observar las estadísticas de la ciberseguridad en Colombia.
       .col-2.mt-5
         figure.mt-5(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img15.svg')
-      .col-md-10
+      .col-md-10.mb-4
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
           h5 Figura 3
           span Estadísticas de la ciberseguridad en Colombia
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img16.svg')
+      separador
 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.2	1.2	Fases de #[i hacking]
+      h2 1.2	Fases de #[i hacking]
     
-    .row.mb-4
+    .row.mb-5
       .col-md-7
         p La seguridad de la información es una creciente preocupación para las personas y las empresas, la protección de sus datos se ha convertido en una premisa, ya que los ataques por parte de ciberdelincuentes cada vez son más comunes; sin embargo, los riesgos y constantes amenazas dejan al desnudo los sistemas de información y los peligros que en la era digital se están afrontando en el mundo de hoy, es por ello que se ha hecho fundamental que tenga conocimientos informáticos y de seguridad para poder aplicarlos en los sistemas y redes, para poder solventar fallos a tiempo, documentarlos y atacarlos de forma efectiva.
         .cajon.color-acento-botones.p-4(data-aos="fade-right")
-          p Para ello, se usan pruebas de penetración o conocidas comúnmente como <em>pentesting</em>, las cuales se usan para poder detectar riesgos en sus sistemas de información o redes, su uso pretende encontrar fallas en la seguridad de la información, saltándose las medidas de seguridad adoptadas por un individuo, empresa u organización, existen principalmente 5 fases del hacking, un hacker no necesariamente tiene seguirlas de forma secuencial; pero cuando se lleva de forma secuencial se obtienen mejores resultados.
+          p Para ello, se usan pruebas de penetración o conocidas comúnmente como <em>pentesting</em>, las cuales se usan para poder detectar riesgos en sus sistemas de información o redes, su uso pretende encontrar fallas en la seguridad de la información, saltándose las medidas de seguridad adoptadas por un individuo, empresa u organización, existen principalmente 5 fases del <em>hacking</em>, un <em>hacker</em> no necesariamente tiene seguirlas de forma secuencial; pero cuando se lleva de forma secuencial se obtienen mejores resultados.
       .col-md-5.mb-4
-        figure(data-aos="fade-left")
-          img(src='@/assets/curso/tema1/img17.png')
+        figure(data-aos="zoom-in-down")
+          img(src='@/assets/curso/tema1/img17.svg')
       .col-md-4.col-6
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img18.svg')
     
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-md-10
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img19.svg')
 
-    .row.BGIMG06.justify-content-center.p-4.mb-4
-      .col-md-7
+    .row.BGIMG06.justify-content-center.p-5.mb-5
+      .col-md-7.mt-4
         p En esta fase de reconocimiento la huella proporciona información importante como:
-        .row.align-items-center.mb-4
-          .col-1
-          .col-6
+        .row.align-items-center.mb-4          
+          .col-6.p-4
             ul.lista-ul
-              li 
+              li.mb-4 
                 i.fas.fa-dot-circle
                 | El nombre de dominio.
-              li 
+              li.mb-4
                 i.fas.fa-dot-circle
                 | Los servicios TCP y UDP.
-              li 
+              li.mb-3
                 i.fas.fa-dot-circle
                 | Los nombres de los sistemas y las contraseñas.
-          .col-3
+          .col-3.p-0
             figure(data-aos="fade-right")
               img(src='@/assets/curso/tema1/img22.png')
-        p Igualmente, hay otras formas de realizar la huella, como la suplantación de la identidad de un sitio web mediante su duplicación, el uso de motores de búsqueda para encontrar información sobre la organización e incluso el uso de la información de los empleados actuales para la suplantación.
+        p Igualmente, hay otras formas de realizar la huella, como la suplantación de la identidad de un sitio <em>web</em> mediante su duplicación, el uso de motores de búsqueda para encontrar información sobre la organización e incluso el uso de la información de los empleados actuales para la suplantación.
         p En la siguiente tabla se presenta un comparativo entre la recolección activa y la recolección pasiva.
       .col-md-5
         figure(data-aos="fade-left")
@@ -186,7 +186,7 @@
       span Tipos de reconocimiento
     
     .tabla-b.color-acento-contenido.mb-5 
-      table
+      table(data-aos="fade-right")
         thead
           tr
             th(style="background-color: #E01650; color: #fff").text-center Recolección activa
@@ -196,28 +196,28 @@
             td(style="background-color: #F6F6F6; color: #000")
               p.text-bold Es de gran efectividad, pero no es la mejor aliada si de anonimato se quiere hablar, porque puede llamar mucho la atención del objetivo:
               ul.lista-ul
-                li 
+                li.mb-4 
                   i.fas.fa-angle-right
                   | Campañas de ingeniería social (llamadas falsas).
-                li 
+                li.mb-4 
                   i.fas.fa-angle-right
                   | Metasploitable.
-                li 
+                li.mb-4 
                   i.fas.fa-angle-right
                   | Ataques al objetivo u escaneos invasivos.
             td(style="background-color: #F6F6F6; color: #000")
               p.text-bold Es cuando se tiene un contacto directo con el objetivo, es decir, cuando existe el apoyo de fuentes públicas para obtener información, lo cual ayuda a mantener el anonimato y es menos “ruidosa” que la activa; estas fuentes pueden ser:
               ul.lista-ul
-                li 
+                li.mb-4 
                   i.fas.fa-angle-right
-                  | Sitios web relacionados con el objetivo.
-                li 
+                  | Sitios <em>web</em> relacionados con el objetivo.
+                li.mb-4 
                   i.fas.fa-angle-right
                   | Motores de búsqueda.
-                li 
+                li.mb-4 
                   i.fas.fa-angle-right
                   | Redes sociales.
-                li 
+                li.mb-4 
                   i.fas.fa-angle-right
                   | Blogs.
     .row.mb-4
@@ -225,19 +225,19 @@
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img23.svg')   
     
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-md-8
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img24.svg') 
 
-    p En la siguiente tabla puede observar algunas características de cada método.
+    p.mb-5 En la siguiente tabla puede observar algunas características de cada método.
 
-    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+    .titulo-sexto.color-acento-contenido.ms-5(data-aos="fade-right")
       h5 Tabla 2
       span Métodos de escaneo
     
     .tabla-b.color-acento-contenido.mb-5 
-      table
+      table(data-aos="fade-right")
         thead
           tr
             th(style="background-color: #E01650; color: #fff").text-center Fase de pre-ataque
@@ -245,24 +245,24 @@
             th(style="background-color: #E01650; color: #fff").text-center Extraer información
         tbody
           tr
-            td(style="background-color: #F6F6F6; color: #000") Escaneo se refiere a la fase de pre-ataque cuando el atacante busca en la red para obtener información específica sobre la base de la información recopilada durante el reconocimiento.
-            td(style="background-color: #F6F6F6; color: #000") La exploración puede incluir el uso de marcadores, analizadores de puertos, la cartografía de la red, barrido, escáneres de vulnerabilidades, entre otros.
-            td(style="background-color: #F6F6F6; color: #000") Los atacantes extraen información como los nombres de equipos, direcciones IP y cuentas de usuario para lanzar ataques posteriores.
+            td.p-5(style="background-color: #F6F6F6; color: #000") Escaneo se refiere a la fase de pre-ataque cuando el atacante busca en la red para obtener información específica sobre la base de la información recopilada durante el reconocimiento.
+            td.p-5(style="background-color: #F6F6F6; color: #000") La exploración puede incluir el uso de marcadores, analizadores de puertos, la cartografía de la red, barrido, escáneres de vulnerabilidades, entre otros.
+            td.p-5(style="background-color: #F6F6F6; color: #000") Los atacantes extraen información como los nombres de equipos, direcciones IP y cuentas de usuario para lanzar ataques posteriores.
 
-    .row.mb-4
+    .row.mb-5
       .col-md-4.col-5
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img25.svg')   
     
     .row.justify-content-center.mb-4
-      .col-md-10.mb-4
+      .col-md-10.mb-5
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img26.svg')
       .col-md-10.mb-4
         .row.BGIMG07.align-items-center.p-2
-          .col-10
-            p Los accesos hacen referencia al punto donde el atacante obtiene acceso al sistema operativo, a aplicaciones en el computador, al dispositivo o a la red, dentro de ella se puede realizar el descifrado de contraseñas, los desbordamientos de buffer, la denegación de servicio, el secuestro de sesión, entre los más comunes.
-          .col-2
+          .col-10.px-5
+            p Los accesos hacen referencia al punto donde el atacante obtiene acceso al sistema operativo, a aplicaciones en el computador, al dispositivo o a la red, dentro de ella se puede realizar el descifrado de contraseñas, los desbordamientos de <em>buffer</em>, la denegación de servicio, el secuestro de sesión, entre los más comunes.
+          .col-2.px-3
             figure(data-aos="fade-left")
               img(src='@/assets/curso/tema1/img28.png')
 
@@ -280,7 +280,7 @@
       .col-md-10.BGIMG08.p-5(data-aos="fade-right")
         .row.justify-content-end.py-5
           .col-7
-            p Mantener el acceso es el fin de esta fase, lo que se trata de poder permanecer con el control del sistema, los atacantes pueden impedir que el sistema sea propiedad de otros atacantes, asegurando su acceso exclusivo con puertas traseras, rootkits y troyanos e incluso usan ya el sistema que se encuentra comprometido para poder lanzar nuevos ataques.
+            p Mantener el acceso es el fin de esta fase, lo que se trata de poder permanecer con el control del sistema, los atacantes pueden impedir que el sistema sea propiedad de otros atacantes, asegurando su acceso exclusivo con puertas traseras, <em>rootkits</em> y troyanos e incluso usan ya el sistema que se encuentra comprometido para poder lanzar nuevos ataques.
 
     .row.mb-4
       .col-md-4.col-5
@@ -300,10 +300,10 @@
 
     separador
 
-    #t_1_3.titulo-segundo.color-acento-contenido.p-0(data-aos="fade-right")
+    #t_1_3.titulo-segundo.color-acento-contenido.p-0.mb-0(data-aos="fade-right")
       h2 1.3 <em>Hacking</em> ético 
 
-  .container.BGIMG10.px-4.px-md-5
+  .container.BGIMG10.px-4.px-md-5.pt-5
     .row.align-items-center.my-5
       .col-md-9.col-10
         p Es muy frecuente que las personas, empresas u organizaciones instalen sistemas de seguridad para mantener sus propiedades y activos a salvo, que compren un seguro en caso de desastre o hurto; sin embargo, cuando se encuentra que ese activo es la información es muy poco común encontrarse que las empresas inviertan en el sistema de seguridad informática; que es igual o hasta muchas veces más importante que los mismos activos, es por ello que hoy por hoy, es la que los propietarios de las empresas pueden implementar con programas y procedimientos para proteger los computadores de la empresa de los piratas informáticos y de los virus, el pirateo en general cuesta a las empresas miles de millones de dólares cada año, pero hay más que dinero en juego si su empresa se encontrará con un <em>hacker</em> informático.
@@ -451,27 +451,27 @@
         h4 ¿Por qué es necesario el #[i hacking] ético?
         hr
         .row.align-items-center
-          .col-1
+          .col-1(data-aos="fade-right")
             img(src='@/assets/curso/tema1/img46.png')
           .col-10
             p El #[i hacking] ético es necesario, como piratería implica el pensamiento creativo, las pruebas de vulnerabilidad y auditorías de seguridad  que no pueden garantizar que sean seguras.
         hr
         .row.align-items-center
-          .col-1
+          .col-1(data-aos="fade-right")
             img(src='@/assets/curso/tema1/img46.png')
           .col-10
             p Como estrategia de la defensa en profundidad, para ello, las organizaciones deben implementar este tipo de estrategia para penetrar en sus redes y así poder estimar las vulnerabilidades y exponerse.
         hr
         .row.align-items-center
-          .col-1
+          .col-1(data-aos="fade-right")
             img(src='@/assets/curso/tema1/img46.png')
           .col-10
-            p Para contrarrestar los ataques es necesario, ya que permite la lucha contra los ataques de los hackers mediante la prevención de intrusos en el sistema. 
+            p Para contrarrestar los ataques es necesario, ya que permite la lucha contra los ataques de los <em>hackers</em> mediante la prevención de intrusos en el sistema. 
         hr
       .col-md-2.col-3
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img47.png')
-
+    separador
     #t_1_4.titulo-segundo.color-acento-contenido.p-0(data-aos="fade-right")
       h2 1.4 Investigación de vulnerabilidades
 
@@ -482,41 +482,41 @@
     
     .row.mb-4
       .col-md-8
-        LineaTiempoD.color-primario
+        LineaTiempoD.color-primario(data-aos="fade-right")
           .row(numero="a." titulo="El equipo del administrador está infectado por un virus")
-            p El hacker puede haber instalado software espía en el equipo del administrador infectado por el virus para registrar sus combinaciones de teclas.
-            ul.lista-ul
-              li 
-                i.fas.fa-lock.fa-fw
-                | Compruebe si hay virus en los sistemas del administrador, se recomienda que ejecute varios escáneres con antivirus de prestigio en todos los equipos que el administrador use para iniciar sesión en el sitio web, esta acción no es un método infalible de detección de virus, ya que constantemente se diseñan nuevas infecciones de software malicioso para evadir los análisis, es posible que los análisis antivirus informen sobre falsos positivos, por esta razón, la ejecución de varios análisis puede proporcionar distintos datos para determinar si existe una vulnerabilidad.
-              li 
-                i.fas.fa-lock.fa-fw
-                | Si el análisis antivirus detecta spyware, virus, troyanos o cualquier otro programa sospechoso, investigue los registros del servidor para comprobar la actividad del administrador propietario del equipo infectado.
-              li 
-                i.fas.fa-lock.fa-fw
-                | Es posible que el hacker haya alterado los archivos de registro, si no es así, la correlación del nombre de usuario del administrador con comandos sospechosos en el archivo de registro es una prueba más de que la causa de la vulnerabilidad ha sido un virus en el sistema del administrador.
+            p El <em>hacker</em> puede haber instalado <em>software</em> espía en el equipo del administrador infectado por el virus para registrar sus combinaciones de teclas.
+            ol.lista-candado.ps-4
+              li.mb-2
+                .lista-candado
+                | Compruebe si hay virus en los sistemas del administrador, se recomienda que ejecute varios escáneres con antivirus de prestigio en todos los equipos que el administrador use para iniciar sesión en el sitio <em>web</em>, esta acción no es un método infalible de detección de virus, ya que constantemente se diseñan nuevas infecciones de <em>software</em> malicioso para evadir los análisis, es posible que los análisis antivirus informen sobre falsos positivos, por esta razón, la ejecución de varios análisis puede proporcionar distintos datos para determinar si existe una vulnerabilidad.
+              li.mb-2 
+                .lista-candado
+                | Si el análisis antivirus detecta <em>spyware</em>, virus, troyanos o cualquier otro programa sospechoso, investigue los registros del servidor para comprobar la actividad del administrador propietario del equipo infectado.
+              li.mb-2 
+                .lista-candado
+                | Es posible que el #[i hacker] haya alterado los archivos de registro, si no es así, la correlación del nombre de usuario del administrador con comandos sospechosos en el archivo de registro es una prueba más de que la causa de la vulnerabilidad ha sido un virus en el sistema del administrador.
           .row(numero="b." titulo="Contraseñas débiles o reutilizadas")
-            p A los hackers les puede resultar relativamente fácil descifrar una contraseña débil, y esto le proporciona acceso directo a tu servidor, todas las contraseñas seguras están formadas por una combinación de letras, números y signos de puntuación, y no incluyen palabras, ni jerga que se puedan encontrar en un diccionario. 
-            ul.lista-ul
-              li 
-                i.fas.fa-lock.fa-fw
-                | Las contraseñas se deben utilizar para una única aplicación, no se deben reutilizar para todos los servicios, Si se reutilizan las contraseñas, con una sola infracción de la seguridad en una aplicación el hacker consigue el nombre de usuario y la contraseña, y puede intentar reutilizarlos en otros lugares.
-              li 
-                i.fas.fa-lock.fa-fw
-                | En el registro del servidor comprueba si hay actividad no deseada, por ejemplo, que un administrador haya hecho varios intentos para iniciar sesión o haya utilizado comandos inesperados. Anote cuándo ocurrió la actividad sospechosa. Es importante saber cuándo se pirateó el sitio web por primera vez para poder determinar qué copias de seguridad pueden estar limpias.
+            p A los <em>hackers</em>s les puede resultar relativamente fácil descifrar una contraseña débil, y esto le proporciona acceso directo a tu servidor, todas las contraseñas seguras están formadas por una combinación de letras, números y signos de puntuación, y no incluyen palabras, ni jerga que se puedan encontrar en un diccionario. 
+            ol.lista-candado.ps-4
+              li.mb-2
+                .lista-candado
+                | Las contraseñas se deben utilizar para una única aplicación, no se deben reutilizar para todos los servicios, Si se reutilizan las contraseñas, con una sola infracción de la seguridad en una aplicación el <em>hacker</em> consigue el nombre de usuario y la contraseña, y puede intentar reutilizarlos en otros lugares.
+              li.mb-2
+                .lista-candado
+                | En el registro del servidor comprueba si hay actividad no deseada, por ejemplo, que un administrador haya hecho varios intentos para iniciar sesión o haya utilizado comandos inesperados. Anote cuándo ocurrió la actividad sospechosa. Es importante saber cuándo se pirateó el sitio <em>web</em> por primera vez para poder determinar qué copias de seguridad pueden estar limpias.
           .row(numero="c." titulo="<em>Software</em> desactualizado ")
             p Comprueba que los servidores tengan instalada la última versión del sistema operativo, del sistema de gestión de contenido, de la plataforma de blogs, de las aplicaciones, de los complementos, entre otros.
       .col-md-4
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img49.png')
       
-      p Existen sitios web de investigación de vulnerabilidades, como:
+      p Existen sitios <em>web</em> de investigación de vulnerabilidades, como:
     
-    .BGIMG12.p-4.mb-4
+    .BGIMG12.p-5.mb-4
       SlyderA(tipo="b")
         .row.align-items-center
           .col-md-6.mb-md-0.mb-4
-            p El Software Engineering Institute (SEI), que es un instituto federal estadounidense de investigación y desarrollo, fundado por el Congreso de los Estados Unidos en 1984 para desarrollar modelos de evaluación y mejora en el desarrollo de software, que dieran respuesta a los problemas que generaba al ejército estadounidense la programación e integración de los sub-sistemas de software en la construcción de complejos sistemas militares. Financiado por el Departamento de Defensa de los Estados Unidos y administrado por la Universidad Carnegie Mellon. Es un referente en Ingeniería de software por realizar el desarrollo del modelo SW-CMM (1991) que ha sido el punto de arranque de todos los que han ido formando parte del modelo que ha desarrollado sobre el concepto de capacidad y madurez, hasta el actual CMMI.
+            p El <em>software</em> Engineering Institute (SEI), que es un instituto federal estadounidense de investigación y desarrollo, fundado por el Congreso de los Estados Unidos en 1984 para desarrollar modelos de evaluación y mejora en el desarrollo de <em>software</em>, que dieran respuesta a los problemas que generaba al ejército estadounidense la programación e integración de los sub-sistemas de <em>software</em> en la construcción de complejos sistemas militares. Financiado por el Departamento de Defensa de los Estados Unidos y administrado por la Universidad Carnegie Mellon. Es un referente en Ingeniería de <em>software</em> por realizar el desarrollo del modelo SW-CMM (1991) que ha sido el punto de arranque de todos los que han ido formando parte del modelo que ha desarrollado sobre el concepto de capacidad y madurez, hasta el actual CMMI.
           .col-md-6
             img(src='@/assets/curso/tema1/img50.png')
         .row.align-items-center
@@ -526,7 +526,7 @@
             img(src='@/assets/curso/tema1/img51.png')
         .row.align-items-center
           .col-md-6.mb-md-0.mb-4
-            p La Base de Datos Nacional de Vulnerabilidad (NVD) es el repositorio del gobierno de los EE.UU. de datos de gestión de vulnerabilidades basados en estándares representados mediante el Protocolo de Automatización de Contenidos de Seguridad (SCAP), estos datos permiten la automatización de la gestión de la vulnerabilidad, la medición de la seguridad y el cumplimiento; el NVD incluye bases de datos de referencias de listas de control de seguridad, fallas de software relacionadas con la seguridad, configuraciones erróneas, nombres de productos y métricas de impacto.
+            p La Base de Datos Nacional de Vulnerabilidad (NVD) es el repositorio del gobierno de los EE.UU. de datos de gestión de vulnerabilidades basados en estándares representados mediante el Protocolo de Automatización de Contenidos de Seguridad (SCAP), estos datos permiten la automatización de la gestión de la vulnerabilidad, la medición de la seguridad y el cumplimiento; el NVD incluye bases de datos de referencias de listas de control de seguridad, fallas de <em>software</em> relacionadas con la seguridad, configuraciones erróneas, nombres de productos y métricas de impacto.
           .col-md-6
             img(src='@/assets/curso/tema1/img52.png')
         .row.align-items-center
@@ -535,12 +535,12 @@
           .col-md-6
             img(src='@/assets/curso/tema1/img53.png')
     
-    .row.BGIMG13.justify-content-center.p-4.mb-4
+    .row.BGIMG13.justify-content-center.p-5.mb-4
       .col-md-7.mt-5
         .BG07.p-4.mb-4
           p.mb-0 Este tipo de sitios desarrollan continuamente sus habilidades explorando varios programas de alto perfil, tanto de código cerrado como de código abierto, utilizando una variedad de enfoques, centrándose principalmente en auditorías exhaustivas de código y análisis binarios.
-        p Existen múltiples herramientas en Internet que permitirán reconocer las vulnerabilidades que puede tener su sistema o red, e igualmente, están a la disposición para poder mitigarlas, en la siguiente tabla se deja una cantidad de direcciones que pueden ser de mucha ayuda.
-      .col-md-3.col-6
+        p.mb-5 Existen múltiples herramientas en Internet que permitirán reconocer las vulnerabilidades que puede tener su sistema o red, e igualmente, están a la disposición para poder mitigarlas, en la siguiente tabla se deja una cantidad de direcciones que pueden ser de mucha ayuda.
+      .col-md-3.col-6.mb-5
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img56.png')
       .col-md-9
@@ -549,39 +549,39 @@
           span Herramientas para conocimiento de vulnerabilidades
         
         .tabla-a.color-acento-contenido.mb-5 
-          table
+          table(data-aos="fade-right")
             thead
               tr
-                th Nombre
-                th Sitio web / URL
+                th.p-3 Nombre
+                th.p-3 Sitio <em>web</em>/URL
             tbody
               tr
-                td(style="background-color: #fff; color: #000").text-center Security Magazine
-                td(style="background-color: #fff; color: #000") <a href="http://securitymagazine.com" target="_blank">http://securitymagazine.com</a>
+                td.p-4(style="background-color: #fff; color: #000").text-center Security Magazine
+                td.p-4(style="background-color: #fff; color: #000") <a href="http://securitymagazine.com" target="_blank">http://securitymagazine.com</a>
               tr
-                td(style="background-color: #fff; color: #000").text-center <em>pentest</em> Tools
-                td(style="background-color: #fff; color: #000") <a href="https://pentest-tools.com/website-vulnerability-scanning/website-scanner" target="_blank">https://pentest-tools.com/website-vulnerability-scanning/website-scanner</a>
+                td.p-4(style="background-color: #fff; color: #000").text-center <em>pentest</em> Tools
+                td.p-4(style="background-color: #fff; color: #000") <a href="https://pentest-tools.com/website-vulnerability-scanning/website-scanner" target="_blank">https://pentest-tools.com/website-vulnerability-scanning/website-scanner</a>
               tr
-                td(style="background-color: #fff; color: #000").text-center HackerWatch
-                td(style="background-color: #fff; color: #000") <a href="http://www.hackerwatch.org" target="_blank">http://www.hackerwatch.org</a>
+                td.p-4(style="background-color: #fff; color: #000").text-center HackerWatch
+                td.p-4(style="background-color: #fff; color: #000") <a href="http://www.hackerwatch.org" target="_blank">http://www.hackerwatch.org</a>
               tr
-                td(style="background-color: #fff; color: #000").text-center CodeRed Center
-                td(style="background-color: #fff; color: #000") <a href="http://eccouncil.org" target="_blank">http://eccouncil.org</a>
+                td.p-4(style="background-color: #fff; color: #000").text-center CodeRed Center
+                td.p-4(style="background-color: #fff; color: #000") <a href="http://eccouncil.org" target="_blank">http://eccouncil.org</a>
               tr
-                td(style="background-color: #fff; color: #000").text-center TechNet
-                td(style="background-color: #fff; color: #000") <a href="http://blogs.technet.com" target="_blank">http://blogs.technet.com</a>
+                td.p-4(style="background-color: #fff; color: #000").text-center TechNet
+                td.p-4(style="background-color: #fff; color: #000") <a href="http://blogs.technet.com" target="_blank">http://blogs.technet.com</a>
               tr
-                td(style="background-color: #fff; color: #000").text-center Common Vulnerabilities and Exposures
-                td(style="background-color: #fff; color: #000") <a href="https://cve.mitre.org/" target="_blank">https://cve.mitre.org/</a>
+                td.p-4(style="background-color: #fff; color: #000").text-center Common Vulnerabilities and Exposures
+                td.p-4(style="background-color: #fff; color: #000") <a href="https://cve.mitre.org/" target="_blank">https://cve.mitre.org/</a>
               tr
-                td(style="background-color: #fff; color: #000").text-center Hackerstorm Vulnerability Database Tool
-                td(style="background-color: #fff; color: #000") <a href="http://www.hackerstorm.com" target="_blank">http://www.hackerstorm.com</a>
+                td.p-4(style="background-color: #fff; color: #000").text-center Hackerstorm Vulnerability Database Tool
+                td.p-4(style="background-color: #fff; color: #000") <a href="http://www.hackerstorm.com" target="_blank">http://www.hackerstorm.com</a>
               tr
-                td(style="background-color: #fff; color: #000").text-center CNET Blogs
-                td(style="background-color: #fff; color: #000") <a href="http://www.new.cnet.com" target="_blank">http://www.new.cnet.com</a>
+                td.p-4(style="background-color: #fff; color: #000").text-center CNET Blogs
+                td.p-4(style="background-color: #fff; color: #000") <a href="http://www.new.cnet.com" target="_blank">http://www.new.cnet.com</a>
 
     .row.align-items-center.mb-5
-      .col-md-7
+      .col-md-7(data-aos="fade-right")
         .bloque-texto-d.color-secundario.p-4.mb-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
@@ -625,7 +625,7 @@
       span Comparativo pruebas de penetración – <em>hacking</em> ético
     
     .tabla-b.color-acento-contenido.mb-5 
-      table
+      table(data-aos="fade-right")
         thead
           tr
             th(style="background-color: #E01650; color: #fff").text-center Pruebas de penetración
@@ -633,7 +633,7 @@
         tbody
           tr
             td(style="background-color: #F6F6F6; color: #000") El objetivo principal es encontrar vulnerabilidades dentro del entorno objetivo.
-            td(style="background-color: #F6F6F6; color: #000") Su objetivo es abarcar varios ataques a través de diferentes técnicas de hacking para encontrar fallas de seguridad.
+            td(style="background-color: #F6F6F6; color: #000") Su objetivo es abarcar varios ataques a través de diferentes técnicas de <em>hacking</em> para encontrar fallas de seguridad.
           tr
             td(style="background-color: #Fff; color: #000") Las pruebas de penetración se centran en la seguridad del área específica definida para las pruebas.
             td(style="background-color: #FFF; color: #000") El <em>hacking</em> ético es un término integral y las pruebas de penetración son una de las funciones del <em>hacker</em> ético.
@@ -670,7 +670,7 @@
               p Las vulnerabilidades en el sistema operativo pueden ser puertos y servicios abiertos, ya que la mayoría de los sistemas operativos instalan estos servicios y puertos por defecto, estas son las vulnerabilidades más comunes encontradas por los atacantes para obtener acceso a un sistema operativo; por lo tanto, para prevenir los ataques al sistema operativo se necesita eliminar o deshabilitar aquellos servicios y puertos que son innecesarios por el momento. 
           .row(titulo="Ataques a nivel de aplicación")
             .col-md-11
-              p A veces un entorno seguro de una organización construida por varios interesados (administradores de sistemas, administradores de bases de datos o desarrolladores) queda con lagunas vulnerables, incluso después de haber pensado que el trabajo está completo, ya que no todos los interesados están al tanto o son responsables de asegurar la aplicación web y/o la infraestructura. Estas lagunas de seguridad llevan, entonces, a la organización a graves riesgos más adelante, incluyendo costosas multas y daños a la reputación. Incluso dejando sus aplicaciones a la merced de los ciberdelincuentes, esto se ve que en el <em>software</em> se encuentra:
+              p A veces un entorno seguro de una organización construida por varios interesados (administradores de sistemas, administradores de bases de datos o desarrolladores) queda con lagunas vulnerables, incluso después de haber pensado que el trabajo está completo, ya que no todos los interesados están al tanto o son responsables de asegurar la aplicación <em>web</em> y/o la infraestructura. Estas lagunas de seguridad llevan, entonces, a la organización a graves riesgos más adelante, incluyendo costosas multas y daños a la reputación. Incluso dejando sus aplicaciones a la merced de los ciberdelincuentes, esto se ve que en el <em>software</em> se encuentra:
               ul.lista-ul.mb-5
                 li 
                   i.lista-ul__vineta
@@ -683,7 +683,7 @@
                   | Aplicaciones <em>web</em> antiguas y desactualizadas.
                 li 
                   i.lista-ul__vineta
-                  | La aplicación web y la mala configuración de la nube
+                  | La aplicación <em>web</em> y la mala configuración de la nube
                 li 
                   i.lista-ul__vineta
                   | Insuficiente protección de los cortafuegos.
@@ -694,7 +694,7 @@
               p Las configuraciones erróneas suelen considerarse un blanco fácil, ya que pueden ser fáciles de detectar en servidores <em>web</em>, nubes y aplicaciones mal configurados y luego se convierten en explotables, causando un daño significativo y provocando problemas catastróficos de fuga de datos para las empresas, una vez que un sistema es presa de una vulnerabilidad o falta de seguridad, sus datos sensibles corren el riesgo de ser robados o alterados muy a menudo, el mayor problema al que se enfrentan las organizaciones es que estos fallos no se identifican o abordan con la suficiente antelación de acuerdo con las mejores prácticas de higiene de seguridad.
           .row(titulo="Ataques <em>srhink/wrap</em>")
             .col-md-11
-              p cuando se instala un sistema operativo/aplicaciones viene una gran cantidad de <em>scripts</em> de ejemplo para hacer la vida de un administrador más fácil, el problema no es el afinamiento o la personalización de estos scripts, lo cual llevará a un código predeterminado o  a ataques de código <em>shrink wrap</em>, para lo cual se considera un ataque de este tipo a solo el acto de explotar agujeros en software sin parches o mal configurado. Para utilizar el término de otra manera, una "vulnerabilidad de <em>shrink wrap</em>" sería aquella que solo debería verse en un producto inmediatamente después de su instalación inicial "recién salido del <em>shrink wrap</em>", se podría decir.
+              p cuando se instala un sistema operativo/aplicaciones viene una gran cantidad de <em>scripts</em> de ejemplo para hacer la vida de un administrador más fácil, el problema no es el afinamiento o la personalización de estos scripts, lo cual llevará a un código predeterminado o  a ataques de código <em>shrink wrap</em>, para lo cual se considera un ataque de este tipo a solo el acto de explotar agujeros en <em>software</em> sin parches o mal configurado. Para utilizar el término de otra manera, una "vulnerabilidad de <em>shrink wrap</em>" sería aquella que solo debería verse en un producto inmediatamente después de su instalación inicial "recién salido del <em>shrink wrap</em>", se podría decir.
               p La mayor parte de Internet depende de un número relativamente pequeño de aplicaciones, marcos y sistemas operativos diferentes, dado que estas plataformas se comparten entre una gran base de destinatarios y que tantas organizaciones y/o administradores optan por ignorar el "fruto de la casualidad", este tipo de vulnerabilidades suelen ser las primeras a las que recurrirá un atacante para explotar rápidamente un sistema.
       .col-md-4
         figure(data-aos="fade-left")

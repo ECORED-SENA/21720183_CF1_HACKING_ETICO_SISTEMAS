@@ -7,12 +7,12 @@
         span 3
       h1 Metodologías del #[i hacking] ético
 
-    p Se le invita a revisar el siguiente recurso que hace una introducción a las metodologías del hacking ético.
+    p.mb-5 Se le invita a revisar el siguiente recurso que hace una introducción a las metodologías del #[i hacking] ético.
 
-    figure.mb-4
+    figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+    separador
     #t_3_1.titulo-segundo.color-acento-contenido.p-0(data-aos="fade-right")
       h2 3.1 Estándares y metodologías
     
@@ -35,7 +35,7 @@
       .col-md-6
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema3/img04.svg')
-      .col-md-6
+      .col-md-6.mb-5
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema2/img36.png')
       .col-md-10
@@ -65,22 +65,22 @@
             p se refiere a los análisis de seguridad a través de entrevistas e investigación de nivel medio que incluye la justificación negocios, las justificaciones legales y las justificaciones específicas de la industria.
           .row(numero="e." titulo="Auditoría de seguridad")
             p se refiere a la continua inspección que sufre el sistema por parte de los administradores que controlan que se cumplan las políticas de seguridad definidas.
-          .row(numero="f." titulo="Hacking ético")
+          .row(numero="f." titulo="<em>Hacking</em> ético")
             p orientado a tratar de obtener, a partir de los test de intrusión, objetivos complejos dentro de la red de sistemas.
 
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="ISSAF" :icono="require('@/assets/curso/tema3/img06.png')")
         .row.justify-content-evenly.align-items-center
           .col-md-8.mb-4.mb-md-0
-            p El ISSAF (Information System Security Assessment Framework) es un enfoque especializado y estructurado para las pruebas de penetración, más importante aún, el framework proporciona metodologías avanzadas que están personalizadas para el contexto.
-            p Estos estándares le permiten al pentester planificar y ejecutar cada paso del proceso de prueba de penetración, por lo tanto, satisface todos los requisitos del proceso de prueba de penetración. Como hacker ético si está utilizando diferentes herramientas, ISSAF es un framework crucial, por ejemplo, vincula cada paso a una herramienta específica y, por lo tanto, reduce la complejidad.
+            p El ISSAF (Information System Security Assessment Framework) es un enfoque especializado y estructurado para las pruebas de penetración, más importante aún, el <em>framework</em> proporciona metodologías avanzadas que están personalizadas para el contexto.
+            p Estos estándares le permiten al pentester planificar y ejecutar cada paso del proceso de prueba de penetración, por lo tanto, satisface todos los requisitos del proceso de prueba de penetración. Como <em>hacker</em> ético si está utilizando diferentes herramientas, ISSAF es un framework crucial, por ejemplo, vincula cada paso a una herramienta específica y, por lo tanto, reduce la complejidad.
             p ISSAF ofrece información adicional sobre varios vectores de ataque, así como el resultado de la vulnerabilidad después de la explotación, toda esta información permite a los evaluadores planificar un ataque avanzado que garantiza beneficios al tiempo que protege los sistemas de los ataques cibernéticos.
           .col-md-2.col-4
             img(src='@/assets/curso/tema3/img11.png')
       .py-4.py-md-5(titulo="OWASP" :icono="require('@/assets/curso/tema3/img07.png')")
         .row.justify-content-evenly.align-items-center
           .col-md-8.mb-4.mb-md-0
-            p “OWASP Testing Project”Project” (está muy orientado a realizar pruebas sobre aplicaciones web y está en el camino de convertirse en uno de los proyectos referencia en su ámbito OWASP, ha conseguido ser una referencia habitual para cualquier desarrollador en el ámbito de la seguridad OTP en particular, se encuentra enfocado a responder preguntas tales como ¿qué?, ¿por qué?, ¿cuándo?, ¿dónde? y ¿cómo? Al testear una aplicación web se cubren los siguientes puntos:
+            p “OWASP Testing Project”Project” (está muy orientado a realizar pruebas sobre aplicaciones <em>web</em> y está en el camino de convertirse en uno de los proyectos referencia en su ámbito <em>OWASP</em>, ha conseguido ser una referencia habitual para cualquier desarrollador en el ámbito de la seguridad OTP en particular, se encuentra enfocado a responder preguntas tales como ¿qué?, ¿por qué?, ¿cuándo?, ¿dónde? y ¿cómo? Al testear una aplicación <em>web</em> se cubren los siguientes puntos:
             ul.lista-ul
               li 
                 i.fas.fa-lock.fa-fw
@@ -99,13 +99,13 @@
       .py-4.py-md-5(titulo="OTP" :icono="require('@/assets/curso/tema3/img08.png')")
         .row.justify-content-evenly.align-items-center
           .col-md-8.mb-4.mb-md-0
-            p OTP incorpora en su metodología de testeo, aspectos clave relacionados con el “Ciclo de vida del desarrollo de software” a fin de que el “testeo a realizar comience mucho antes de que la aplicación web se encuentre en producción, de este modo, y teniendo en cuenta que un programa efectivo de testeo de aplicaciones web, debe incluir elementos como testear personas, procesos y tecnologías, OTP delinea en su primer parte conceptos claves a la vez que introduce un framework específicamente diseñado para evaluar la seguridad de aplicaciones web a lo largo de su vida.
+            p OTP incorpora en su metodología de testeo, aspectos clave relacionados con el “Ciclo de vida del desarrollo de <em>software</em>” a fin de que el “testeo a realizar comience mucho antes de que la aplicación <em>web</em> se encuentre en producción, de este modo, y teniendo en cuenta que un programa efectivo de testeo de aplicaciones <em>web</em>, debe incluir elementos como testear personas, procesos y tecnologías, OTP delinea en su primer parte conceptos claves a la vez que introduce un framework específicamente diseñado para evaluar la seguridad de aplicaciones <em>web</em> a lo largo de su vida.
           .col-md-2.col-4
             img(src='@/assets/curso/tema3/img13.png')
       .py-4.py-md-5(titulo="CEH" :icono="require('@/assets/curso/tema3/img09.png')")
         .row.justify-content-evenly.align-items-center
           .col-md-8.mb-4.mb-md-0
-            p Acrónimo de “Certified Ethical Hacker “ es uno de los más reconocidos internacionalmente en el campo del hacking ético y la auditoría de sistemas informáticos, es una metodología de pruebas de seguridad desarrollada por el International Council of Electronic Commerce Consultants (EC Council) algunas de las fases enunciadas en esta metodología son:
+            p Acrónimo de “Certified Ethical <em>hacker</em> “ es uno de los más reconocidos internacionalmente en el campo del #[i hacking] ético y la auditoría de sistemas informáticos, es una metodología de pruebas de seguridad desarrollada por el International Council of Electronic Commerce Consultants (EC Council) algunas de las fases enunciadas en esta metodología son:
             ul.lista-ul
               li 
                 i.fas.fa-lock.fa-fw
@@ -147,10 +147,10 @@
       h2 3.2 Buenas prácticas   
     
     p Se utiliza para identificar los riesgos y poner de relieve las acciones correctivas, y también reduce los
-    p costos de las Tecnologías de la Información y la Comunicación (TIC); sin embargo, a menos que las empresas primero sepan que es lo que buscan, y por qué están contratando a un proveedor externo para hackear los sistemas en primer lugar, lo más probable es que no se gane mucha experiencia del ejercicio, un hacker ético, solo puede ayudar a la organización a entender mejor sus sistemas de seguridad, pero está de parte de la organización el colocar las salvaguardas en sus redes.
-    p El hacking ético es un componente crucial para desarrollar las mejores prácticas y el buen gobierno para resolver las vulnerabilidades, desde:
+    p costos de las Tecnologías de la Información y la Comunicación (TIC); sin embargo, a menos que las empresas primero sepan que es lo que buscan, y por qué están contratando a un proveedor externo para hackear los sistemas en primer lugar, lo más probable es que no se gane mucha experiencia del ejercicio, un <em>hacker</em> ético, solo puede ayudar a la organización a entender mejor sus sistemas de seguridad, pero está de parte de la organización el colocar las salvaguardas en sus redes.
+    p.mb-5 El #[i hacking] ético es un componente crucial para desarrollar las mejores prácticas y el buen gobierno para resolver las vulnerabilidades, desde:
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-md-4.col-10
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema3/img16.svg')
@@ -161,17 +161,17 @@
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema3/img18.svg')
     
-    .row.mb-4
+    .row.align-items-center.mb-4
       .col-md-9
-        p Dentro de las buenas prácticas de un hacker ético encontrará que ellos tratan de responder las siguientes preguntas:
+        p Dentro de las buenas prácticas de un <em>hacker</em> ético encontrará que ellos tratan de responder las siguientes preguntas:
         ul.lista-ul
-          li 
+          li.mb-4 
             i.fas.fa-lock.fa-fw
             | ¿Qué puede ver un intruso en el sistema de destino? (reconocimiento y fases de exploración)
-          li 
+          li.mb-4 
             i.fas.fa-lock.fa-fw
             | ¿Qué puede hacer un intruso con esa información? (obtención de acceso y permanencia)
-          li 
+          li.mb-4  
             i.fas.fa-lock.fa-fw
             | ¿Hay alguien en el objetivo que pueda detectar los intentos y aciertos de los intrusos? (reconocimiento y cubrimiento de huellas)
       .col-md-3.col-6
