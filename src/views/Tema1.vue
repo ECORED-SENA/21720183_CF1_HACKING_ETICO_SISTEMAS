@@ -11,7 +11,7 @@
       .col-md-3.col-6.p-0.ms-1
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img02.png')  
-      .col-md-8.col-12
+      .col-md-8.col-12.p-4
         p Los sistemas de gestión, planes de continuidad del negocio son de vital importancia; sin embargo, los aspectos técnicos son la base sostenible de la ciberseguridad y de la seguridad informática. Los ataques informáticos lamentablemente pueden ser llevados a cabo por personas sin gran experiencia, quienes por medio de herramientas básicas pueden conseguir objetivos de fácil acceso. Es importante resaltar que tener conocimiento del <em>modus operandi</em> de la ciberdelincuencia, articulado a conocimientos técnicos marcan la diferencia en cargos relacionados con la ciberseguridad y la seguridad informática, ya que de esta manera se puede evidenciar un ataque difícil de ser detectado. 
         p Por lo anterior, la inversión en capacitación de personal es indiscutiblemente el pilar fundamental de toda implementación de seguridad, teniendo en cuenta que adquirir sistemas de seguridad con altas capacidades y características lleva a las organizaciones a entrar en un estado de falsa seguridad, dando un segundo lugar a las capacidades humanas.
 
@@ -69,30 +69,30 @@
           template(v-slot:imagen)
             figure(data-aos="fade-right")
               img(src='@/assets/curso/tema1/img07.svg')
-          .tarjeta.BG01.p-3(x="21.9%" y="25.4%")
+          .tarjeta.BG01.p-3(x="50%" y="87.8%")
             h5 CONFIDENCIALIDAD
             p La información solo es accesible para usuarios autorizados.
-          .tarjeta.BG01.p-3(x="50.8%" y="90%")
+          .tarjeta.BG01.p-3(x="22%" y="10%")
             h5 INTEGRIDAD
             p Los recursos deben estar protegidos y deben ser exactos y completos.
-          .tarjeta.BG01.p-3(x="77.9%" y="25.4%")
+          .tarjeta.BG01.p-3(x="78.1%" y="11.3%")
             h5 DISPONIBILIDAD
             p Los usuarios autorizados deben tener acceso a la información cuando requieran.
     
     .row.justify-content-center.mb-5
       .col-md-9.col-11
         .row.BGIMG04
-          .col-2
+          .col-lg-2.col-md-3.col-4
             figure(data-aos="fade-right")
               img.img01(src='@/assets/curso/tema1/img09.svg')  
-          .col-10.py-5.pe-4
+          .col-lg-10.col-md-9.col-8.py-5.pe-md-4.pe-3
             p <b>Confidencialidad</b>: se puede equiparar con la privacidad que tiene un usuario o empresa, radica en todas las medidas que se toman para que los datos solo lleguen a personas autorizadas y no caigan en manos de terceros o ciberdelincuentes, igualmente, se diseña de cierta manera para que la información esté cifrada y solo pueden acceder a ella personal autorizado bajo claves o contraseñas; el poder salvaguardar la información tiene la visión ética de cada una de las personas que tienen acceso, y de ser conscientes de los riesgos, amenazas y vulnerabilidades a las cuales están expuestos.
             p La confidencialidad se refiere a los esfuerzos de una organización por mantener sus datos en privado o en secreto, en la práctica, se trata de controlar el acceso a los datos para impedir su divulgación no autorizada, por lo general, se trata de asegurar que solo las personas autorizadas tengan acceso a determinados bienes y que se impida activamente el acceso de las personas no autorizadas. 
       .col-md-9.col-11.me-5
         .row.BG02
-          .col-10.p-5
+          .col-lg-10.col-md-8.col-12.p-5
             p <b>Por ejemplo</b>, solo los empleados autorizados de la nómina deben tener acceso a la base de datos de los empleados; además, dentro de un grupo de usuarios autorizados puede haber limitaciones adicionales más estrictas sobre la información exacta a la que se permite acceder a esos usuarios autorizados. 
-          .col-2
+          .col-lg-2.col-md-4.col-6
             figure(data-aos="fade-left")
               img.img02(src='@/assets/curso/tema1/img10.png') 
   
@@ -101,32 +101,32 @@
     SlyderF.mb-5(columnas="col-12")
       .tarjeta
         .row.align-items-center
-          .col-md-6
+          .col-lg-6.col-12
             figure.img03
               img(src='@/assets/curso/tema1/img11.png')
-          .col-md-6.BG03.p-4
+          .col-lg-6.col-12.BG03.p-4
             p La confidencialidad puede violarse de muchas maneras, como ataques directos destinados a obtener acceso no autorizado a sistemas, aplicaciones y bases de datos, con el fin de robar o manipular datos, el reconocimiento de redes y otros tipos de escaneos, las escuchas electrónicas (mediante un ataque de hombre en medio) y la escalada de los privilegios del sistema por parte de un atacante son solo algunos ejemplos, pero la confidencialidad también puede ser violada sin querer, por error humano, descuido o controles de seguridad inadecuados, entre los ejemplos cabe citar la incapacidad (por parte de los usuarios o de la seguridad de la tecnología de la información) de proteger adecuadamente las contraseñas; el uso compartido de cuentas de usuario; la escucha física (también conocida como “#[i shoulder surfing]"); la no codificación de los datos (en proceso, en tránsito y cuando están almacenados); los sistemas de autenticación deficientes, débiles o inexistentes; y el robo de equipo físico y dispositivos de almacenamiento.  
       .tarjeta
         .row.align-items-center
-          .col-md-6
+          .col-lg-6.col-12
             figure.img03
               img(src='@/assets/curso/tema1/img12.png')
-          .col-md-6.BG03.p-4
+          .col-lg-6.col-12.BG03.p-4
             p Integridad: está inmersa en poder dar a los datos características como precisión, confiabilidad y consistencia, estos a su vez no deben ser alterados en su paso y se toman medidas de seguridad que garanticen que no se deben modificar, se realiza a través de permisos y controles de cada uno de los usuarios autorizados al acceso.
             p En el uso diario, la integridad se refiere a la calidad de algo que está entero o completo, se refiere a asegurar que los datos no han sido manipulados y, por lo tanto, se puede confiar en ellos, es correcto, auténtico y fiable, como ocurre con la confidencialidad, la integridad puede verse comprometida directamente a través de un vector de ataque (como la manipulación de los sistemas de detección de intrusos, la modificación de los archivos de configuración o el cambio de los registros del sistema para eludir la detección) o involuntariamente, por error humano, falta de cuidado, errores de codificación o políticas, procedimientos y mecanismos de protección inadecuados.
       .tarjeta
         .row.align-items-center
-          .col-md-6
+          .col-lg-6.col-12
             figure.img03
               img(src='@/assets/curso/tema1/img13.png')
-          .col-md-6.BG03.p-md-5.p-4
+          .col-lg-6.col-12.BG03.p-md-5.p-4
             p Disponibilidad: radica en que la infraestructura de la información debe estar controlada rigurosamente, manteniendo el <em>hardware</em> en debido funcionamiento sin errores, para que de esta manera siempre que se necesite el acceso a la información esté disponible, evitando cuellos de botella y otros factores que pongan en riesgo la información.
             p Es por ello que los sistemas, las aplicaciones y los datos tienen poco valor para una organización y sus clientes si no son accesibles cuando los usuarios autorizados los necesitan, es por ello que la disponibilidad significa que las redes, los sistemas y las aplicaciones están en funcionamiento, garantizando que los usuarios autorizados tengan acceso oportuno y fiable a los recursos cuando los necesiten.
 
     .row.BGIMG05.justify-content-center.mb-4
       .col-md-8.col-10.mt-5
         p.mt-5 Muchas cosas pueden poner en peligro la disponibilidad, entre ellas las fallas de <em>hardware</em> o <em>software</em>, los cortes de energía, los desastres naturales y los errores humanos, tal vez el ataque más conocido que amenaza la disponibilidad sea el de negación del servicio, en el que el rendimiento de un sistema, un sitio <em>web</em>, una aplicación o un servicio basado en la web se degrada de forma intencionada y maliciosa, o el sistema se vuelve completamente inalcanzable. En la siguiente figura se pueden observar las estadísticas de la ciberseguridad en Colombia.
-      .col-2.mt-5
+      .col-md-2.col-6.mt-md-5.mb-4
         figure.mt-5(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img15.svg')
       .col-md-10.mb-4
@@ -141,14 +141,14 @@
       h2 1.2	Fases de #[i hacking]
     
     .row.mb-5
-      .col-md-7
+      .col-md-7.order-lg-1.order-2
         p La seguridad de la información es una creciente preocupación para las personas y las empresas, la protección de sus datos se ha convertido en una premisa, ya que los ataques por parte de ciberdelincuentes cada vez son más comunes; sin embargo, los riesgos y constantes amenazas dejan al desnudo los sistemas de información y los peligros que en la era digital se están afrontando en el mundo de hoy, es por ello que se ha hecho fundamental que tenga conocimientos informáticos y de seguridad para poder aplicarlos en los sistemas y redes, para poder solventar fallos a tiempo, documentarlos y atacarlos de forma efectiva.
         .cajon.color-acento-botones.p-4(data-aos="fade-right")
           p Para ello, se usan pruebas de penetración o conocidas comúnmente como <em>pentesting</em>, las cuales se usan para poder detectar riesgos en sus sistemas de información o redes, su uso pretende encontrar fallas en la seguridad de la información, saltándose las medidas de seguridad adoptadas por un individuo, empresa u organización, existen principalmente 5 fases del <em>hacking</em>, un <em>hacker</em> no necesariamente tiene seguirlas de forma secuencial; pero cuando se lleva de forma secuencial se obtienen mejores resultados.
-      .col-md-5.mb-4
+      .col-md-5.mb-4.order-lg-2.order-1
         figure(data-aos="zoom-in-down")
           img(src='@/assets/curso/tema1/img17.svg')
-      .col-md-4.col-6
+      .col-md-4.col-6.order-3
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img18.svg')
     
@@ -158,7 +158,7 @@
           img(src='@/assets/curso/tema1/img19.svg')
 
     .row.BGIMG06.justify-content-center.p-5.mb-5
-      .col-md-7.mt-4
+      .col-lg-7.col-md-10.col-12.mt-4.order-lg-1.order-2
         p En esta fase de reconocimiento la huella proporciona información importante como:
         .row.align-items-center.mb-4          
           .col-6.p-4
@@ -177,7 +177,7 @@
               img(src='@/assets/curso/tema1/img22.png')
         p Igualmente, hay otras formas de realizar la huella, como la suplantación de la identidad de un sitio <em>web</em> mediante su duplicación, el uso de motores de búsqueda para encontrar información sobre la organización e incluso el uso de la información de los empleados actuales para la suplantación.
         p En la siguiente tabla se presenta un comparativo entre la recolección activa y la recolección pasiva.
-      .col-md-5
+      .col-lg-5.col-md-7.col-9.order-lg-2.order-1
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img20.png')
 
@@ -259,10 +259,10 @@
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img26.svg')
       .col-md-10.mb-4
-        .row.BGIMG07.align-items-center.p-2
-          .col-10.px-5
+        .row.BGIMG07.align-items-center.justify-content-center.p-2
+          .col-lg-10.col-md-8.col-12.px-5
             p Los accesos hacen referencia al punto donde el atacante obtiene acceso al sistema operativo, a aplicaciones en el computador, al dispositivo o a la red, dentro de ella se puede realizar el descifrado de contraseñas, los desbordamientos de <em>buffer</em>, la denegación de servicio, el secuestro de sesión, entre los más comunes.
-          .col-2.px-3
+          .col-lg-2.col-md-4.col-6.px-3
             figure(data-aos="fade-left")
               img(src='@/assets/curso/tema1/img28.png')
 
@@ -304,10 +304,10 @@
       h2 1.3 <em>Hacking</em> ético 
 
   .container.BGIMG10.px-4.px-md-5.pt-5
-    .row.align-items-center.my-5
-      .col-md-9.col-10
+    .row.align-items-center.justify-content-center.my-5
+      .col-lg-9.col-md-8.col-11.order-md-1.order-2
         p Es muy frecuente que las personas, empresas u organizaciones instalen sistemas de seguridad para mantener sus propiedades y activos a salvo, que compren un seguro en caso de desastre o hurto; sin embargo, cuando se encuentra que ese activo es la información es muy poco común encontrarse que las empresas inviertan en el sistema de seguridad informática; que es igual o hasta muchas veces más importante que los mismos activos, es por ello que hoy por hoy, es la que los propietarios de las empresas pueden implementar con programas y procedimientos para proteger los computadores de la empresa de los piratas informáticos y de los virus, el pirateo en general cuesta a las empresas miles de millones de dólares cada año, pero hay más que dinero en juego si su empresa se encontrará con un <em>hacker</em> informático.
-      .col-md-3.col-2
+      .col-lg-3.col-md-4.col-6.order-md-2.order-1.mb-2
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img36.png') 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
@@ -433,10 +433,10 @@
             figure(data-aos="fade-right")
               img(src='@/assets/curso/tema1/img44.svg') 
           .col-md-9.col-11
-            .row.BG04
-              .col-9.p-4
+            .row.justify-content-center.align-items-center.BG04
+              .col-lg-9.col-md-8.col-11.p-4.order-md-1.order-2
                 p Un <b><em>hackers</em></b> en seguridad es alguien que explora métodos para romper las defensas y explotar las debilidades de un sistema o red informática. Los <b><em>hackers</em></b> pueden estar motivados por una multitud de razones, como el beneficio, la protesta, la recopilación de información, el desafío, la recreación o para evaluar las debilidades del sistema para ayudar a formular defensas contra posibles delincuentes. 
-              .col-md-3
+              .col-lg-3.col-md-4.col-6.order-md-2.order-1
                 figure(data-aos="fade-right")
                   img(src='@/assets/curso/tema1/img45.png') 
     
@@ -447,28 +447,28 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-8.col-9
+      .col-lg-8.col-md-7.col-10
         h4 ¿Por qué es necesario el #[i hacking] ético?
         hr
         .row.align-items-center
-          .col-1(data-aos="fade-right")
+          .col-lg-1.col-md-2.col-3(data-aos="fade-right")
             img(src='@/assets/curso/tema1/img46.png')
-          .col-10
+          .col-lg-10.col-md-9.col-8
             p El #[i hacking] ético es necesario, como piratería implica el pensamiento creativo, las pruebas de vulnerabilidad y auditorías de seguridad  que no pueden garantizar que sean seguras.
         hr
         .row.align-items-center
-          .col-1(data-aos="fade-right")
+          .col-lg-1.col-md-2.col-3(data-aos="fade-right")
             img(src='@/assets/curso/tema1/img46.png')
-          .col-10
+          .col-lg-10.col-md-9.col-8
             p Como estrategia de la defensa en profundidad, para ello, las organizaciones deben implementar este tipo de estrategia para penetrar en sus redes y así poder estimar las vulnerabilidades y exponerse.
         hr
         .row.align-items-center
-          .col-1(data-aos="fade-right")
+          .col-lg-1.col-md-2.col-3(data-aos="fade-right")
             img(src='@/assets/curso/tema1/img46.png')
-          .col-10
+          .col-lg-10.col-md-9.col-8
             p Para contrarrestar los ataques es necesario, ya que permite la lucha contra los ataques de los <em>hackers</em> mediante la prevención de intrusos en el sistema. 
         hr
-      .col-md-2.col-3
+      .col-lg-4.col-md-5.col-8
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img47.png')
     separador
@@ -477,7 +477,7 @@
 
     p Es el proceso de descubrimiento de vulnerabilidades y fallos de diseño que abrirá un sistema operativo y sus aplicaciones a los ataques o al mal uso, las vulnerabilidades se clasifican según el nivel de gravedad (bajo, medio o alto) y el rango que explotan (local o remota). A continuación, se presentan los casos de vulnerabilidades más comunes.     
 
-    figure.mb-4(data-aos="fade-down")
+    figure.mb-5(data-aos="fade-down")
       img(src='@/assets/curso/tema1/img48.svg')
     
     .row.mb-4
@@ -580,18 +580,18 @@
                 td.p-4(style="background-color: #fff; color: #000").text-center CNET Blogs
                 td.p-4(style="background-color: #fff; color: #000") <a href="http://www.new.cnet.com" target="_blank">http://www.new.cnet.com</a>
 
-    .row.align-items-center.mb-5
-      .col-md-7(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7.col-md-9.col-10(data-aos="fade-right").order-lg-1.order-2
         .bloque-texto-d.color-secundario.p-4.mb-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular Dentro de la investigación de vulnerabilidades se realizan las pruebas de penetración (o <em>pentesting</em>), como un ejercicio de seguridad en el que un experto en seguridad cibernética intenta encontrar y explotar las vulnerabilidades de un sistema informático, el propósito de este ataque simulado es identificar cualquier punto débil en las defensas de un sistema que los atacantes podrían aprovechar
+            p Dentro de la investigación de vulnerabilidades se realizan las pruebas de penetración (o <em>pentesting</em>), como un ejercicio de seguridad en el que un experto en seguridad cibernética intenta encontrar y explotar las vulnerabilidades de un sistema informático, el propósito de este ataque simulado es identificar cualquier punto débil en las defensas de un sistema que los atacantes podrían aprovechar
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 (Gaviria, 2015).
         .cajon.color-acento-contenido.p-4
           p Esto es como si un banco contratara a alguien para que se disfrace de ladrón y trate de entrar en su edificio y obtener acceso a la bóveda. Si el "ladrón" tiene éxito y entra en el banco o en la bóveda, el banco obtendrá información valiosa sobre cómo necesitan reforzar sus medidas de seguridad.
-      .col-md-5.col-6
+      .col-lg-5.col-md-6.col-8.order-lg-2.order-1.mb-3
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img57.png')
 
@@ -662,7 +662,7 @@
     p.mb-5 Hay varias maneras en que un atacante puede obtener acceso a un sistema, estos deben ser capaz de explotar una debilidad o vulnerabilidad en un sistema, entre los tipos de ataque más populares se encuentran:
 
     .row.align-items-center.mb-5
-      .col-md-8
+      .col-lg-8.col-7
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta BG06")
           .row.justify-content-center(titulo="Ataques al sistema operativo")
             .col-md-11
@@ -696,7 +696,7 @@
             .col-md-11
               p cuando se instala un sistema operativo/aplicaciones viene una gran cantidad de <em>scripts</em> de ejemplo para hacer la vida de un administrador más fácil, el problema no es el afinamiento o la personalización de estos scripts, lo cual llevará a un código predeterminado o  a ataques de código <em>shrink wrap</em>, para lo cual se considera un ataque de este tipo a solo el acto de explotar agujeros en <em>software</em> sin parches o mal configurado. Para utilizar el término de otra manera, una "vulnerabilidad de <em>shrink wrap</em>" sería aquella que solo debería verse en un producto inmediatamente después de su instalación inicial "recién salido del <em>shrink wrap</em>", se podría decir.
               p La mayor parte de Internet depende de un número relativamente pequeño de aplicaciones, marcos y sistemas operativos diferentes, dado que estas plataformas se comparten entre una gran base de destinatarios y que tantas organizaciones y/o administradores optan por ignorar el "fruto de la casualidad", este tipo de vulnerabilidades suelen ser las primeras a las que recurrirá un atacante para explotar rápidamente un sistema.
-      .col-md-4
+      .col-lg-4.col-5
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img63.svg')
 

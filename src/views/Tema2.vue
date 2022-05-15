@@ -214,8 +214,8 @@
       .col-md-8.mb-4
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema2/img32.svg')
-      .col-md-10
-        .cajon.bottom50.color-primario.p-4
+      .col-md-10.mb-lg-4.mb-5
+        .cajon.bottom50.color-primario.p-4.mb-5
           .row
             .col-2 
               figure(data-aos="fade-right")

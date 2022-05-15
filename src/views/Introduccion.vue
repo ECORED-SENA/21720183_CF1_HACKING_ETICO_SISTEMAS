@@ -13,9 +13,9 @@
       .col-md-9.col-11
         figure.mb-3(data-aos="fade-right")
           img(src='@/assets/curso/introduccion/img01.svg')  
-      .col-md-10
+      .col-lg-10.col-md-8.col-12
         p El <em>software</em> y el <em>hardware</em> son indicadores del crecimiento T.I en el mundo y con este crecimiento la ciberdelincuencia también lo hace exponencialmente siguiendo sus pasos. Las malas prácticas, configuraciones incorrectas y uso inadecuado de las tecnologías son procesos que se ejecutan día a día enmarcados por los ataques informáticos. Comprender el ecosistema de los ciberdelincuentes contribuye a mitigar los ataques de gran y pequeña escala, logrando minimizar la afectación de las organizaciones. A continuación, puede revisar la introducción de este componente.
-      .col-md-2
+      .col-lg-2.col-md-4.col-10
         figure(data-aos="fade-right")
           img(src='@/assets/curso/introduccion/img02.svg')  
       .col-md-2
