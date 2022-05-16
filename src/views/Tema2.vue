@@ -21,7 +21,7 @@
 
     p.mb-5 La siguiente historieta recrea algunos aspectos legales del <em>hacking</em> ético, revísela.
 
-    .tarjeta.tarjeta--azul.mb-5.pt-5
+    .tarjeta.tarjeta--azul.mb-5.p-4
       LineaTiempoC.color-primario(text-small)
         .row(titulo="1")
           .col-md-12
@@ -248,19 +248,19 @@
         .col-md-8
           hr
           .row.align-items-center
-            .col-1
+            .col-lg-1.col-2
               img(src='@/assets/curso/tema1/img46.png')
             .col-10
               p Establece los requisitos mínimos para los planes y procedimientos de seguridad de la información.
           hr
           .row.align-items-center
-            .col-1
+            .col-lg-1.col-2
               img(src='@/assets/curso/tema1/img46.png')
             .col-10
               p Recomienda los tipos de seguridad (sistemas, programas informáticos, etc.) que los organismos deben aplicar y aprueba a los proveedores.
           hr
           .row.align-items-center
-            .col-1
+            .col-lg-1.col-2
               img(src='@/assets/curso/tema1/img46.png')
             .col-10
               p Estandariza el proceso de evaluación de riesgos y establece diversas normas de seguridad de la información basadas en las evaluaciones de riesgos de los organismos. Cada organismo tiene diferentes niveles de requisitos de seguridad: el Organismo Nacional de Seguridad y el Organismo de Vivienda y Desarrollo Urbano, por ejemplo, tienen diferentes niveles de riesgo y, por consiguiente, diferentes requisitos de seguridad.

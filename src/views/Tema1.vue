@@ -98,7 +98,7 @@
   
   .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5
     
-    SlyderF.mb-5(columnas="col-12")
+    SlyderF.morado.mb-5(columnas="col-12")
       .tarjeta
         .row.align-items-center
           .col-lg-6.col-12
@@ -197,28 +197,28 @@
               p.text-bold Es de gran efectividad, pero no es la mejor aliada si de anonimato se quiere hablar, porque puede llamar mucho la atención del objetivo:
               ul.lista-ul
                 li.mb-4 
-                  i.fas.fa-angle-right
+                  i.fas.fa-angle-double-right
                   | Campañas de ingeniería social (llamadas falsas).
                 li.mb-4 
-                  i.fas.fa-angle-right
+                  i.fas.fa-angle-double-right
                   | Metasploitable.
                 li.mb-4 
-                  i.fas.fa-angle-right
+                  i.fas.fa-angle-double-right
                   | Ataques al objetivo u escaneos invasivos.
             td(style="background-color: #F6F6F6; color: #000")
               p.text-bold Es cuando se tiene un contacto directo con el objetivo, es decir, cuando existe el apoyo de fuentes públicas para obtener información, lo cual ayuda a mantener el anonimato y es menos “ruidosa” que la activa; estas fuentes pueden ser:
               ul.lista-ul
                 li.mb-4 
-                  i.fas.fa-angle-right
+                  i.fas.fa-angle-double-right
                   | Sitios <em>web</em> relacionados con el objetivo.
                 li.mb-4 
-                  i.fas.fa-angle-right
+                  i.fas.fa-angle-double-right
                   | Motores de búsqueda.
                 li.mb-4 
-                  i.fas.fa-angle-right
+                  i.fas.fa-angle-double-right
                   | Redes sociales.
                 li.mb-4 
-                  i.fas.fa-angle-right
+                  i.fas.fa-angle-double-right
                   | Blogs.
     .row.mb-4
       .col-md-3.col-5
@@ -451,19 +451,19 @@
         h4 ¿Por qué es necesario el #[i hacking] ético?
         hr
         .row.align-items-center
-          .col-lg-1.col-md-2.col-3(data-aos="fade-right")
+          .col-lg-1.col-2(data-aos="fade-right")
             img(src='@/assets/curso/tema1/img46.png')
           .col-lg-10.col-md-9.col-8
             p El #[i hacking] ético es necesario, como piratería implica el pensamiento creativo, las pruebas de vulnerabilidad y auditorías de seguridad  que no pueden garantizar que sean seguras.
         hr
         .row.align-items-center
-          .col-lg-1.col-md-2.col-3(data-aos="fade-right")
+          .col-lg-1.col-2(data-aos="fade-right")
             img(src='@/assets/curso/tema1/img46.png')
           .col-lg-10.col-md-9.col-8
             p Como estrategia de la defensa en profundidad, para ello, las organizaciones deben implementar este tipo de estrategia para penetrar en sus redes y así poder estimar las vulnerabilidades y exponerse.
         hr
         .row.align-items-center
-          .col-lg-1.col-md-2.col-3(data-aos="fade-right")
+          .col-lg-1.col-2(data-aos="fade-right")
             img(src='@/assets/curso/tema1/img46.png')
           .col-lg-10.col-md-9.col-8
             p Para contrarrestar los ataques es necesario, ya que permite la lucha contra los ataques de los <em>hackers</em> mediante la prevención de intrusos en el sistema. 
@@ -513,7 +513,7 @@
       p Existen sitios <em>web</em> de investigación de vulnerabilidades, como:
     
     .BGIMG12.p-5.mb-4
-      SlyderA(tipo="b")
+      SlyderA.morado(tipo="b")
         .row.align-items-center
           .col-md-6.mb-md-0.mb-4
             p El <em>software</em> Engineering Institute (SEI), que es un instituto federal estadounidense de investigación y desarrollo, fundado por el Congreso de los Estados Unidos en 1984 para desarrollar modelos de evaluación y mejora en el desarrollo de <em>software</em>, que dieran respuesta a los problemas que generaba al ejército estadounidense la programación e integración de los sub-sistemas de <em>software</em> en la construcción de complejos sistemas militares. Financiado por el Departamento de Defensa de los Estados Unidos y administrado por la Universidad Carnegie Mellon. Es un referente en Ingeniería de <em>software</em> por realizar el desarrollo del modelo SW-CMM (1991) que ha sido el punto de arranque de todos los que han ido formando parte del modelo que ha desarrollado sobre el concepto de capacidad y madurez, hasta el actual CMMI.

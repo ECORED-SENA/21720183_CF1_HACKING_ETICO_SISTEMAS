@@ -42,7 +42,7 @@
         .bloque-texto-d.color-secundario.p-4.mb-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular Un aspecto importante de esta metodología es que no solo se centra en los aspectos eminentemente técnicos de seguridad tradicionales, sino que abarca aspectos sobre los responsables del testeo, trata de estandarizar las credenciales del desarrollador a cargo del test, el formato de los resultados, crear un código ético, un plan temporal de ejecución, entre otros, un aspecto muy importante de la metodología, es la incorporación del concepto de valores de evaluación de riesgo, que permiten diferenciar y clasificar las diferentes problemáticas 
+            p Un aspecto importante de esta metodología es que no solo se centra en los aspectos eminentemente técnicos de seguridad tradicionales, sino que abarca aspectos sobre los responsables del testeo, trata de estandarizar las credenciales del desarrollador a cargo del test, el formato de los resultados, crear un código ético, un plan temporal de ejecución, entre otros, un aspecto muy importante de la metodología, es la incorporación del concepto de valores de evaluación de riesgo, que permiten diferenciar y clasificar las diferentes problemáticas 
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 (Caballero, 2015).
@@ -151,13 +151,13 @@
     p.mb-5 El #[i hacking] ético es un componente crucial para desarrollar las mejores prácticas y el buen gobierno para resolver las vulnerabilidades, desde:
 
     .row.justify-content-center.mb-5
-      .col-md-4.col-10
+      .col-md-4.col-10.mb-md-0.mb-4
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema3/img16.svg')
-      .col-md-4.col-10
+      .col-md-4.col-10.mb-md-0.mb-4
         figure(data-aos="fade-down")
           img(src='@/assets/curso/tema3/img17.svg')
-      .col-md-4.col-10
+      .col-md-4.col-10.mb-md-0.mb-4
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema3/img18.svg')
     
