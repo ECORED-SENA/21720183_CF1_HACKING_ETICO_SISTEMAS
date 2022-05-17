@@ -56,9 +56,12 @@
 
   .container.BGIMG14.px-4.px-md-5
     .row.align-items-center
-      .col-md-4.col-8.mt-5.mb-2
-        figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema2/img10.svg')
+      .col-lg-5.col-md-6.col-8.mt-5.mb-4
+        .row.align-items-center.mt-5.BGIMG15(data-aos="fade-right")
+          .col-11.p-1
+            .h4.ms-3.mb-0.text-white Problemas profesionales del #[i hacking] ético
+          .col-1
+            img.img05(src='@/assets/curso/tema1/img19.png')
       .col-md-12.mb-4
         .row.align-items-center
           .col-md-8.col-12
@@ -68,9 +71,12 @@
           .col-md-4.col-8 
             figure(data-aos="fade-right")
               img(src='@/assets/curso/tema2/img11.png')
-      .col-md-2.col-4.mb-4
-        figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema2/img12.svg')
+      .col-lg-5.col-md-6.col-8
+        .row.align-items-center.BGIMG15(data-aos="fade-right")
+          .col-11.p-1
+            .h4.ms-3.mb-0.text-white Códigos de ética
+          .col-1
+            img.img05(src='@/assets/curso/tema1/img19.png')
       .col-md-12.mb-5
         .row.align-items-center 
           .col-md-5.col-10 
@@ -126,9 +132,12 @@
     .BGIMG03.py-5.pe-5.mb-4
       p.mt-5.ms-5 A continuación, se realizará la descripción de cada una.
       .row.mb-5
-        .col-md-5.col-6.mb-5
-          figure(data-aos="fade-right")
-            img(src='@/assets/curso/tema2/img20.svg')
+        .col-lg-5.col-md-6.col-8
+          .row.align-items-center.BGIMG15(data-aos="fade-right")
+            .col-11.p-1
+              .h4.ms-3.mb-0.text-white PCI (Payment Card Industry Security Standards)
+            .col-1
+              img.img05(src='@/assets/curso/tema1/img19.png')
         .col-md-10  
           p.ms-5 También conocida como la norma de seguridad de datos de la industria de las tarjetas de pago (PCI DSS).
       .row.justify-content-center.mb-5 
@@ -138,9 +147,12 @@
     
     .BGIMG05.p-4.mb-4
       .row.mb-4
-        .col-md-3.col-4
-          figure(data-aos="fade-right")
-            img(src='@/assets/curso/tema2/img22.svg')
+        .col-lg-5.col-md-6.col-8
+          .row.align-items-center.BGIMG15(data-aos="fade-right")
+            .col-11.p-1
+              .h4.ms-3.mb-0.text-white ISO/IEC 27001:2013
+            .col-1
+              img.img05(src='@/assets/curso/tema1/img19.png')
       p También conocida como ISO27001.
       .row.justify-content-center.mb-4  
         .col-md-10
@@ -148,9 +160,12 @@
             img(src='@/assets/curso/tema2/img23.svg')
 
     .row.mb-4
-      .col-md-7.col-8
-        figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema2/img24.svg')  
+      .col-lg-5.col-md-6.col-8
+        .row.align-items-center.BGIMG15(data-aos="fade-right")
+          .col-11.p-1
+            .h4.ms-3.mb-0.text-white Ley de Portabilidad y Responsabilidad del Sistema de Seguro Médico (HIPAA)
+          .col-1
+            img.img05(src='@/assets/curso/tema1/img19.png') 
 
     p HIPAA es el acrónimo de la Ley de Portabilidad y Responsabilidad del Seguro Médico que fue aprobada por el congreso americano en 1996.  La HIPAA hace lo siguiente:
 
@@ -187,9 +202,12 @@
               img(src='@/assets/curso/tema2/img27.png')
 
     .row.mb-4
-      .col-md-3.col-4
-        figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema2/img28.svg')
+      .col-lg-5.col-md-6.col-8
+        .row.align-items-center.BGIMG15(data-aos="fade-right")
+          .col-11.p-1
+            .h4.ms-3.mb-0.text-white Ley Sarbanes Oxley (SOX)
+          .col-1
+            img.img05(src='@/assets/curso/tema1/img19.png') 
     
     .row.justify-content-center.mb-4
       .col-md-10.mb-4
@@ -204,9 +222,12 @@
               img(src='@/assets/curso/tema2/img30.png')
     
     .row.mb-4
-      .col-md-5.col-6
-        figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema2/img31.svg')
+      .col-lg-5.col-md-6.col-8
+        .row.align-items-center.BGIMG15(data-aos="fade-right")
+          .col-11.p-1
+            .h4.ms-3.mb-0.text-white La Ley de Derechos de Autor del Milenio Digital (DMCA)
+          .col-1
+            img.img05(src='@/assets/curso/tema1/img19.png') 
     
     p  Es una ley de derechos de autor de los Estados Unidos.
 

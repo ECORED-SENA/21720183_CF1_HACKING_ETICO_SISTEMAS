@@ -148,10 +148,15 @@
       .col-md-5.mb-4.order-lg-2.order-1
         figure(data-aos="zoom-in-down")
           img(src='@/assets/curso/tema1/img17.svg')
-      .col-md-4.col-6.order-3
-        figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img18.svg')
-    
+
+    .row.mb-5 
+      .col-lg-5.col-md-6.col-8
+        .row.align-items-center.BGIMG15(data-aos="fade-right")
+          .col-11.p-1
+            .h4.ms-3.mb-0.text-white Fase 1 Reconocimiento (Reconnaissance)
+          .col-1
+            img.img05(src='@/assets/curso/tema1/img19.png')
+
     .row.justify-content-center.mb-5
       .col-md-10
         figure(data-aos="fade-right")
@@ -220,10 +225,14 @@
                 li.mb-4 
                   i.fas.fa-angle-double-right
                   | Blogs.
-    .row.mb-4
-      .col-md-3.col-5
-        figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img23.svg')   
+
+    .row.mb-5 
+      .col-lg-5.col-md-6.col-8
+        .row.align-items-center.BGIMG15(data-aos="fade-right")
+          .col-11.p-2
+            .h4.ms-3.mb-0.text-white Fase 2 Escaneo (scanning)
+          .col-1
+            img.img05(src='@/assets/curso/tema1/img19.png')
     
     .row.justify-content-center.mb-5
       .col-md-8
@@ -249,10 +258,13 @@
             td.p-5(style="background-color: #F6F6F6; color: #000") La exploración puede incluir el uso de marcadores, analizadores de puertos, la cartografía de la red, barrido, escáneres de vulnerabilidades, entre otros.
             td.p-5(style="background-color: #F6F6F6; color: #000") Los atacantes extraen información como los nombres de equipos, direcciones IP y cuentas de usuario para lanzar ataques posteriores.
 
-    .row.mb-5
-      .col-md-4.col-5
-        figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img25.svg')   
+    .row.mb-5 
+      .col-lg-5.col-md-6.col-8
+        .row.align-items-center.BGIMG15(data-aos="fade-right")
+          .col-11.p-2
+            .h4.ms-3.mb-0.text-white Fase 3 Ganar acceso (Gaining access)
+          .col-1
+            img.img05(src='@/assets/curso/tema1/img19.png')  
     
     .row.justify-content-center.mb-4
       .col-md-10.mb-5
@@ -266,37 +278,49 @@
             figure(data-aos="fade-left")
               img(src='@/assets/curso/tema1/img28.png')
 
-    .row.mb-4
-      .col-md-5.col-6
-        figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img29.svg')   
+    .row.mb-5 
+      .col-lg-5.col-md-6.col-8
+        .row.align-items-center.BGIMG15(data-aos="fade-right")
+          .col-11.p-2
+            .h4.ms-3.mb-0.text-white Fase 4 Mantener el acceso (Maintaining access)
+          .col-1
+            img.img05(src='@/assets/curso/tema1/img19.png')   
     
     .row.justify-content-end.mb-5
       .col-md-9
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img30.svg')
 
-    .row.justify-content-center.mb-5
-      .col-md-10.BGIMG08.p-5(data-aos="fade-right")
-        .row.justify-content-end.py-5
-          .col-7
-            p Mantener el acceso es el fin de esta fase, lo que se trata de poder permanecer con el control del sistema, los atacantes pueden impedir que el sistema sea propiedad de otros atacantes, asegurando su acceso exclusivo con puertas traseras, <em>rootkits</em> y troyanos e incluso usan ya el sistema que se encuentra comprometido para poder lanzar nuevos ataques.
-
-    .row.mb-4
-      .col-md-4.col-5
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-4.col-6.mb-md-0.mb-0
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img32.svg')   
+          img(src='@/assets/curso/tema1/img31.png')
+      .col-md-6.col-11
+        p.mt-5 Mantener el acceso es el fin de esta fase, lo que se trata de poder permanecer con el control del sistema, los atacantes pueden impedir que el sistema sea propiedad de otros atacantes, asegurando su acceso exclusivo con puertas traseras, <em>rootkits</em> y troyanos e incluso usan ya el sistema que se encuentra comprometido para poder lanzar nuevos ataques.
+        figure.img06(data-aos="fade-left")
+          img(src='@/assets/curso/introduccion/img03.svg')
+
+    .row.mb-5 
+      .col-lg-5.col-md-6.col-8
+        .row.align-items-center.BGIMG15(data-aos="fade-right")
+          .col-11.p-2
+            .h4.ms-3.mb-0.text-white Fase 5 Cubrir huellas (Clearing tracks)
+          .col-1
+            img.img05(src='@/assets/curso/tema1/img19.png')  
     
     .row.justify-content-center.mb-5
       .col-md-10
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img33.svg') 
     
-    .row.justify-content-center.mb-4
-      .col-md-10.BGIMG09.p-5(data-aos="fade-left")
-        .row.py-5
-          .col-7
-            p Las intenciones del atacante incluyen acceso continuo a los sistemas víctimas, pasar inadvertido y eliminar las pruebas que puedan conducir a su identificación, es por ello que se disfraza entre el sistema para no ser detectado y así evitar cualquier sospecha, haciendo pensar que es parte del sistema.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-6.col-11
+        p Las intenciones del atacante incluyen acceso continuo a los sistemas víctimas, pasar inadvertido y eliminar las pruebas que puedan conducir a su identificación, es por ello que se disfraza entre el sistema para no ser detectado y así evitar cualquier sospecha, haciendo pensar que es parte del sistema.
+        figure(data-aos="fade-right")
+          img.img07(src='@/assets/curso/introduccion/img01.svg')
+      .col-md-4.col-6.mb-md-0.mb-0
+        figure(data-aos="fade-left")
+          img(src='@/assets/curso/tema1/img34.png')
 
     separador
 

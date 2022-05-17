@@ -17,10 +17,12 @@
       h2 3.1 Estándares y metodologías
     
     .BGIMG03.p-4.mb-4
-      .row.mb-4
-        .col-md-2.col-4
-          figure(data-aos="fade-right")
-            img(src='@/assets/curso/tema3/img01.svg')
+      .col-lg-5.col-md-6.col-8.mb-4
+        .row.align-items-center.BGIMG15(data-aos="fade-right")
+          .col-11.p-1
+            .h4.ms-3.mb-0.text-white OSSTMM
+          .col-1
+            img.img05(src='@/assets/curso/tema1/img19.png')
       .row.mb-4
         .col-md-8
           p El “Manual de la Metodología Abierta de Testeo de Seguridad”  se ha convertido en un estándar de facto. Sin duda supuso el primer acercamiento a una estructura global del concepto de seguridad. Si bien las pruebas incluidas y los test que se ejecutan no son especialmente innovadores, se ha convertido en una auténtica referencia para los organismos que quieren desarrollar un testing de calidad, ordenado y eficiente.  
