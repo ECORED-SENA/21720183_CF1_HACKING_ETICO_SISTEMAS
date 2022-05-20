@@ -56,11 +56,11 @@
 
   .container.BGIMG14.px-4.px-md-5
     .row.align-items-center
-      .col-lg-5.col-md-6.col-8.mt-5.mb-4
-        .row.align-items-center.mt-5.BGIMG15(data-aos="fade-right")
-          .col-11.p-1
-            .h4.ms-3.mb-0.text-white Problemas profesionales del #[i hacking] ético
-          .col-1
+      .col-auto.mt-5.mb-4
+        .row.align-items-center.mt-5(data-aos="fade-right")
+          .col-auto.BGIMG15.p-2
+            .h4.ms-3.mb-0.text-white.me-5 Problemas profesionales del #[i hacking] ético
+          .col-auto
             img.img05(src='@/assets/curso/tema1/img19.png')
       .col-md-12.mb-4
         .row.align-items-center
@@ -71,12 +71,13 @@
           .col-md-4.col-8 
             figure(data-aos="fade-right")
               img(src='@/assets/curso/tema2/img11.png')
-      .col-lg-5.col-md-6.col-8
-        .row.align-items-center.BGIMG15(data-aos="fade-right")
-          .col-11.p-1
-            .h4.ms-3.mb-0.text-white Códigos de ética
-          .col-1
+      .col-auto
+        .row.align-items-center.mb-5(data-aos="fade-right")
+          .col-auto.BGIMG15.p-2
+            .h4.ms-3.mb-0.text-white.me-5 Códigos de ética
+          .col-auto
             img.img05(src='@/assets/curso/tema1/img19.png')
+
       .col-md-12.mb-5
         .row.align-items-center 
           .col-md-5.col-10 
@@ -132,11 +133,11 @@
     .BGIMG03.py-5.pe-5.mb-4
       p.mt-5.ms-5 A continuación, se realizará la descripción de cada una.
       .row.mb-5
-        .col-lg-5.col-md-6.col-8
-          .row.align-items-center.BGIMG15(data-aos="fade-right")
-            .col-11.p-1
-              .h4.ms-3.mb-0.text-white PCI (Payment Card Industry Security Standards)
-            .col-1
+        .col-auto
+          .row.align-items-center.mb-5(data-aos="fade-right")
+            .col-auto.BGIMG15.p-2
+              .h4.ms-3.mb-0.text-white.me-5 PCI (Payment Card Industry Security Standards)
+            .col-auto
               img.img05(src='@/assets/curso/tema1/img19.png')
         .col-md-10  
           p.ms-5 También conocida como la norma de seguridad de datos de la industria de las tarjetas de pago (PCI DSS).
@@ -147,25 +148,24 @@
     
     .BGIMG05.p-4.mb-4
       .row.mb-4
-        .col-lg-5.col-md-6.col-8
-          .row.align-items-center.BGIMG15(data-aos="fade-right")
-            .col-11.p-1
-              .h4.ms-3.mb-0.text-white ISO/IEC 27001:2013
-            .col-1
+        .col-auto
+          .row.align-items-center.mb-5(data-aos="fade-right")
+            .col-auto.BGIMG15.p-2
+              .h4.ms-3.mb-0.text-white.me-5 ISO/IEC 27001:2013
+            .col-auto
               img.img05(src='@/assets/curso/tema1/img19.png')
+
       p También conocida como ISO27001.
       .row.justify-content-center.mb-4  
         .col-md-10
           figure(data-aos="fade-right")
             img(src='@/assets/curso/tema2/img23.svg')
 
-    .row.mb-4
-      .col-lg-5.col-md-6.col-8
-        .row.align-items-center.BGIMG15(data-aos="fade-right")
-          .col-11.p-1
-            .h4.ms-3.mb-0.text-white Ley de Portabilidad y Responsabilidad del Sistema de Seguro Médico (HIPAA)
-          .col-1
-            img.img05(src='@/assets/curso/tema1/img19.png') 
+    .row.align-items-center.mb-5(data-aos="fade-right")
+      .col-auto.BGIMG15.p-2
+        .h4.ms-3.mb-0.text-white.me-5 Ley de Portabilidad y Responsabilidad del Sistema de Seguro Médico (HIPAA)
+      .col-auto
+        img.img05(src='@/assets/curso/tema1/img19.png')
 
     p HIPAA es el acrónimo de la Ley de Portabilidad y Responsabilidad del Seguro Médico que fue aprobada por el congreso americano en 1996.  La HIPAA hace lo siguiente:
 
@@ -201,13 +201,11 @@
             figure(data-aos="fade-right")
               img(src='@/assets/curso/tema2/img27.png')
 
-    .row.mb-4
-      .col-lg-5.col-md-6.col-8
-        .row.align-items-center.BGIMG15(data-aos="fade-right")
-          .col-11.p-1
-            .h4.ms-3.mb-0.text-white Ley Sarbanes Oxley (SOX)
-          .col-1
-            img.img05(src='@/assets/curso/tema1/img19.png') 
+    .row.align-items-center.mb-5(data-aos="fade-right")
+      .col-auto.BGIMG15.p-2
+        .h4.ms-3.mb-0.text-white.me-5 Ley Sarbanes Oxley (SOX)
+      .col-auto
+        img.img05(src='@/assets/curso/tema1/img19.png')
     
     .row.justify-content-center.mb-4
       .col-md-10.mb-4
@@ -221,13 +219,11 @@
             figure(data-aos="fade-left")
               img(src='@/assets/curso/tema2/img30.png')
     
-    .row.mb-4
-      .col-lg-5.col-md-6.col-8
-        .row.align-items-center.BGIMG15(data-aos="fade-right")
-          .col-11.p-1
-            .h4.ms-3.mb-0.text-white La Ley de Derechos de Autor del Milenio Digital (DMCA)
-          .col-1
-            img.img05(src='@/assets/curso/tema1/img19.png') 
+    .row.align-items-center.mb-5(data-aos="fade-right")
+      .col-auto.BGIMG15.p-2
+        .h4.ms-3.mb-0.text-white.me-5 La Ley de Derechos de Autor del Milenio Digital (DMCA)
+      .col-auto
+        img.img05(src='@/assets/curso/tema1/img19.png')
     
     p  Es una ley de derechos de autor de los Estados Unidos.
 
@@ -262,27 +258,27 @@
         .col-12
           p Más concretamente, el NIST:
       
-      .row.align-items-center.mb-4
-        .col-md-4.col-6
+      .row.align-items-center.justify-content-center.mb-4
+        .col-lg-4.col-6
           figure(data-aos="fade-right")
             img(src='@/assets/curso/tema2/img36.png')
-        .col-md-8
+        .col-lg-8
           hr
           .row.align-items-center
-            .col-lg-1.col-2
-              img(src='@/assets/curso/tema1/img46.png')
+            .col-auto(data-aos="fade-right")
+              img.img09(src='@/assets/curso/tema1/img46.png')
             .col-10
               p Establece los requisitos mínimos para los planes y procedimientos de seguridad de la información.
           hr
           .row.align-items-center
-            .col-lg-1.col-2
-              img(src='@/assets/curso/tema1/img46.png')
+            .col-auto(data-aos="fade-right")
+              img.img09(src='@/assets/curso/tema1/img46.png')
             .col-10
               p Recomienda los tipos de seguridad (sistemas, programas informáticos, etc.) que los organismos deben aplicar y aprueba a los proveedores.
           hr
           .row.align-items-center
-            .col-lg-1.col-2
-              img(src='@/assets/curso/tema1/img46.png')
+            .col-auto(data-aos="fade-right")
+              img.img09(src='@/assets/curso/tema1/img46.png')
             .col-10
               p Estandariza el proceso de evaluación de riesgos y establece diversas normas de seguridad de la información basadas en las evaluaciones de riesgos de los organismos. Cada organismo tiene diferentes niveles de requisitos de seguridad: el Organismo Nacional de Seguridad y el Organismo de Vivienda y Desarrollo Urbano, por ejemplo, tienen diferentes niveles de riesgo y, por consiguiente, diferentes requisitos de seguridad.
           hr

@@ -8,10 +8,10 @@
       h1 Fundamentos de <em>hacking</em>
 
     .row.justify-content-center.align-items-center.BGIMG02.mb-5
-      .col-md-3.col-6.p-0.ms-1
+      .col-lg-3.col-6.p-0.ms-1
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img02.png')  
-      .col-md-8.col-12.p-4
+      .col-lg-8.col-12.p-4
         p Los sistemas de gestión, planes de continuidad del negocio son de vital importancia; sin embargo, los aspectos técnicos son la base sostenible de la ciberseguridad y de la seguridad informática. Los ataques informáticos lamentablemente pueden ser llevados a cabo por personas sin gran experiencia, quienes por medio de herramientas básicas pueden conseguir objetivos de fácil acceso. Es importante resaltar que tener conocimiento del <em>modus operandi</em> de la ciberdelincuencia, articulado a conocimientos técnicos marcan la diferencia en cargos relacionados con la ciberseguridad y la seguridad informática, ya que de esta manera se puede evidenciar un ataque difícil de ser detectado. 
         p Por lo anterior, la inversión en capacitación de personal es indiscutiblemente el pilar fundamental de toda implementación de seguridad, teniendo en cuenta que adquirir sistemas de seguridad con altas capacidades y características lleva a las organizaciones a entrar en un estado de falsa seguridad, dando un segundo lugar a las capacidades humanas.
 
@@ -23,23 +23,23 @@
     ImagenInfografica.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img03.svg')  
-      .tarjeta.BG01.p-3(x="15.9%" y="60.4%")
+          img(src='@/assets/curso/tema1/img03.svg')
+      .tarjeta.BG01.p-3(x="15.9%" y="60.4%" numero="+")
         h5 Valor de <em>hacking</em>
         p A menudo se aduce como la razón o motivación para gastar el esfuerzo hacia un objetivo aparentemente inútil, el punto es que el objetivo logrado es un <em>hack</em>.
-      .tarjeta.BG01.p-3(x="24.8%" y="27.8%")
+      .tarjeta.BG01.p-3(x="24.8%" y="27.8%" numero="+")
         h5 Objetivo de la evaluación
         p no es más que el <em>target</em> al que se enfocará la evaluación de seguridad.
-      .tarjeta.BG01.p-3(x="39.9%" y="7.8%")
+      .tarjeta.BG01.p-3(x="39.9%" y="7.8%" numero="+")
         h5 Ataque
         p Un ciberataque es un asalto lanzado por los ciberdelincuentes que utilizan una o más computadoras contra una o varias computadoras o redes. Un ataque cibernético puede desactivar equipos maliciosamente, robar datos o utilizar un equipo dañado como punto de lanzamiento de otros ataques. Los ciberdelincuentes utilizan una variedad de métodos para lanzar un ataque cibernético, incluyendo <em>malware</em>, <em>phishing</em>, rescate, denegación de servicio, entre otros métodos.
-      .tarjeta.BG01.p-3(x="60.2%" y="6.8%")
+      .tarjeta.BG01.p-3(x="60.2%" y="6.8%" numero="+")
         h5 <em>Exploit</em>
         p Un <em>exploit</em> es considerado un código o líneas de comando, que aprovechan vulnerabilidades de <em>software</em> o un fallo de seguridad, algunos investigadores de la seguridad también lo definen como una amenaza de prueba de concepto o los agentes malintencionados para utilizarlo en sus operaciones, cuando se utilizan, los exploits permiten a un
-      .tarjeta.BG01.p-3(x="75.7%" y="26.4%")
+      .tarjeta.BG01.p-3(x="75.7%" y="26.4%" numero="+")
         h5 Ataque de día cero
         p Un ataque de día cero, es un <em>exploit</em> que realiza un ciberataque y este ocurre el mismo día que se descubre una debilidad en el <em>software</em>, en ese momento es explotado antes de que una solución esté disponible por parte de su creador.
-      .tarjeta.BG01.p-3(x="84%" y="61.4%")
+      .tarjeta.BG01.p-3(x="84%" y="61.4%" numero="+")
         h5 Seguridad
         p La seguridad cibernética se utiliza para evitar las violaciones, robo, manipulación y alteración de la información, es la encargada de proteger la integridad de las redes y sistemas de los ataques que se puedan presentar aprovechando las vulnerabilidades de un sistema.
 
@@ -65,31 +65,34 @@
           h5 Figura 2
           span Triada de la seguridad de la información
       .col-md-8.col-10.mb-5
+        h5.text-center.mb-5 SEGURIDAD INFORMACIÓN 
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure(data-aos="fade-right")
               img(src='@/assets/curso/tema1/img07.svg')
-          .tarjeta.BG01.p-3(x="50%" y="87.8%")
+          .tarjeta.BG01.p-3(x="50%" y="87.8%" numero="+")
             h5 CONFIDENCIALIDAD
             p La información solo es accesible para usuarios autorizados.
-          .tarjeta.BG01.p-3(x="22%" y="10%")
+          .tarjeta.BG01.p-3(x="22%" y="10%" numero="+")
             h5 INTEGRIDAD
             p Los recursos deben estar protegidos y deben ser exactos y completos.
-          .tarjeta.BG01.p-3(x="78.1%" y="11.3%")
+          .tarjeta.BG01.p-3(x="78.1%" y="11.3%" numero="+")
             h5 DISPONIBILIDAD
             p Los usuarios autorizados deben tener acceso a la información cuando requieran.
     
     .row.justify-content-center.mb-5
       .col-md-9.col-11
         .row.BGIMG04
-          .col-lg-2.col-md-3.col-4
-            figure(data-aos="fade-right")
-              img.img01(src='@/assets/curso/tema1/img09.svg')  
-          .col-lg-10.col-md-9.col-8.py-5.pe-md-4.pe-3
+          .col-lg-2.col-md-3.col-12
+            .row.justify-content-center
+              .col-md-12.col-4
+                figure(data-aos="fade-right")
+                  img.img01(src='@/assets/curso/tema1/img09.svg')  
+          .col-lg-10.col-md-9.col-12.py-5.pe-md-4.pe-3
             p <b>Confidencialidad</b>: se puede equiparar con la privacidad que tiene un usuario o empresa, radica en todas las medidas que se toman para que los datos solo lleguen a personas autorizadas y no caigan en manos de terceros o ciberdelincuentes, igualmente, se diseña de cierta manera para que la información esté cifrada y solo pueden acceder a ella personal autorizado bajo claves o contraseñas; el poder salvaguardar la información tiene la visión ética de cada una de las personas que tienen acceso, y de ser conscientes de los riesgos, amenazas y vulnerabilidades a las cuales están expuestos.
             p La confidencialidad se refiere a los esfuerzos de una organización por mantener sus datos en privado o en secreto, en la práctica, se trata de controlar el acceso a los datos para impedir su divulgación no autorizada, por lo general, se trata de asegurar que solo las personas autorizadas tengan acceso a determinados bienes y que se impida activamente el acceso de las personas no autorizadas. 
       .col-md-9.col-11.me-5
-        .row.BG02
+        .row.BG02.justify-content-center
           .col-lg-10.col-md-8.col-12.p-5
             p <b>Por ejemplo</b>, solo los empleados autorizados de la nómina deben tener acceso a la base de datos de los empleados; además, dentro de un grupo de usuarios autorizados puede haber limitaciones adicionales más estrictas sobre la información exacta a la que se permite acceder a esos usuarios autorizados. 
           .col-lg-2.col-md-4.col-6
@@ -141,21 +144,19 @@
       h2 1.2	Fases de #[i hacking]
     
     .row.mb-5
-      .col-md-7.order-lg-1.order-2
+      .col-lg-7.order-lg-1.order-2
         p La seguridad de la información es una creciente preocupación para las personas y las empresas, la protección de sus datos se ha convertido en una premisa, ya que los ataques por parte de ciberdelincuentes cada vez son más comunes; sin embargo, los riesgos y constantes amenazas dejan al desnudo los sistemas de información y los peligros que en la era digital se están afrontando en el mundo de hoy, es por ello que se ha hecho fundamental que tenga conocimientos informáticos y de seguridad para poder aplicarlos en los sistemas y redes, para poder solventar fallos a tiempo, documentarlos y atacarlos de forma efectiva.
         .cajon.color-acento-botones.p-4(data-aos="fade-right")
           p Para ello, se usan pruebas de penetración o conocidas comúnmente como <em>pentesting</em>, las cuales se usan para poder detectar riesgos en sus sistemas de información o redes, su uso pretende encontrar fallas en la seguridad de la información, saltándose las medidas de seguridad adoptadas por un individuo, empresa u organización, existen principalmente 5 fases del <em>hacking</em>, un <em>hacker</em> no necesariamente tiene seguirlas de forma secuencial; pero cuando se lleva de forma secuencial se obtienen mejores resultados.
-      .col-md-5.mb-4.order-lg-2.order-1
+      .col-lg-5.mb-4.order-lg-2.order-1
         figure(data-aos="zoom-in-down")
           img(src='@/assets/curso/tema1/img17.svg')
 
-    .row.mb-5 
-      .col-lg-5.col-md-6.col-8
-        .row.align-items-center.BGIMG15(data-aos="fade-right")
-          .col-11.p-1
-            .h4.ms-3.mb-0.text-white Fase 1 Reconocimiento (Reconnaissance)
-          .col-1
-            img.img05(src='@/assets/curso/tema1/img19.png')
+    .row.align-items-center.mb-5(data-aos="fade-right")
+      .col-auto.BGIMG15.p-2
+        .h4.ms-3.mb-0.text-white.me-5 Fase 1 Reconocimiento (Reconnaissance)
+      .col-auto
+        img.img05(src='@/assets/curso/tema1/img19.png')
 
     .row.justify-content-center.mb-5
       .col-md-10
@@ -226,13 +227,11 @@
                   i.fas.fa-angle-double-right
                   | Blogs.
 
-    .row.mb-5 
-      .col-lg-5.col-md-6.col-8
-        .row.align-items-center.BGIMG15(data-aos="fade-right")
-          .col-11.p-2
-            .h4.ms-3.mb-0.text-white Fase 2 Escaneo (scanning)
-          .col-1
-            img.img05(src='@/assets/curso/tema1/img19.png')
+    .row.align-items-center.mb-5(data-aos="fade-right")
+      .col-auto.BGIMG15.p-2
+        .h4.ms-3.mb-0.text-white.me-5 Fase 2 Escaneo (scanning)
+      .col-auto
+        img.img05(src='@/assets/curso/tema1/img19.png')
     
     .row.justify-content-center.mb-5
       .col-md-8
@@ -258,13 +257,11 @@
             td.p-5(style="background-color: #F6F6F6; color: #000") La exploración puede incluir el uso de marcadores, analizadores de puertos, la cartografía de la red, barrido, escáneres de vulnerabilidades, entre otros.
             td.p-5(style="background-color: #F6F6F6; color: #000") Los atacantes extraen información como los nombres de equipos, direcciones IP y cuentas de usuario para lanzar ataques posteriores.
 
-    .row.mb-5 
-      .col-lg-5.col-md-6.col-8
-        .row.align-items-center.BGIMG15(data-aos="fade-right")
-          .col-11.p-2
-            .h4.ms-3.mb-0.text-white Fase 3 Ganar acceso (Gaining access)
-          .col-1
-            img.img05(src='@/assets/curso/tema1/img19.png')  
+    .row.align-items-center.mb-5(data-aos="fade-right")
+      .col-auto.BGIMG15.p-2
+        .h4.ms-3.mb-0.text-white.me-5 Fase 3 Ganar acceso (Gaining access)
+      .col-auto
+        img.img05(src='@/assets/curso/tema1/img19.png') 
     
     .row.justify-content-center.mb-4
       .col-md-10.mb-5
@@ -278,13 +275,11 @@
             figure(data-aos="fade-left")
               img(src='@/assets/curso/tema1/img28.png')
 
-    .row.mb-5 
-      .col-lg-5.col-md-6.col-8
-        .row.align-items-center.BGIMG15(data-aos="fade-right")
-          .col-11.p-2
-            .h4.ms-3.mb-0.text-white Fase 4 Mantener el acceso (Maintaining access)
-          .col-1
-            img.img05(src='@/assets/curso/tema1/img19.png')   
+    .row.align-items-center.mb-5(data-aos="fade-right")
+      .col-auto.BGIMG15.p-2
+        .h4.ms-3.mb-0.text-white.me-5 Fase 4 Mantener el acceso (Maintaining access)
+      .col-auto
+        img.img05(src='@/assets/curso/tema1/img19.png')   
     
     .row.justify-content-end.mb-5
       .col-md-9
@@ -300,13 +295,11 @@
         figure.img06(data-aos="fade-left")
           img(src='@/assets/curso/introduccion/img03.svg')
 
-    .row.mb-5 
-      .col-lg-5.col-md-6.col-8
-        .row.align-items-center.BGIMG15(data-aos="fade-right")
-          .col-11.p-2
-            .h4.ms-3.mb-0.text-white Fase 5 Cubrir huellas (Clearing tracks)
-          .col-1
-            img.img05(src='@/assets/curso/tema1/img19.png')  
+    .row.align-items-center.mb-5(data-aos="fade-right")
+      .col-auto.BGIMG15.p-2
+        .h4.ms-3.mb-0.text-white.me-5 Fase 5 Cubrir huellas (Clearing tracks)
+      .col-auto
+        img.img05(src='@/assets/curso/tema1/img19.png') 
     
     .row.justify-content-center.mb-5
       .col-md-10
@@ -314,12 +307,12 @@
           img(src='@/assets/curso/tema1/img33.svg') 
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-6.col-11
+      .col-md-6.col-11.order-md-1.order-2
         p Las intenciones del atacante incluyen acceso continuo a los sistemas víctimas, pasar inadvertido y eliminar las pruebas que puedan conducir a su identificación, es por ello que se disfraza entre el sistema para no ser detectado y así evitar cualquier sospecha, haciendo pensar que es parte del sistema.
         figure(data-aos="fade-right")
           img.img07(src='@/assets/curso/introduccion/img01.svg')
-      .col-md-4.col-6.mb-md-0.mb-0
-        figure(data-aos="fade-left")
+      .col-md-4.col-6.mb-md-0.mb-4.order-md-2.order-1
+        figure.m-auto.img08(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img34.png')
 
     separador
@@ -471,41 +464,41 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/Puk3JZ5R_Ic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-8.col-md-7.col-10
+      .col-lg-8.col-md-7.col-10.order-md-1.order-2
         h4 ¿Por qué es necesario el #[i hacking] ético?
         hr
         .row.align-items-center
-          .col-lg-1.col-2(data-aos="fade-right")
-            img(src='@/assets/curso/tema1/img46.png')
+          .col-auto(data-aos="fade-right")
+            img.img09(src='@/assets/curso/tema1/img46.png')
           .col-lg-10.col-md-9.col-8
             p El #[i hacking] ético es necesario, como piratería implica el pensamiento creativo, las pruebas de vulnerabilidad y auditorías de seguridad  que no pueden garantizar que sean seguras.
         hr
         .row.align-items-center
-          .col-lg-1.col-2(data-aos="fade-right")
-            img(src='@/assets/curso/tema1/img46.png')
+          .col-auto(data-aos="fade-right")
+            img.img09(src='@/assets/curso/tema1/img46.png')
           .col-lg-10.col-md-9.col-8
             p Como estrategia de la defensa en profundidad, para ello, las organizaciones deben implementar este tipo de estrategia para penetrar en sus redes y así poder estimar las vulnerabilidades y exponerse.
         hr
         .row.align-items-center
-          .col-lg-1.col-2(data-aos="fade-right")
-            img(src='@/assets/curso/tema1/img46.png')
+          .col-auto(data-aos="fade-right")
+            img.img09(src='@/assets/curso/tema1/img46.png')
           .col-lg-10.col-md-9.col-8
             p Para contrarrestar los ataques es necesario, ya que permite la lucha contra los ataques de los <em>hackers</em> mediante la prevención de intrusos en el sistema. 
         hr
-      .col-lg-4.col-md-5.col-8
+      .col-lg-2.col-md-5.col-6.order-md-2.order-1
         figure(data-aos="fade-left")
-          img(src='@/assets/curso/tema1/img47.png')
+          img(src='@/assets/curso/tema1/img47.svg')
     separador
     #t_1_4.titulo-segundo.color-acento-contenido.p-0(data-aos="fade-right")
       h2 1.4 Investigación de vulnerabilidades
 
-    p Es el proceso de descubrimiento de vulnerabilidades y fallos de diseño que abrirá un sistema operativo y sus aplicaciones a los ataques o al mal uso, las vulnerabilidades se clasifican según el nivel de gravedad (bajo, medio o alto) y el rango que explotan (local o remota). A continuación, se presentan los casos de vulnerabilidades más comunes.     
+    p.mb-5 Es el proceso de descubrimiento de vulnerabilidades y fallos de diseño que abrirá un sistema operativo y sus aplicaciones a los ataques o al mal uso, las vulnerabilidades se clasifican según el nivel de gravedad (bajo, medio o alto) y el rango que explotan (local o remota). A continuación, se presentan los casos de vulnerabilidades más comunes.     
 
     figure.mb-5(data-aos="fade-down")
       img(src='@/assets/curso/tema1/img48.svg')
     
     .row.mb-4
-      .col-md-8
+      .col-md-8.mb-4
         LineaTiempoD.color-primario(data-aos="fade-right")
           .row(numero="a." titulo="El equipo del administrador está infectado por un virus")
             p El <em>hacker</em> puede haber instalado <em>software</em> espía en el equipo del administrador infectado por el virus para registrar sus combinaciones de teclas.
@@ -530,11 +523,11 @@
                 | En el registro del servidor comprueba si hay actividad no deseada, por ejemplo, que un administrador haya hecho varios intentos para iniciar sesión o haya utilizado comandos inesperados. Anote cuándo ocurrió la actividad sospechosa. Es importante saber cuándo se pirateó el sitio <em>web</em> por primera vez para poder determinar qué copias de seguridad pueden estar limpias.
           .row(numero="c." titulo="<em>Software</em> desactualizado ")
             p Comprueba que los servidores tengan instalada la última versión del sistema operativo, del sistema de gestión de contenido, de la plataforma de blogs, de las aplicaciones, de los complementos, entre otros.
-      .col-md-4
+      .col-md-4.mb-4
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img49.png')
-      
-      p Existen sitios <em>web</em> de investigación de vulnerabilidades, como:
+      .col-12
+        p Existen sitios <em>web</em> de investigación de vulnerabilidades, como:
     
     .BGIMG12.p-5.mb-4
       SlyderA.morado(tipo="b")
@@ -686,7 +679,7 @@
     p.mb-5 Hay varias maneras en que un atacante puede obtener acceso a un sistema, estos deben ser capaz de explotar una debilidad o vulnerabilidad en un sistema, entre los tipos de ataque más populares se encuentran:
 
     .row.align-items-center.mb-5
-      .col-lg-8.col-7
+      .col-lg-8
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta BG06")
           .row.justify-content-center(titulo="Ataques al sistema operativo")
             .col-md-11
@@ -720,7 +713,7 @@
             .col-md-11
               p cuando se instala un sistema operativo/aplicaciones viene una gran cantidad de <em>scripts</em> de ejemplo para hacer la vida de un administrador más fácil, el problema no es el afinamiento o la personalización de estos scripts, lo cual llevará a un código predeterminado o  a ataques de código <em>shrink wrap</em>, para lo cual se considera un ataque de este tipo a solo el acto de explotar agujeros en <em>software</em> sin parches o mal configurado. Para utilizar el término de otra manera, una "vulnerabilidad de <em>shrink wrap</em>" sería aquella que solo debería verse en un producto inmediatamente después de su instalación inicial "recién salido del <em>shrink wrap</em>", se podría decir.
               p La mayor parte de Internet depende de un número relativamente pequeño de aplicaciones, marcos y sistemas operativos diferentes, dado que estas plataformas se comparten entre una gran base de destinatarios y que tantas organizaciones y/o administradores optan por ignorar el "fruto de la casualidad", este tipo de vulnerabilidades suelen ser las primeras a las que recurrirá un atacante para explotar rápidamente un sistema.
-      .col-lg-4.col-5
+      .col-lg-4.d-lg-flex.d-none
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img63.svg')
 
