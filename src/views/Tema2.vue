@@ -92,27 +92,27 @@
         LineaTiempoD.color-acento-botones 
           .row.justify-content-center(numero="1" titulo="Realizado con consentimiento")
             .col-md-11
-              p el <em>hacking</em> ético siempre se realiza con consentimiento. Si bien el objeto de los compromisos es reproducir con precisión las tácticas, técnicas y procedimientos utilizados por los ciberdelincuentes, nunca se diseña para que sea malicioso y tiene por objeto evitar daños y trastornos en las empresas. Antes de llevar a cabo una evaluación, una empresa profesional de seguridad cibernética se asegurará de que exista un acuerdo oficial que defina claramente el alcance de las evaluaciones y mantenga la confidencialidad del cliente.
+              p El <em>hacking</em> ético siempre se realiza con consentimiento. Si bien el objeto de los compromisos es reproducir con precisión las tácticas, técnicas y procedimientos utilizados por los ciberdelincuentes, nunca se diseña para que sea malicioso y tiene por objeto evitar daños y trastornos en las empresas. Antes de llevar a cabo una evaluación, una empresa profesional de seguridad cibernética se asegurará de que exista un acuerdo oficial que defina claramente el alcance de las evaluaciones y mantenga la confidencialidad del cliente.
             .col-md-11
               img(src='@/assets/curso/tema2/img15.png')
           .row.justify-content-center(numero="2" titulo="Realizada por expertos")
             .col-md-11
-              p : el pirateo ético siempre debe ser realizado por profesionales capacitados que comprendan las últimas herramientas y técnicas de piratería informática y que realicen evaluaciones según las normas técnicas, legales y éticas más elevadas.
+              p El pirateo ético siempre debe ser realizado por profesionales capacitados que comprendan las últimas herramientas y técnicas de piratería informática y que realicen evaluaciones según las normas técnicas, legales y éticas más elevadas.
             .col-md-11
               img(src='@/assets/curso/tema2/img16.png')
           .row.justify-content-center(numero="3" titulo="Realizadas por consultores con certificación de seguridad")
             .col-md-11
-              p al encargar una evaluación ética del <em>hacking</em> es importante tener plena confianza en las personas involucradas. Cuando una prueba con bolígrafo implica el acceso a información altamente confidencial y/o clasificada, las empresas pueden considerar garantías adicionales, como el uso de probadores con una autorización de seguridad de alto nivel.
+              p Al encargar una evaluación ética del <em>hacking</em> es importante tener plena confianza en las personas involucradas. Cuando una prueba con bolígrafo implica el acceso a información altamente confidencial y/o clasificada, las empresas pueden considerar garantías adicionales, como el uso de probadores con una autorización de seguridad de alto nivel.
             .col-md-11
               img(src='@/assets/curso/tema2/img14.png')
           .row.justify-content-center(numero="4" titulo="Realizada de acuerdo con las leyes actuales")
             .col-md-11
-              p hay muchos aspectos legales que deben ser considerados cuando se experimenta el <em>hacking</em> ético. Los probadores pueden, a través del proceso normal de un compromiso, acceder a datos altamente sensibles. Para lograr un objetivo acordado pueden tener la necesidad de extraer esta información.
+              p Hay muchos aspectos legales que deben ser considerados cuando se experimenta el <em>hacking</em> ético. Los probadores pueden, a través del proceso normal de un compromiso, acceder a datos altamente sensibles. Para lograr un objetivo acordado pueden tener la necesidad de extraer esta información.
             .col-md-11
               img(src='@/assets/curso/tema2/img17.png')
           .row.justify-content-center(numero="5" titulo="Realizado de forma transparente")
             .col-md-11
-              p es esencial que las evaluaciones éticas del <em>hacking</em> sean lo más transparentes posible. Un <em>hacker</em> ético siempre compartirá los hallazgos y ofrecerá consejos de reparación para asegurar que las vulnerabilidades sean reportadas y tratadas. Debe estar localizable durante los compromisos y proporcionar informes escritos claros para resumir las conclusiones y recomendaciones. Hay muchas cosas a considerar cuando se encarga un <em>hacker</em> ético para su negocio. En cualquier caso, es una buena idea trabajar con un proveedor muy experimentado que esté dispuesto a hablarle de los riesgos y a asegurarse de que todo el proceso se lleve a cabo de la forma más segura posible y ofrezca resultados tangibles.
+              p Es esencial que las evaluaciones éticas del <em>hacking</em> sean lo más transparentes posible. Un <em>hacker</em> ético siempre compartirá los hallazgos y ofrecerá consejos de reparación para asegurar que las vulnerabilidades sean reportadas y tratadas. Debe estar localizable durante los compromisos y proporcionar informes escritos claros para resumir las conclusiones y recomendaciones. Hay muchas cosas a considerar cuando se encarga un <em>hacker</em> ético para su negocio. En cualquier caso, es una buena idea trabajar con un proveedor muy experimentado que esté dispuesto a hablarle de los riesgos y a asegurarse de que todo el proceso se lleve a cabo de la forma más segura posible y ofrezca resultados tangibles.
             .col-md-11
               img(src='@/assets/curso/tema2/img18.png')
 
@@ -136,7 +136,7 @@
         .col-auto
           .row.align-items-center.mb-5(data-aos="fade-right")
             .col-auto.BGIMG15.p-2
-              .h4.ms-3.mb-0.text-white.me-5 PCI (Payment Card Industry Security Standards)
+              .h4.ms-3.mb-0.text-white.me-5 PCI #[i (Payment Card Industry Security Standards)]
             .col-auto
               img.img05(src='@/assets/curso/tema1/img19.png')
         .col-md-10  

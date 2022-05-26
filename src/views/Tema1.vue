@@ -29,7 +29,7 @@
         p A menudo se aduce como la razón o motivación para gastar el esfuerzo hacia un objetivo aparentemente inútil, el punto es que el objetivo logrado es un <em>hack</em>.
       .tarjeta.BG01.p-3(x="24.8%" y="27.8%" numero="+")
         h5 Objetivo de la evaluación
-        p no es más que el <em>target</em> al que se enfocará la evaluación de seguridad.
+        p No es más que el <em>target</em> al que se enfocará la evaluación de seguridad.
       .tarjeta.BG01.p-3(x="39.9%" y="7.8%" numero="+")
         h5 Ataque
         p Un ciberataque es un asalto lanzado por los ciberdelincuentes que utilizan una o más computadoras contra una o varias computadoras o redes. Un ataque cibernético puede desactivar equipos maliciosamente, robar datos o utilizar un equipo dañado como punto de lanzamiento de otros ataques. Los ciberdelincuentes utilizan una variedad de métodos para lanzar un ataque cibernético, incluyendo <em>malware</em>, <em>phishing</em>, rescate, denegación de servicio, entre otros métodos.
@@ -115,7 +115,7 @@
             figure.img03
               img(src='@/assets/curso/tema1/img12.png')
           .col-lg-6.col-12.BG03.p-4
-            p Integridad: está inmersa en poder dar a los datos características como precisión, confiabilidad y consistencia, estos a su vez no deben ser alterados en su paso y se toman medidas de seguridad que garanticen que no se deben modificar, se realiza a través de permisos y controles de cada uno de los usuarios autorizados al acceso.
+            p #[strong Integridad]: está inmersa en poder dar a los datos características como precisión, confiabilidad y consistencia, estos a su vez no deben ser alterados en su paso y se toman medidas de seguridad que garanticen que no se deben modificar, se realiza a través de permisos y controles de cada uno de los usuarios autorizados al acceso.
             p En el uso diario, la integridad se refiere a la calidad de algo que está entero o completo, se refiere a asegurar que los datos no han sido manipulados y, por lo tanto, se puede confiar en ellos, es correcto, auténtico y fiable, como ocurre con la confidencialidad, la integridad puede verse comprometida directamente a través de un vector de ataque (como la manipulación de los sistemas de detección de intrusos, la modificación de los archivos de configuración o el cambio de los registros del sistema para eludir la detección) o involuntariamente, por error humano, falta de cuidado, errores de codificación o políticas, procedimientos y mecanismos de protección inadecuados.
       .tarjeta
         .row.align-items-center
@@ -123,7 +123,7 @@
             figure.img03
               img(src='@/assets/curso/tema1/img13.png')
           .col-lg-6.col-12.BG03.p-md-5.p-4
-            p Disponibilidad: radica en que la infraestructura de la información debe estar controlada rigurosamente, manteniendo el <em>hardware</em> en debido funcionamiento sin errores, para que de esta manera siempre que se necesite el acceso a la información esté disponible, evitando cuellos de botella y otros factores que pongan en riesgo la información.
+            p #[strong Disponibilidad]: radica en que la infraestructura de la información debe estar controlada rigurosamente, manteniendo el <em>hardware</em> en debido funcionamiento sin errores, para que de esta manera siempre que se necesite el acceso a la información esté disponible, evitando cuellos de botella y otros factores que pongan en riesgo la información.
             p Es por ello que los sistemas, las aplicaciones y los datos tienen poco valor para una organización y sus clientes si no son accesibles cuando los usuarios autorizados los necesitan, es por ello que la disponibilidad significa que las redes, los sistemas y las aplicaciones están en funcionamiento, garantizando que los usuarios autorizados tengan acceso oportuno y fiable a los recursos cuando los necesiten.
 
     .row.BGIMG05.justify-content-center.mb-4
@@ -154,7 +154,7 @@
 
     .row.align-items-center.mb-5(data-aos="fade-right")
       .col-auto.BGIMG15.p-2
-        .h4.ms-3.mb-0.text-white.me-5 Fase 1 Reconocimiento (Reconnaissance)
+        .h4.ms-3.mb-0.text-white.me-5 Fase 1 Reconocimiento #[i (Reconnaissance)]
       .col-auto
         img.img05(src='@/assets/curso/tema1/img19.png')
 
@@ -229,7 +229,7 @@
 
     .row.align-items-center.mb-5(data-aos="fade-right")
       .col-auto.BGIMG15.p-2
-        .h4.ms-3.mb-0.text-white.me-5 Fase 2 Escaneo (scanning)
+        .h4.ms-3.mb-0.text-white.me-5 Fase 2 Escaneo #[i (scanning)]
       .col-auto
         img.img05(src='@/assets/curso/tema1/img19.png')
     
@@ -259,7 +259,7 @@
 
     .row.align-items-center.mb-5(data-aos="fade-right")
       .col-auto.BGIMG15.p-2
-        .h4.ms-3.mb-0.text-white.me-5 Fase 3 Ganar acceso (Gaining access)
+        .h4.ms-3.mb-0.text-white.me-5 Fase 3 Ganar acceso #[i (Gaining access)]
       .col-auto
         img.img05(src='@/assets/curso/tema1/img19.png') 
     
@@ -277,7 +277,7 @@
 
     .row.align-items-center.mb-5(data-aos="fade-right")
       .col-auto.BGIMG15.p-2
-        .h4.ms-3.mb-0.text-white.me-5 Fase 4 Mantener el acceso (Maintaining access)
+        .h4.ms-3.mb-0.text-white.me-5 Fase 4 Mantener el acceso #[i (Maintaining access)]
       .col-auto
         img.img05(src='@/assets/curso/tema1/img19.png')   
     
@@ -297,7 +297,7 @@
 
     .row.align-items-center.mb-5(data-aos="fade-right")
       .col-auto.BGIMG15.p-2
-        .h4.ms-3.mb-0.text-white.me-5 Fase 5 Cubrir huellas (Clearing tracks)
+        .h4.ms-3.mb-0.text-white.me-5 Fase 5 Cubrir huellas #[i (Clearing tracks)]
       .col-auto
         img.img05(src='@/assets/curso/tema1/img19.png') 
     
@@ -323,7 +323,7 @@
   .container.BGIMG10.px-4.px-md-5.pt-5
     .row.align-items-center.justify-content-center.my-5
       .col-lg-9.col-md-8.col-11.order-md-1.order-2
-        p Es muy frecuente que las personas, empresas u organizaciones instalen sistemas de seguridad para mantener sus propiedades y activos a salvo, que compren un seguro en caso de desastre o hurto; sin embargo, cuando se encuentra que ese activo es la información es muy poco común encontrarse que las empresas inviertan en el sistema de seguridad informática; que es igual o hasta muchas veces más importante que los mismos activos, es por ello que hoy por hoy, es la que los propietarios de las empresas pueden implementar con programas y procedimientos para proteger los computadores de la empresa de los piratas informáticos y de los virus, el pirateo en general cuesta a las empresas miles de millones de dólares cada año, pero hay más que dinero en juego si su empresa se encontrará con un <em>hacker</em> informático.
+        p Es muy frecuente que las personas, empresas u organizaciones instalen sistemas de seguridad para mantener sus propiedades y activos a salvo, que compren un seguro en caso de desastre o hurto; sin embargo, cuando se encuentra que ese activo #[strong es la información] es muy poco común encontrarse que las empresas inviertan en el sistema de seguridad informática; que es igual o hasta muchas veces más importante que los mismos activos, es por ello que hoy por hoy, es la que los propietarios de las empresas pueden implementar con programas y procedimientos para proteger los computadores de la empresa de los piratas informáticos y de los virus, el pirateo en general cuesta a las empresas miles de millones de dólares cada año, pero hay más que dinero en juego si su empresa se encontrará con un <em>hacker</em> informático.
       .col-lg-3.col-md-4.col-6.order-md-2.order-1.mb-2
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img36.png') 
@@ -513,7 +513,7 @@
                 .lista-candado
                 | Es posible que el #[i hacker] haya alterado los archivos de registro, si no es así, la correlación del nombre de usuario del administrador con comandos sospechosos en el archivo de registro es una prueba más de que la causa de la vulnerabilidad ha sido un virus en el sistema del administrador.
           .row(numero="b." titulo="Contraseñas débiles o reutilizadas")
-            p A los <em>hackers</em>s les puede resultar relativamente fácil descifrar una contraseña débil, y esto le proporciona acceso directo a tu servidor, todas las contraseñas seguras están formadas por una combinación de letras, números y signos de puntuación, y no incluyen palabras, ni jerga que se puedan encontrar en un diccionario. 
+            p A los <em>hackers</em> les puede resultar relativamente fácil descifrar una contraseña débil, y esto le proporciona acceso directo a tu servidor, todas las contraseñas seguras están formadas por una combinación de letras, números y signos de puntuación, y no incluyen palabras, ni jerga que se puedan encontrar en un diccionario. 
             ol.lista-candado.ps-4
               li.mb-2
                 .lista-candado
@@ -533,12 +533,12 @@
       SlyderA.morado(tipo="b")
         .row.align-items-center
           .col-md-6.mb-md-0.mb-4
-            p El <em>software</em> Engineering Institute (SEI), que es un instituto federal estadounidense de investigación y desarrollo, fundado por el Congreso de los Estados Unidos en 1984 para desarrollar modelos de evaluación y mejora en el desarrollo de <em>software</em>, que dieran respuesta a los problemas que generaba al ejército estadounidense la programación e integración de los sub-sistemas de <em>software</em> en la construcción de complejos sistemas militares. Financiado por el Departamento de Defensa de los Estados Unidos y administrado por la Universidad Carnegie Mellon. Es un referente en Ingeniería de <em>software</em> por realizar el desarrollo del modelo SW-CMM (1991) que ha sido el punto de arranque de todos los que han ido formando parte del modelo que ha desarrollado sobre el concepto de capacidad y madurez, hasta el actual CMMI.
+            p El <b><em>software Engineering Institute</em> (SEI)</b>, que es un instituto federal estadounidense de investigación y desarrollo, fundado por el Congreso de los Estados Unidos en 1984 para desarrollar modelos de evaluación y mejora en el desarrollo de <em>software</em>, que dieran respuesta a los problemas que generaba al ejército estadounidense la programación e integración de los sub-sistemas de <em>software</em> en la construcción de complejos sistemas militares. Financiado por el Departamento de Defensa de los Estados Unidos y administrado por la Universidad Carnegie Mellon. Es un referente en Ingeniería de <em>software</em> por realizar el desarrollo del modelo SW-CMM (1991) que ha sido el punto de arranque de todos los que han ido formando parte del modelo que ha desarrollado sobre el concepto de capacidad y madurez, hasta el actual CMMI.
           .col-md-6
             img(src='@/assets/curso/tema1/img50.png')
         .row.align-items-center
           .col-md-6.mb-md-0.mb-4
-            p Por otro lado, el equipo de investigación de Secunia de Flexera está compuesto por varios especialistas en seguridad que, además de probar, verificar y validar los informes públicos de vulnerabilidad, realizan su propia investigación de vulnerabilidad en varios productos, desde la fundación del equipo de investigación de Secunia en 2002, el objetivo ha sido proporcionar la fuente más precisa y fiable de inteligencia sobre vulnerabilidades.
+            p Por otro lado, el equipo de investigación de #[strong Secunia de Flexera] está compuesto por varios especialistas en seguridad que, además de probar, verificar y validar los informes públicos de vulnerabilidad, realizan su propia investigación de vulnerabilidad en varios productos, desde la fundación del equipo de investigación de Secunia en 2002, el objetivo ha sido proporcionar la fuente más precisa y fiable de inteligencia sobre vulnerabilidades.
           .col-md-6
             img(src='@/assets/curso/tema1/img51.png')
         .row.align-items-center
@@ -574,35 +574,35 @@
             tbody
               tr
                 td.p-4(style="background-color: #fff; color: #000").text-center Security Magazine
-                td.p-4(style="background-color: #fff; color: #000") <a href="http://securitymagazine.com" target="_blank">http://securitymagazine.com</a>
+                td.p-4(style="background-color: #fff") <a href="http://securitymagazine.com" target="_blank" style="color: #5178E4"><u>http://securitymagazine.com</u></a>
               tr
                 td.p-4(style="background-color: #fff; color: #000").text-center <em>pentest</em> Tools
-                td.p-4(style="background-color: #fff; color: #000") <a href="https://pentest-tools.com/website-vulnerability-scanning/website-scanner" target="_blank">https://pentest-tools.com/website-vulnerability-scanning/website-scanner</a>
+                td.p-4(style="background-color: #fff") <a href="https://pentest-tools.com/website-vulnerability-scanning/website-scanner" target="_blank" style="color: #5178E4"><u>https://pentest-tools.com/website-vulnerability-scanning/website-scanner</u></a>
               tr
                 td.p-4(style="background-color: #fff; color: #000").text-center HackerWatch
-                td.p-4(style="background-color: #fff; color: #000") <a href="http://www.hackerwatch.org" target="_blank">http://www.hackerwatch.org</a>
+                td.p-4(style="background-color: #fff") <a href="http://www.hackerwatch.org" target="_blank" style="color: #5178E4"><u>http://www.hackerwatch.org</u></a>
               tr
                 td.p-4(style="background-color: #fff; color: #000").text-center CodeRed Center
-                td.p-4(style="background-color: #fff; color: #000") <a href="http://eccouncil.org" target="_blank">http://eccouncil.org</a>
+                td.p-4(style="background-color: #fff") <a href="http://eccouncil.org" target="_blank" style="color: #5178E4"><u>http://eccouncil.org</u></a>
               tr
                 td.p-4(style="background-color: #fff; color: #000").text-center TechNet
-                td.p-4(style="background-color: #fff; color: #000") <a href="http://blogs.technet.com" target="_blank">http://blogs.technet.com</a>
+                td.p-4(style="background-color: #fff") <a href="http://blogs.technet.com" target="_blank" style="color: #5178E4"><u>http://blogs.technet.com</u></a>
               tr
                 td.p-4(style="background-color: #fff; color: #000").text-center Common Vulnerabilities and Exposures
-                td.p-4(style="background-color: #fff; color: #000") <a href="https://cve.mitre.org/" target="_blank">https://cve.mitre.org/</a>
+                td.p-4(style="background-color: #fff") <a href="https://cve.mitre.org/" target="_blank" style="color: #5178E4"><u>https://cve.mitre.org/</u></a>
               tr
                 td.p-4(style="background-color: #fff; color: #000").text-center Hackerstorm Vulnerability Database Tool
-                td.p-4(style="background-color: #fff; color: #000") <a href="http://www.hackerstorm.com" target="_blank">http://www.hackerstorm.com</a>
+                td.p-4(style="background-color: #fff") <a href="http://www.hackerstorm.com" target="_blank" style="color: #5178E4"><u>http://www.hackerstorm.com</u></a>
               tr
                 td.p-4(style="background-color: #fff; color: #000").text-center CNET Blogs
-                td.p-4(style="background-color: #fff; color: #000") <a href="http://www.new.cnet.com" target="_blank">http://www.new.cnet.com</a>
+                td.p-4(style="background-color: #fff") <a href="http://www.new.cnet.com" target="_blank" style="color: #5178E4"><u>http://www.new.cnet.com</u></a>
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.col-md-9.col-10(data-aos="fade-right").order-lg-1.order-2
         .bloque-texto-d.color-secundario.p-4.mb-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            p Dentro de la investigación de vulnerabilidades se realizan las pruebas de penetración (o <em>pentesting</em>), como un ejercicio de seguridad en el que un experto en seguridad cibernética intenta encontrar y explotar las vulnerabilidades de un sistema informático, el propósito de este ataque simulado es identificar cualquier punto débil en las defensas de un sistema que los atacantes podrían aprovechar
+            p Dentro de la investigación de vulnerabilidades se realizan las <b>pruebas de penetración (o <em>pentesting</em>)</b>, como un ejercicio de seguridad en el que un experto en seguridad cibernética intenta encontrar y explotar las vulnerabilidades de un sistema informático, el propósito de este ataque simulado es identificar cualquier punto débil en las defensas de un sistema que los atacantes podrían aprovechar
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h5.mb-0 (Gaviria, 2015).
@@ -697,10 +697,10 @@
                   | Archivos no encriptados.
                 li 
                   i.lista-ul__vineta
-                  | Aplicaciones <em>web</em> antiguas y desactualizadas.
+                    | Aplicaciones <em> web </em> antiguas y desactualizadas.
                 li 
                   i.lista-ul__vineta
-                  | La aplicación <em>web</em> y la mala configuración de la nube
+                    | La aplicación <em> web </em> y la mala configuración de la nube
                 li 
                   i.lista-ul__vineta
                   | Insuficiente protección de los cortafuegos.
@@ -711,7 +711,7 @@
               p Las configuraciones erróneas suelen considerarse un blanco fácil, ya que pueden ser fáciles de detectar en servidores <em>web</em>, nubes y aplicaciones mal configurados y luego se convierten en explotables, causando un daño significativo y provocando problemas catastróficos de fuga de datos para las empresas, una vez que un sistema es presa de una vulnerabilidad o falta de seguridad, sus datos sensibles corren el riesgo de ser robados o alterados muy a menudo, el mayor problema al que se enfrentan las organizaciones es que estos fallos no se identifican o abordan con la suficiente antelación de acuerdo con las mejores prácticas de higiene de seguridad.
           .row(titulo="Ataques <em>srhink/wrap</em>")
             .col-md-11
-              p cuando se instala un sistema operativo/aplicaciones viene una gran cantidad de <em>scripts</em> de ejemplo para hacer la vida de un administrador más fácil, el problema no es el afinamiento o la personalización de estos scripts, lo cual llevará a un código predeterminado o  a ataques de código <em>shrink wrap</em>, para lo cual se considera un ataque de este tipo a solo el acto de explotar agujeros en <em>software</em> sin parches o mal configurado. Para utilizar el término de otra manera, una "vulnerabilidad de <em>shrink wrap</em>" sería aquella que solo debería verse en un producto inmediatamente después de su instalación inicial "recién salido del <em>shrink wrap</em>", se podría decir.
+              p Cuando se instala un sistema operativo/aplicaciones viene una gran cantidad de <em>scripts</em> de ejemplo para hacer la vida de un administrador más fácil, el problema no es el afinamiento o la personalización de estos scripts, lo cual llevará a un código predeterminado o  a ataques de código <em>shrink wrap</em>, para lo cual se considera un ataque de este tipo a solo el acto de explotar agujeros en <em>software</em> sin parches o mal configurado. Para utilizar el término de otra manera, una "vulnerabilidad de <em>shrink wrap</em>" sería aquella que solo debería verse en un producto inmediatamente después de su instalación inicial "recién salido del <em>shrink wrap</em>", se podría decir.
               p La mayor parte de Internet depende de un número relativamente pequeño de aplicaciones, marcos y sistemas operativos diferentes, dado que estas plataformas se comparten entre una gran base de destinatarios y que tantas organizaciones y/o administradores optan por ignorar el "fruto de la casualidad", este tipo de vulnerabilidades suelen ser las primeras a las que recurrirá un atacante para explotar rápidamente un sistema.
       .col-lg-4.d-lg-flex.d-none
         figure(data-aos="fade-left")

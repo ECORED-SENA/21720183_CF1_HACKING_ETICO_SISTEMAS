@@ -23,13 +23,16 @@
             .h4.ms-3.mb-0.text-white OSSTMM
           .col-1
             img.img05(src='@/assets/curso/tema1/img19.png')
-      .row.mb-4
-        .col-md-8
+      .row.justify-content-center.mb-4
+        .col-md-8.mb-4
           p El “Manual de la Metodología Abierta de Testeo de Seguridad”  se ha convertido en un estándar de facto. Sin duda supuso el primer acercamiento a una estructura global del concepto de seguridad. Si bien las pruebas incluidas y los test que se ejecutan no son especialmente innovadores, se ha convertido en una auténtica referencia para los organismos que quieren desarrollar un testing de calidad, ordenado y eficiente.  
           p Para organizar y estructurar su contenido, la metodología se subdivide en los aspectos más importantes de los sistemas de información. Se destacan los siguientes aspectos como:
-        .col-md-3
+        .col-md-3.mb-4
           figure(data-aos="fade-left")
             img(src='@/assets/curso/tema3/img02.png')
+        .col-md-10
+          figure(data-aos="fade-right")
+            img(src='@/assets/curso/tema3/img20.svg')
 
     p De manera sencilla se identifican una serie de actividades de testeo específicas por área, sobre las que se comprueban las especificaciones de seguridad, integradas con las verificaciones realizadas en las revisiones rutinarias.
 
@@ -58,17 +61,17 @@
       .col-md-6
         LineaTiempoD.color-primario
           .row(numero="a." titulo="Búsqueda de vulnerabilidades")
-            p orientado principalmente a realizar comprobaciones automáticas de un sistema o sistemas dentro de una red.
+            p Orientado principalmente a realizar comprobaciones automáticas de un sistema o sistemas dentro de una red.
           .row(numero="b." titulo="Escaneo de la seguridad")
-            p orientado a las búsquedas principales de vulnerabilidades en el sistema que incluyen verificaciones manuales de falsos positivos, identificación de los puntos débiles en el sistemas y análisis individualizado
+            p Orientado a las búsquedas principales de vulnerabilidades en el sistema que incluyen verificaciones manuales de falsos positivos, identificación de los puntos débiles en el sistemas y análisis individualizado
           .row(numero="c." titulo="Test de intrusión")
-            p se plantean test de pruebas que se centran en romper la seguridad de un sistema determinado.
+            p Se plantean test de pruebas que se centran en romper la seguridad de un sistema determinado.
           .row(numero="d." titulo="Evaluación del riesgo")
-            p se refiere a los análisis de seguridad a través de entrevistas e investigación de nivel medio que incluye la justificación negocios, las justificaciones legales y las justificaciones específicas de la industria.
+            p Se refiere a los análisis de seguridad a través de entrevistas e investigación de nivel medio que incluye la justificación negocios, las justificaciones legales y las justificaciones específicas de la industria.
           .row(numero="e." titulo="Auditoría de seguridad")
-            p se refiere a la continua inspección que sufre el sistema por parte de los administradores que controlan que se cumplan las políticas de seguridad definidas.
+            p Se refiere a la continua inspección que sufre el sistema por parte de los administradores que controlan que se cumplan las políticas de seguridad definidas.
           .row(numero="f." titulo="<em>Hacking</em> ético")
-            p orientado a tratar de obtener, a partir de los test de intrusión, objetivos complejos dentro de la red de sistemas.
+            p Orientado a tratar de obtener, a partir de los test de intrusión, objetivos complejos dentro de la red de sistemas.
 
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="ISSAF" :icono="require('@/assets/curso/tema3/img06.png')")
@@ -148,8 +151,7 @@
     #t_3_2.titulo-segundo.color-acento-contenido.p-0(data-aos="fade-right")
       h2 3.2 Buenas prácticas   
     
-    p Se utiliza para identificar los riesgos y poner de relieve las acciones correctivas, y también reduce los
-    p costos de las Tecnologías de la Información y la Comunicación (TIC); sin embargo, a menos que las empresas primero sepan que es lo que buscan, y por qué están contratando a un proveedor externo para hackear los sistemas en primer lugar, lo más probable es que no se gane mucha experiencia del ejercicio, un <em>hacker</em> ético, solo puede ayudar a la organización a entender mejor sus sistemas de seguridad, pero está de parte de la organización el colocar las salvaguardas en sus redes.
+    p Se utiliza para identificar los riesgos y poner de relieve las acciones correctivas, y también reduce los costos de las Tecnologías de la Información y la Comunicación (TIC); sin embargo, a menos que las empresas primero sepan que es lo que buscan, y por qué están contratando a un proveedor externo para hackear los sistemas en primer lugar, lo más probable es que no se gane mucha experiencia del ejercicio, un <em>hacker</em> ético, solo puede ayudar a la organización a entender mejor sus sistemas de seguridad, pero está de parte de la organización el colocar las salvaguardas en sus redes.
     p.mb-5 El #[i hacking] ético es un componente crucial para desarrollar las mejores prácticas y el buen gobierno para resolver las vulnerabilidades, desde:
 
     .row.justify-content-center.mb-5
