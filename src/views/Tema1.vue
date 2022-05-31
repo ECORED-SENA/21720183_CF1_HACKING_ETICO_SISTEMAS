@@ -595,7 +595,7 @@
                 td.p-4(style="background-color: #fff") <a href="http://www.hackerstorm.com" target="_blank" style="color: #5178E4"><u>http://www.hackerstorm.com</u></a>
               tr
                 td.p-4(style="background-color: #fff; color: #000").text-center CNET Blogs
-                td.p-4(style="background-color: #fff") <a href="http://www.new.cnet.com" target="_blank" style="color: #5178E4"><u>http://www.new.cnet.com</u></a>
+                td.p-4(style="background-color: #fff") <a href="https://blog.netdatanetworks.com/como-ayuda-threat-intelligence-en-la-gestion-de-vulnerabilidades" target="_blank" style="color: #5178E4"><u>https://blog.netdatanetworks.com/como-ayuda-threat-intelligence-en-la-gestion-de-vulnerabilidades</u></a>
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.col-md-9.col-10(data-aos="fade-right").order-lg-1.order-2
