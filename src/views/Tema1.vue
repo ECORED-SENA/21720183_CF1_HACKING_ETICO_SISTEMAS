@@ -35,7 +35,7 @@
         p Un ciberataque es un asalto lanzado por los ciberdelincuentes que utilizan una o más computadoras contra una o varias computadoras o redes. Un ataque cibernético puede desactivar equipos maliciosamente, robar datos o utilizar un equipo dañado como punto de lanzamiento de otros ataques. Los ciberdelincuentes utilizan una variedad de métodos para lanzar un ataque cibernético, incluyendo <em>malware</em>, <em>phishing</em>, rescate, denegación de servicio, entre otros métodos.
       .tarjeta.BG01.p-3(x="60.2%" y="6.8%" numero="+")
         h5 <em>Exploit</em>
-        p Un <em>exploit</em> es considerado un código o líneas de comando, que aprovechan vulnerabilidades de <em>software</em> o un fallo de seguridad, algunos investigadores de la seguridad también lo definen como una amenaza de prueba de concepto o los agentes malintencionados para utilizarlo en sus operaciones, cuando se utilizan, los exploits permiten a un
+        p Un <em>exploit</em> es considerado un código o líneas de comando, que aprovechan vulnerabilidades de <em>software</em> o un fallo de seguridad, algunos investigadores de la seguridad también lo definen como una amenaza de prueba de concepto o los agentes malintencionados para utilizarlo en sus operaciones, cuando se utilizan, los exploits permiten a un intruso acceder a distancia a una red y obtener privilegios elevados, o adentrarse más en la red.
       .tarjeta.BG01.p-3(x="75.7%" y="26.4%" numero="+")
         h5 Ataque de día cero
         p Un ataque de día cero, es un <em>exploit</em> que realiza un ciberataque y este ocurre el mismo día que se descubre una debilidad en el <em>software</em>, en ese momento es explotado antes de que una solución esté disponible por parte de su creador.
@@ -147,7 +147,7 @@
       .col-lg-7.order-lg-1.order-2
         p La seguridad de la información es una creciente preocupación para las personas y las empresas, la protección de sus datos se ha convertido en una premisa, ya que los ataques por parte de ciberdelincuentes cada vez son más comunes; sin embargo, los riesgos y constantes amenazas dejan al desnudo los sistemas de información y los peligros que en la era digital se están afrontando en el mundo de hoy, es por ello que se ha hecho fundamental que tenga conocimientos informáticos y de seguridad para poder aplicarlos en los sistemas y redes, para poder solventar fallos a tiempo, documentarlos y atacarlos de forma efectiva.
         .cajon.color-acento-botones.p-4(data-aos="fade-right")
-          p Para ello, se usan pruebas de penetración o conocidas comúnmente como <em>pentesting</em>, las cuales se usan para poder detectar riesgos en sus sistemas de información o redes, su uso pretende encontrar fallas en la seguridad de la información, saltándose las medidas de seguridad adoptadas por un individuo, empresa u organización, existen principalmente 5 fases del <em>hacking</em>, un <em>hacker</em> no necesariamente tiene seguirlas de forma secuencial; pero cuando se lleva de forma secuencial se obtienen mejores resultados.
+          p Para ello, se usan pruebas de penetración o conocidas comúnmente como <em>pentesting</em>, las cuales se usan para poder detectar riesgos en sus sistemas de información o redes, su uso pretende encontrar fallas en la seguridad de la información, saltándose las medidas de seguridad adoptadas por un individuo, empresa u organización, existen principalmente 5 fases del <em>hacking</em>, un <em>hacker</em> no necesariamente tiene que seguirlas de forma secuencial; pero cuando se lleva de forma secuencial se obtienen mejores resultados.
       .col-lg-5.mb-4.order-lg-2.order-1
         figure(data-aos="zoom-in-down")
           img(src='@/assets/curso/tema1/img17.svg')
@@ -216,7 +216,7 @@
               ul.lista-ul
                 li.mb-4 
                   i.fas.fa-angle-double-right
-                  | Sitios <em>web</em> relacionados con el objetivo.
+                  p Sitios #[i web]  relacionados con el objetivo.
                 li.mb-4 
                   i.fas.fa-angle-double-right
                   | Motores de búsqueda.
@@ -709,9 +709,9 @@
             .col-md-11
               p Las malas configuraciones de seguridad surgen cuando no se definen, implementan o mantienen los valores predeterminados de la configuración de seguridad, por lo general, esto significa que los ajustes de configuración no cumplen con los estándares de seguridad de la industria (puntos de referencia de la CEI, OWASP top 10, etc.) que son fundamentales para mantener la seguridad y reducir el riesgo empresarial, la mala configuración normalmente ocurre cuando un administrador o desarrollador de sistemas o bases de datos no configura adecuadamente el marco de seguridad de una aplicación, sitio <em>web</em>, escritorio o servidor, lo que conduce a peligrosas vías abiertas para los <em>hackers</em>.
               p Las configuraciones erróneas suelen considerarse un blanco fácil, ya que pueden ser fáciles de detectar en servidores <em>web</em>, nubes y aplicaciones mal configurados y luego se convierten en explotables, causando un daño significativo y provocando problemas catastróficos de fuga de datos para las empresas, una vez que un sistema es presa de una vulnerabilidad o falta de seguridad, sus datos sensibles corren el riesgo de ser robados o alterados muy a menudo, el mayor problema al que se enfrentan las organizaciones es que estos fallos no se identifican o abordan con la suficiente antelación de acuerdo con las mejores prácticas de higiene de seguridad.
-          .row(titulo="Ataques <em>srhink/wrap</em>")
+          .row(titulo="Ataques <em>shrink/wrap</em>")
             .col-md-11
-              p Cuando se instala un sistema operativo/aplicaciones viene una gran cantidad de <em>scripts</em> de ejemplo para hacer la vida de un administrador más fácil, el problema no es el afinamiento o la personalización de estos scripts, lo cual llevará a un código predeterminado o  a ataques de código <em>shrink wrap</em>, para lo cual se considera un ataque de este tipo a solo el acto de explotar agujeros en <em>software</em> sin parches o mal configurado. Para utilizar el término de otra manera, una "vulnerabilidad de <em>shrink wrap</em>" sería aquella que solo debería verse en un producto inmediatamente después de su instalación inicial "recién salido del <em>shrink wrap</em>", se podría decir.
+              p Cuando se instala un sistema operativo/aplicaciones viene una gran cantidad de <em>scripts</em> de ejemplo para hacer la vida de un administrador más fácil, el problema no es el afinamiento o la personalización de estos scripts, lo cual llevará a un código predeterminado o  a ataques de código <em>shrink/wrap</em>, para lo cual se considera un ataque de este tipo a solo el acto de explotar agujeros en <em>software</em> sin parches o mal configurado. Para utilizar el término de otra manera, una "vulnerabilidad de <em>shrink/wrap</em>" sería aquella que solo debería verse en un producto inmediatamente después de su instalación inicial "recién salido del <em>shrink/wrap</em>", se podría decir.
               p La mayor parte de Internet depende de un número relativamente pequeño de aplicaciones, marcos y sistemas operativos diferentes, dado que estas plataformas se comparten entre una gran base de destinatarios y que tantas organizaciones y/o administradores optan por ignorar el "fruto de la casualidad", este tipo de vulnerabilidades suelen ser las primeras a las que recurrirá un atacante para explotar rápidamente un sistema.
       .col-lg-4.d-lg-flex.d-none
         figure(data-aos="fade-left")

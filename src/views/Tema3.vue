@@ -63,7 +63,7 @@
           .row(numero="a." titulo="Búsqueda de vulnerabilidades")
             p Orientado principalmente a realizar comprobaciones automáticas de un sistema o sistemas dentro de una red.
           .row(numero="b." titulo="Escaneo de la seguridad")
-            p Orientado a las búsquedas principales de vulnerabilidades en el sistema que incluyen verificaciones manuales de falsos positivos, identificación de los puntos débiles en el sistemas y análisis individualizado
+            p Orientado a las búsquedas principales de vulnerabilidades en el sistema que incluyen verificaciones manuales de falsos positivos, identificación de los puntos débiles en el sistema y análisis individualizado
           .row(numero="c." titulo="Test de intrusión")
             p Se plantean test de pruebas que se centran en romper la seguridad de un sistema determinado.
           .row(numero="d." titulo="Evaluación del riesgo")
@@ -85,7 +85,7 @@
       .py-4.py-md-5(titulo="OWASP" :icono="require('@/assets/curso/tema3/img07.png')")
         .row.justify-content-evenly.align-items-center
           .col-md-8.mb-4.mb-md-0
-            p “OWASP Testing Project”Project” (está muy orientado a realizar pruebas sobre aplicaciones <em>web</em> y está en el camino de convertirse en uno de los proyectos referencia en su ámbito <em>OWASP</em>, ha conseguido ser una referencia habitual para cualquier desarrollador en el ámbito de la seguridad OTP en particular, se encuentra enfocado a responder preguntas tales como ¿qué?, ¿por qué?, ¿cuándo?, ¿dónde? y ¿cómo? Al testear una aplicación <em>web</em> se cubren los siguientes puntos:
+            p “OWASP Testing Project”(está muy orientado a realizar pruebas sobre aplicaciones <em>web</em> y está en el camino de convertirse en uno de los proyectos referencia en su ámbito <em>OWASP</em>, ha conseguido ser una referencia habitual para cualquier desarrollador en el ámbito de la seguridad OTP en particular, se encuentra enfocado a responder preguntas tales como ¿qué?, ¿por qué?, ¿cuándo?, ¿dónde? y ¿cómo? Al testear una aplicación <em>web</em> se cubren los siguientes puntos:
             ul.lista-ul
               li 
                 i.fas.fa-lock.fa-fw
@@ -104,7 +104,7 @@
       .py-4.py-md-5(titulo="OTP" :icono="require('@/assets/curso/tema3/img08.png')")
         .row.justify-content-evenly.align-items-center
           .col-md-8.mb-4.mb-md-0
-            p OTP incorpora en su metodología de testeo, aspectos clave relacionados con el “Ciclo de vida del desarrollo de <em>software</em>” a fin de que el “testeo a realizar comience mucho antes de que la aplicación <em>web</em> se encuentre en producción, de este modo, y teniendo en cuenta que un programa efectivo de testeo de aplicaciones <em>web</em>, debe incluir elementos como testear personas, procesos y tecnologías, OTP delinea en su primer parte conceptos claves a la vez que introduce un framework específicamente diseñado para evaluar la seguridad de aplicaciones <em>web</em> a lo largo de su vida.
+            p OTP incorpora en su metodología de testeo, aspectos clave relacionados con el “Ciclo de vida del desarrollo de <em>software</em>” a fin de que el testeo a realizar comience mucho antes de que la aplicación <em>web</em> se encuentre en producción, de este modo, y teniendo en cuenta que un programa efectivo de testeo de aplicaciones <em>web</em>, debe incluir elementos como testear personas, procesos y tecnologías, OTP delinea en su primer parte conceptos claves a la vez que introduce un framework específicamente diseñado para evaluar la seguridad de aplicaciones <em>web</em> a lo largo de su vida.
           .col-md-2.col-4
             img(src='@/assets/curso/tema3/img13.png')
       .py-4.py-md-5(titulo="CEH" :icono="require('@/assets/curso/tema3/img09.png')")
@@ -132,8 +132,7 @@
       .py-4.py-md-5(titulo="Offensive Security" :icono="require('@/assets/curso/tema3/img10.png')")
         .row.justify-content-evenly.align-items-center
           .col-md-8.mb-4.mb-md-0
-            p Metodología líder a nivel mundial para el desarrollo de pruebas de penetración y estudios de seguridad, la metodología contempla principalmente los métodos para el desarrollo de estudios de seguridad enfocados en seguridad ofensiva y teniendo como marco la posibilidad real de explotación, independientemente de los indicadores de riesgos y vulnerabilidades, las principales
-            p ventajas de adoptar este marco metodológico son:
+            p Metodología líder a nivel mundial para el desarrollo de pruebas de penetración y estudios de seguridad, la metodología contempla principalmente los métodos para el desarrollo de estudios de seguridad enfocados en seguridad ofensiva y teniendo como marco la posibilidad real de explotación, independientemente de los indicadores de riesgos y vulnerabilidades, las principales ventajas de adoptar este marco metodológico son:
             ul.lista-ul
               li 
                 i.fas.fa-lock.fa-fw

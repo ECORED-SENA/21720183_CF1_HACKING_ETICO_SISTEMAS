@@ -216,7 +216,7 @@ export default {
     {
       termino: 'Vulnerabilidad',
       significado:
-        'Se puede determinar cómo errores de un sistema o red que puede conllevar a que un tercero se aproveche de ella para hacer robo, manipulación o eventos inesperados en el sistema.',
+        'Se puede determinar como errores de un sistema o red que puede conllevar a que un tercero se aproveche de ella para hacer robo, manipulación o eventos inesperados en el sistema.',
     },
   ],
   complementario: [
@@ -228,13 +228,13 @@ export default {
     },
     {
       texto:
-        'Betancourth, J. (2020). Herramientas fundamentales para el hacking ético. Universidad Piloto de Colombia.',
+        'Betancourth, J. (2020). Introducción al hacking ético. Universidad Piloto de Colombia.',
       tipo: 'Artículo científico',
       link: 'http://polux.unipiloto.edu.co:8080/00001610.pdf',
     },
     {
       texto:
-        'Ontek. (2020). ¿Qué es? Tríada CID (Confidencialidad, Integridad y Disponibilidad',
+        'Ontek. (2020). ¿Qué es? Tríada CID (Confidencialidad, Integridad y Disponibilidad)',
       tipo: 'Sitio web',
       link: 'https://www.ontek.net/que-es-triada-cid/',
     },
