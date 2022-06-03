@@ -85,7 +85,7 @@
       .py-4.py-md-5(titulo="OWASP" :icono="require('@/assets/curso/tema3/img07.png')")
         .row.justify-content-evenly.align-items-center
           .col-md-8.mb-4.mb-md-0
-            p “OWASP Testing Project”(está muy orientado a realizar pruebas sobre aplicaciones <em>web</em> y está en el camino de convertirse en uno de los proyectos referencia en su ámbito <em>OWASP</em>, ha conseguido ser una referencia habitual para cualquier desarrollador en el ámbito de la seguridad OTP en particular, se encuentra enfocado a responder preguntas tales como ¿qué?, ¿por qué?, ¿cuándo?, ¿dónde? y ¿cómo? Al testear una aplicación <em>web</em> se cubren los siguientes puntos:
+            p “OWASP #[i Testing Project]” está muy orientado a realizar pruebas sobre aplicaciones <em>web</em> y está en el camino de convertirse en uno de los proyectos referencia en su ámbito <em>OWASP</em>, ha conseguido ser una referencia habitual para cualquier desarrollador en el ámbito de la seguridad OTP en particular, se encuentra enfocado a responder preguntas tales como ¿qué?, ¿por qué?, ¿cuándo?, ¿dónde? y ¿cómo? Al testear una aplicación <em>web</em> se cubren los siguientes puntos:
             ul.lista-ul
               li 
                 i.fas.fa-lock.fa-fw
