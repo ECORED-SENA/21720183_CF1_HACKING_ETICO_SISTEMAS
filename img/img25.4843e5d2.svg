@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="119.931" height="119.93" viewBox="0 0 119.931 119.93">
+  <g id="Grupo_150874" data-name="Grupo 150874" transform="translate(-387.5 -7961.998)">
+    <path id="Trazado_219449" data-name="Trazado 219449" d="M117.431,55.294a52.8,52.8,0,1,0-52.8,52.8,52.8,52.8,0,0,0,52.8-52.8" transform="translate(387.5 7962)" fill="#fff"/>
+    <path id="Trazado_219450" data-name="Trazado 219450" d="M117.431,55.294a52.8,52.8,0,1,0-52.8,52.8A52.8,52.8,0,0,0,117.431,55.294Z" transform="translate(387.5 7962)" fill="none" stroke="#5c379b" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Trazado_219451" data-name="Trazado 219451" d="M105.342,88.917A52.815,52.815,0,0,0,46.061,5.857" transform="translate(387.5 7962)" fill="none" stroke="#a7f" stroke-miterlimit="10" stroke-width="5"/>
+    <path id="Trazado_219452" data-name="Trazado 219452" d="M5.853,35.108A62.187,62.187,0,0,0,75.2,116.534" transform="translate(387.5 7962)" fill="none" stroke="#5c379b" stroke-miterlimit="10" stroke-width="5"/>
+    <g id="hospital" transform="translate(420.765 7985.932)">
+      <g id="Grupo_149798" data-name="Grupo 149798">
+        <g id="Grupo_149797" data-name="Grupo 149797">
+          <path id="Trazado_219430" data-name="Trazado 219430" d="M31.363,0A31.363,31.363,0,1,0,62.725,31.363,31.382,31.382,0,0,0,31.363,0Zm0,60A28.642,28.642,0,1,1,60,31.363,28.673,28.673,0,0,1,31.363,60Z" fill="#500c75"/>
+        </g>
+      </g>
+      <g id="Grupo_149800" data-name="Grupo 149800" transform="translate(13.679 13.679)">
+        <g id="Grupo_149799" data-name="Grupo 149799">
+          <path id="Trazado_219431" data-name="Trazado 219431" d="M106.408,83.282H96.886V73.76a1.355,1.355,0,0,0-1.36-1.36H84.643a1.355,1.355,0,0,0-1.36,1.36v9.522H73.76a1.355,1.355,0,0,0-1.36,1.36V95.525a1.355,1.355,0,0,0,1.36,1.36h9.522v9.522a1.355,1.355,0,0,0,1.36,1.36H95.525a1.355,1.355,0,0,0,1.36-1.36V96.886h9.522a1.355,1.355,0,0,0,1.36-1.36V84.643A1.461,1.461,0,0,0,106.408,83.282Zm-1.285,10.882h-9.6a1.355,1.355,0,0,0-1.36,1.36v9.522H86V95.525a1.355,1.355,0,0,0-1.36-1.36H75.121V86h9.522A1.355,1.355,0,0,0,86,84.643V75.121h8.237v9.522A1.355,1.355,0,0,0,95.6,86h9.522Z" transform="translate(-72.4 -72.4)" fill="#500c75"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
